@@ -3,7 +3,7 @@ import { RightNavWrapper } from "./RightNav.style";
 import { useRouter } from "next/router";
 import MyLink from "../../../Common/MyLink";
 import { Select } from "antd";
-import { CaretDownOutlined } from "@ant-design/icons";
+import { DownOutlined } from "@ant-design/icons";
 import { Option } from "antd/lib/mentions";
 
 const RightNav = ({ open }) => {
@@ -69,21 +69,24 @@ const RightNav = ({ open }) => {
           <div className="lang">
             <Select
               // value={defaultLang}
-              defaultValue="ru"
+              defaultValue="en"
               bordered={false}
               style={{
                 width: 120,
                 backgroundColor: "transparent",
                 color: "#043353",
               }}
-              suffixIcon={<CaretDownOutlined />}
+              suffixIcon={<DownOutlined />}
               onChange={handleChange}
             >
-              <Option value="ru">
-                <span className="fi fi-ru"></span> Русский
+              <Option value="ru" className="options">
+                <span className="fi fi-ru"></span> Рус
               </Option>
-              <Option value="en">
-                <span className="fi fi-us"></span> English
+              <Option value="en" className="options">
+                <span className="fi fi-us"></span> Eng
+              </Option>
+              <Option value="uz" className="options">
+                <span className="fi fi-uz"></span> Uzb
               </Option>
             </Select>
           </div>

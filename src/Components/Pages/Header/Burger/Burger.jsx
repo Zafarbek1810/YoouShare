@@ -6,7 +6,7 @@ const StyledBurger = styled.div`
   width: 2rem;
   height: 2rem;
   position: absolute;
-  top: 65px;
+  top: 25px;
   right: 20px;
   z-index: 25;
   display: none;
@@ -17,7 +17,7 @@ const StyledBurger = styled.div`
     flex-flow: column nowrap;
   }
   @media (max-width: 450px) {
-    transform: translateY(15px);
+    /* transform: translateY(15px); */
   }
 
   div {

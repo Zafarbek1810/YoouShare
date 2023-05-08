@@ -20,7 +20,7 @@ const RightNavWrapper = styled.div`
         font-style: normal;
         font-weight: 600;
         font-size: 16px;
-        line-height: 20px;
+        line-height: 22px;
         letter-spacing: 0.02em;
         color: #0cb47f;
         flex: none;
@@ -76,6 +76,22 @@ const RightNavWrapper = styled.div`
         order: 0;
       }
     }
+  }
+
+  .lang{
+    .ant-select-selection-item{
+      display: flex;
+      align-items: center;
+    }
+
+    .fi{
+      margin-right: 10px;
+      border-radius: 50% !important;
+      width: 40%;
+      height: 80%;
+      
+    }
+    
   }
 
   .btn {
@@ -134,20 +150,6 @@ const RightNavWrapper = styled.div`
         .active {
           font-size: 16px !important;
         }
-      }
-    }
-
-    .dropdown {
-      margin-bottom: 25px !important;
-      .bottom {
-        background-color: #0d2538;
-      }
-    }
-    .dropdown2 {
-      .bottom2 {
-        background-color: #0d2538;
-        left: 0;
-        top: 40px;
       }
     }
 

@@ -4,13 +4,12 @@ const HeaderWrapper = styled.div`
   position: fixed;
   z-index: 999;
   width: 100%;
-  /* padding-top: 200px; */
 `;
 
 const Nav = styled.nav`
+
   width: 100%;
   height: auto;
-  border-bottom: 2px solid #f1f1f1;
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
