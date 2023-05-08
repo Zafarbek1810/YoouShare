@@ -18,6 +18,7 @@ const StyledBurger = styled.div`
   }
   @media (max-width: 450px) {
     /* transform: translateY(15px); */
+    
   }
 
   div {
