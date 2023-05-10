@@ -81,7 +81,7 @@ const Brands = () => {
                   <img src={item.img} alt={item.alt} />
                 </div>
               ))
-            : null}
+            : <></>}
         </div>
         
         <div className="btn">
