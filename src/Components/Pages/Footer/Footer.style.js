@@ -89,7 +89,7 @@ const FooterWrapper = styled.div`
   }
 
   .copy {
-    padding: 10px 0;
+    padding: 20px 0;
     display: flex;
     justify-content: space-between;
     .left {
@@ -99,11 +99,32 @@ const FooterWrapper = styled.div`
         font-weight: 400;
         font-size: 14px;
         line-height: 18px;
-        /* identical to box height, or 129% */
-
         letter-spacing: 0.02em;
+        color: #ffffff !important;
+      }
+    }
 
+    .center {
+      p {
+        font-family: "Inter";
+
+        font-style: normal;
+        font-weight: 400;
+
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.02em;
         color: #ffffff;
+
+        a {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 18px;
+          letter-spacing: 0.02em;
+          color: #ffffff;
+        }
       }
     }
 
@@ -141,7 +162,7 @@ const FooterWrapper = styled.div`
       }
     }
 
-    .copy{
+    .copy {
       flex-direction: column;
     }
   }

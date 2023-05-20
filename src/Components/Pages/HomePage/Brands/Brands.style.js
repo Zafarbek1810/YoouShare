@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const BrandsWrapper = styled.div`
   padding: 100px 0;
-  background: rgba(0, 16, 2, 0.02);
+  background: #FAFAFA !important;
 
   h3.title {
     font-family: Inter;
@@ -30,6 +30,7 @@ const BrandsWrapper = styled.div`
 
       img {
         width: 90%;
+        border-radius: 20px;
       }
     }
   }

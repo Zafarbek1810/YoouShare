@@ -28,12 +28,12 @@ const data=[
 
 const Tarif = () => {
   return (
-    <TarifWRapper>
+    <TarifWRapper id="tarif">
       <Container>
-        <h3 className="title">Тарифы</h3>
+        <h3 className="title" data-aos={"fade-up"}>Тарифы</h3>
         <div className="cards">
             {data.map((item,index)=>(
-                <div className="card" key={index}>
+                <div className="card" key={index} data-aos={"fade-up"}> 
                     <h4 className="card__title">{item.title}</h4>
                     <div className="card__price">
                         <span className="card__price__number">{item.price}</span>

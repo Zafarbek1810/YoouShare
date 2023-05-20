@@ -3,8 +3,8 @@ import { RightNavWrapper } from "./RightNav.style";
 import { useRouter } from "next/router";
 import MyLink from "../../../Common/MyLink";
 import { Select } from "antd";
-import { DownOutlined } from "@ant-design/icons";
 import { Option } from "antd/lib/mentions";
+import DownIcon from "../../../Common/Svgs/DownIcon";
 
 const RightNav = ({ open }) => {
   const router = useRouter();
@@ -43,8 +43,8 @@ const RightNav = ({ open }) => {
         </li>
         <li>
           <MyLink
-            to="/#id"
-            className={router.pathname == "/#id" ? "active" : "link"}
+            to="/#tarif"
+            className={router.pathname == "/#tarif" ? "active" : "link"}
           >
             Сколько стоит?
           </MyLink>
@@ -76,17 +76,17 @@ const RightNav = ({ open }) => {
                 backgroundColor: "transparent",
                 color: "#043353",
               }}
-              suffixIcon={<DownOutlined />}
+              suffixIcon={<DownIcon />}
               onChange={handleChange}
             >
               <Option value="ru" className="options">
-                <span className="fi fi-ru"></span> Рус
+                <img src="/images/ru.png" alt="" /> Рус
               </Option>
               <Option value="en" className="options">
-                <span className="fi fi-us"></span> Eng
+              <img src="/images/us.png" alt="" /> Eng
               </Option>
               <Option value="uz" className="options">
-                <span className="fi fi-uz"></span> Uzb
+              <img src="/images/uz.png" alt="" /> Uzb
               </Option>
             </Select>
           </div>

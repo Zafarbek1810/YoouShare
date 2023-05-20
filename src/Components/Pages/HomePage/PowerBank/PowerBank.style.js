@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const PowerBankWrapper = styled.div`
   padding: 100px 0;
+  background: #fff;
   .wrap {
     display: flex;
     align-items: center;

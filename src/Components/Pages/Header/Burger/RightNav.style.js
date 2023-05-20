@@ -6,7 +6,6 @@ const RightNavWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   flex-flow: row nowrap;
-
   ul {
     width: 100%;
     display: flex;
@@ -40,16 +39,16 @@ const RightNavWrapper = styled.div`
           order: 0;
           flex-grow: 0;
           display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 10px 20px;
-        gap: 10px;
-        background: rgba(12, 180, 127, 0.06);
-        border-radius: 8px;
-        flex: none;
-        order: 0;
-        flex-grow: 0;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          padding: 10px 20px;
+          gap: 10px;
+          background: rgba(12, 180, 127, 0.06);
+          border-radius: 8px;
+          flex: none;
+          order: 0;
+          flex-grow: 0;
         }
       }
 
@@ -78,20 +77,35 @@ const RightNavWrapper = styled.div`
     }
   }
 
-  .lang{
-    .ant-select-selection-item{
-      display: flex;
-      align-items: center;
-    }
-
-    .fi{
-      margin-right: 10px;
-      border-radius: 50% !important;
-      width: 40%;
-      height: 80%;
+  .lang {
+    
+    .ant-select-item-option-content {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 18px;
+      color: #001002;
+      display: flex !important;
+      align-items: center !important;
       
     }
-    
+    .ant-select-selection-item {
+      display: flex;
+      align-items: center;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 18px;
+      color: #001002;
+    }
+
+    img {
+      margin-right: 10px !important;
+      width: 30px;
+      height: 30px;
+    }
   }
 
   .btn {
@@ -109,6 +123,7 @@ const RightNavWrapper = styled.div`
       background-color: rgb(4, 10, 45);
     }
   }
+  
   @media (max-width: 992px) {
     flex-flow: column nowrap;
     background-color: #0d2538;
@@ -124,9 +139,11 @@ const RightNavWrapper = styled.div`
     justify-content: start;
 
     svg {
-      width: 20px;
-      height: 20px;
-      stroke: #fff !important;
+      path {
+        fill: #fff !important;
+      }
+      width: 16px;
+      height: 16px;
       margin-left: 10px;
     }
 
@@ -149,6 +166,16 @@ const RightNavWrapper = styled.div`
 
         .active {
           font-size: 16px !important;
+          background-color: transparent;
+          padding-top: 0;
+        }
+
+        .lang {
+          .ant-select-selection-item {
+            display: flex;
+            align-items: center;
+            color: #fff;
+          }
         }
       }
     }

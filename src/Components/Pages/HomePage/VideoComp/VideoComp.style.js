@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const VideoCompStyle = styled.div`
   padding: 0 100px 50px;
-
+  background: #fff;
   .videoWrap{
     border-radius: 30px;
   }

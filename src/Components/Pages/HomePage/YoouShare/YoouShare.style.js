@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 const YoouShareWrapper = styled.div`
-  background: rgba(0, 16, 2, 0.02);
+  background: #FAFAFA!important;
   padding: 100px 0;
-
+  
   h3 {
     font-family: "Inter";
     font-style: normal;

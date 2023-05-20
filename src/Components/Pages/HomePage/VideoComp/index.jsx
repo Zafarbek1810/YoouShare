@@ -6,7 +6,7 @@ import PlayIconSVg from "../../../Common/Svgs/PlayIconSVg";
 const VideoComp = () => {
   return (
     <VideoCompStyle>
-      <div className="videoWrap">
+      <div className="videoWrap" data-aos={"fade-up"}>
         <ReactPlayer
           width="100%"
           height="500px"

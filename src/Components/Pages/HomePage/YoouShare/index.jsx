@@ -33,11 +33,11 @@ const YoouShare = () => {
   return (
     <YoouShareWrapper>
       <Container>
-        <h3>Yoou Share</h3>
-        <p className="sub">Возможность оставаться на связи 24 часа в сутки!</p>
+        <h3 data-aos={"fade-up"}>Yoou Share</h3>
+        <p className="sub" data-aos={"fade-up"}>Возможность оставаться на связи 24 часа в сутки!</p>
         <div className="cards">
           {data.map((item, index) => (
-            <div key={index} className="card">
+            <div key={index} className="card" data-aos={"fade-up"}>
               <h6 className="title">{item.title}</h6>
               <div>
                 <img src={item.img} alt="" />

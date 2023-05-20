@@ -7,10 +7,10 @@ const PowerBank = () => {
     <PowerBankWrapper>
       <Container>
         <div className="wrap">
-          <div className="left">
+          <div className="left" data-aos={"fade-right"}>
             <img src="/images/powerbank.png" alt="" />
           </div>
-          <div className="right">
+          <div className="right" data-aos={"fade-left"}>
             <h3 className="title">
               Power Bank <span>Yoou Share</span>
             </h3>

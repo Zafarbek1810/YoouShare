@@ -3,7 +3,7 @@ import styled from "styled-components";
 const OtzivWrapper = styled.div`
   padding: 100px 0;
   position: relative;
-
+  background: #fff;
   h3.title {
     font-family: "Inter";
     font-style: normal;
@@ -43,6 +43,11 @@ const OtzivWrapper = styled.div`
         width: 50%;
         img {
           width: 100%;
+        }
+
+        svg{
+          width: 100%;
+          fill: #0CB47F;
         }
       }
 

@@ -2,11 +2,8 @@ import styled from "styled-components";
 
 const HeaderWrapper = styled.div`
   position: fixed;
-  z-index: 999;
+  z-index: 333;
   width: 100%;
-`;
-
-const Nav = styled.nav`
 
   width: 100%;
   height: auto;
@@ -35,9 +32,6 @@ const Nav = styled.nav`
       }
     }
   }
-
-  
-
 `;
 
-export {HeaderWrapper, Nav};
+export {HeaderWrapper};

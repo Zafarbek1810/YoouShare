@@ -4,8 +4,8 @@ import { MapWrapper } from "./Map.style";
 const Map = () => {
   return (
     <MapWrapper>
-      <h3 className="title">Рядом. Заряжен. Наготове</h3>
-      <div className="map">
+      <h3 className="title" data-aos={"fade-up"}>Рядом. Заряжен. Наготове</h3>
+      <div className="map" data-aos={"fade-up"}>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d39165.626024318066!2d69.26212628071524!3d41.32405818589875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1683543069525!5m2!1sru!2s"
           width="100%"

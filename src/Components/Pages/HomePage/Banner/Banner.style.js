@@ -54,9 +54,13 @@ const BannerWrapper = styled.div`
           align-items: center;
           margin-bottom: 10px;
 
+          svg{
+            margin-right : 10px;
+
+          }
+
           img{
             width: 40px;
-            margin-right : 10px;
           }
         }
       }
