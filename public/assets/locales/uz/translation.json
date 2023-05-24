@@ -25,7 +25,7 @@
     "box2": "Maksimal ijara muddati",
     "box3": "Toshkentdagi stansiyalar",
     "box4": "Foydalanuvchini qo'llab-quvvatlash",
-    "days": "kunlik"
+    "days": "3 kunlik"
   },
 
   "tarif": {
@@ -111,11 +111,21 @@
     "info3": "Slotlar soni:",
     "info4": "Tarmoq talablari:",
     "info5": "Quvvat iste'moli:",
-    "info6": "(mm)",
-    "info7": "kg",
-    "info8": "dona",
-    "info9": "V",
-    "info10": "kVt/soat"
+    "info6.1": "400 х 190 х 190 (mm)",
+    "info7.1": "100 kg",
+    "info8.1": "36 dona",
+    "info9.1": "200-220 V",
+    "info10.1": "1,5 kVt/soat",
+    "info6.2": "400 х 190 х 190 (mm)",
+    "info7.2": "5 kg",
+    "info8.2": "12 dona",
+    "info9.2": "200-220 V",
+    "info10.2": "0,8 kVt/soat",
+    "info6.3": "400 х 190 х 190 (mm)",
+    "info7.3": "5 kg",
+    "info8.3": "6 dona",
+    "info9.3": "200-220 V",
+    "info10.3": "0,6 kVt/soat"
   },
   "aplication": {
     "title": "So'rov qoldiring va biz qo'ng'iroq qilamiz",

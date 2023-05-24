@@ -15,65 +15,65 @@ const Information = () => {
     },
     {
       title: "information.info2",
-      value: "100 information.info7",
+      value: "information.info7.1",
     },
     {
       title: "information.info3",
-      value: "36 information.info8",
+      value: "information.info8.1",
     },
     {
       title: "information.info4",
-      value: "200-220 information.info9",
+      value: "information.info9.1",
     },
     {
       title: "information.info5",
-      value: "1,5 information.info10",
+      value: "information.info10.1",
     },
   ];
   
   const dataMiddle = [
         {
           title: "information.info1",
-          value: "400 х 190 х 190 information.info6",
+          value: "information.info6.2",
         },
         {
           title: "information.info2",
-          value: "5 information.info7",
+          value: "information.info7.2",
         },
         {
           title: "information.info3",
-          value: "12 information.info8",
+          value: "information.info8.2",
         },
         {
           title: "information.info4",
-          value: "200-220 information.info9",
+          value: "information.info9.2",
         },
         {
           title: "information.info5",
-          value: "0,8 information.info10",
+          value: "information.info10.2",
         },
   ];
   
   const dataMini = [
       {
           title: "information.info1",
-          value: "400 х 190 х 190 information.info6",
+          value: "information.info6.3",
         },
         {
           title: "information.info2",
-          value: "5 information.info7",
+          value: "information.info7.3",
         },
         {
           title: "information.info3",
-          value: "6 information.info8",
+          value: "information.info8.3",
         },
         {
           title: "information.info4",
-          value: "200-220 information.info9",
+          value: "information.info9.3",
         },
         {
           title: "information.info5",
-          value: "0,6 information.info10",
+          value: "information.info10.3",
         },
   ];
 
@@ -104,13 +104,13 @@ const Information = () => {
           </div>
           <div className="box box2">
             <div className="left" data-aos={"fade-right"}>
-              <h4>information.station2</h4>
+              <h4>{t("information.station2")}</h4>
               <table>
                 <tbody>
                   {dataMiddle.map((item, index) => (
                     <tr key={index}>
-                      <td>{item.title}</td>
-                      <td>{item.value}</td>
+                      <td>{t(item.title)}</td>
+                      <td>{t(item.value)}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -129,13 +129,13 @@ const Information = () => {
                 </div>
             </div>
             <div className="right" data-aos={"fade-left"}>
-              <h4>information.station3</h4>
+              <h4>{t("information.station3")}</h4>
               <table>
                 <tbody>
                   {dataMini.map((item, index) => (
                     <tr key={index}>
-                      <td>{item.title}</td>
-                      <td>{item.value}</td>
+                      <td>{t(item.title)}</td>
+                      <td>{t(item.value)}</td>
                     </tr>
                   ))}
                 </tbody>

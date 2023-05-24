@@ -35,7 +35,7 @@ const Invest = () => {
           ))}
         </div>
         <div className="btn" data-aos={"zoom-in"}>
-            <button>franshiza.btn</button>
+            <button>{t("franshiza.btn")}</button>
         </div>
       </Container>
     </InvestWrapper>
