@@ -1,6 +1,7 @@
 import React from "react";
 import BannerStyle from "./Banner.style";
 import Container from "../../../Common/Container";
+import { useTranslation } from "react-i18next";
 
 const data = [
   {
@@ -17,20 +18,22 @@ const data = [
   },
   {
     img: "/images/contact-icon4.png",
-    title: "Istiqlol st, 1206, Tashkent",
+    title: "contact.address",
   },
 ];
-
 const Banner = () => {
+
+  const { t } = useTranslation();
+
   return (
     <BannerStyle>
       <Container>
-        <h3 className="title">Связаться с нами</h3>
+        <h3 className="title">{t("contact.title")}</h3>
         <div className="wrap">
           {data.map((v, i) => (
             <div className="item" key={i} data-aos={"fade-up"}>
               <img src={v.img} alt="" />
-              <p data-aos={"fade-up"}>{v.title}</p>
+              <p data-aos={"fade-up"}>{t(v.title)}</p>
             </div>
           ))}
         </div>

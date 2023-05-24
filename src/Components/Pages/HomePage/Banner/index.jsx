@@ -1,5 +1,6 @@
 import React from 'react';
 import BannerWrapper from './Banner.style';
+import { useTranslation } from "react-i18next";
 import Container from '../../../Common/Container';
 import QrCodeSvg from '../../../Common/Svgs/QrCodeSvg';
 import BannerIcon from '../../../Common/Svgs/BannerIcon';
@@ -8,19 +9,21 @@ import BannerIcon3 from '../../../Common/Svgs/BannerIcon3';
 import BannerIcon4 from '../../../Common/Svgs/BannerIcon4';
 import BannerIcon5 from '../../../Common/Svgs/BannerIcon5';
 const Banner = () => {
+  const { t } = useTranslation();
+
     return (
         <BannerWrapper>
             <Container>
             <div className="wrap">
                 <div className="left" >
-                    <h3 className="title" data-aos={"fade-right"}>Почасовая аренда <br /> <span>Power Bank</span></h3>
-                    <p className="subtitle" data-aos={"fade-right"}>Как это работает</p>
+                    <h3 className="title" data-aos={"fade-right"}>{t("banner.title")} <br /> <span>{t("banner.title-span")}</span></h3>
+                    <p className="subtitle" data-aos={"fade-right"}>{t("banner.how-to-work")}</p>
                     <ul data-aos={"fade-right"}>
-                        <li><BannerIcon/> Установите приложение</li>
-                        <li><BannerIcon2/> Найдите станцию</li>
-                        <li><BannerIcon3/> Отсканируйте QR-код для начала аренды</li>
-                        <li><BannerIcon4/> Заберите повербанк с собой</li>
-                        <li><BannerIcon5/> Верните в любую станцию</li>
+                        <li><BannerIcon/>{t("banner.ul1")}</li>
+                        <li><BannerIcon2/>{t("banner.ul2")}</li>
+                        <li><BannerIcon3/>{t("banner.ul3")}</li>
+                        <li><BannerIcon4/>{t("banner.ul4")}</li>
+                        <li><BannerIcon5/>{t("banner.ul5")}</li>
                     </ul>
                 </div>
                 <div className="right" >

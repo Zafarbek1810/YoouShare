@@ -1,48 +1,52 @@
 import React from "react";
 import YoouShareWrapper from "./YoouShare.style";
+import { useTranslation } from "react-i18next";
 import Container from "../../../Common/Container";
 
-const data = [
-  {
-    title: "Нет депозита,Нет предоплаты",
-    img: "/images/card1.png",
-    num: "0",
-    currency: "UZS",
-  },
-  {
-    title: "Максимум срок аренды",
-    img: "/images/card2.png",
-    num: "3 суток",
-    currency: "",
-  },
-  {
-    title: "Cтанций в Ташкенте",
-    img: "/images/card3.png",
-    num: "400+",
-    currency: "",
-  },
-  {
-    title: "Техподдержка пользователей",
-    img: "/images/card4.png",
-    num: "24/7",
-    currency: "",
-  },
-];
-
 const YoouShare = () => {
+
+  const { t } = useTranslation();
+
+  const data = [
+    {
+      title: "yoouShare.box1",
+      img: "/images/card1.png",
+      num: "0",
+      currency: "UZS",
+    },
+    {
+      title: "yoouShare.box2",
+      img: "/images/card2.png",
+      num: "yoouShare.days",
+      currency: "",
+    },
+    {
+      title: "yoouShare.box3",
+      img: "/images/card3.png",
+      num: "400+",
+      currency: "",
+    },
+    {
+      title: "yoouShare.box4",
+      img: "/images/card4.png",
+      num: "24/7",
+      currency: "",
+    },
+  ];
+
   return (
     <YoouShareWrapper>
       <Container>
-        <h3 data-aos={"fade-up"}>Yoou Share</h3>
-        <p className="sub" data-aos={"fade-up"}>Возможность оставаться на связи 24 часа в сутки!</p>
+        <h3 data-aos={"fade-up"}>{t("yoouShare.title")}</h3>
+        <p className="sub" data-aos={"fade-up"}>{t("yoouShare.title2")}</p>
         <div className="cards">
           {data.map((item, index) => (
             <div key={index} className="card" data-aos={"fade-up"}>
-              <h6 className="title">{item.title}</h6>
+              <h6 className="title">{t(item.title)}</h6>
               <div>
                 <img src={item.img} alt="" />
                 <p className="num">
-                  {item.num}
+                  {t(item.num)}
                   <span> {item.currency}</span>
                 </p>
               </div>

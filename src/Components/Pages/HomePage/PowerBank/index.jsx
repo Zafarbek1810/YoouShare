@@ -1,8 +1,12 @@
 import React from "react";
 import { PowerBankWrapper } from "./PowerBank.style";
+import { useTranslation } from "react-i18next";
 import Container from "../../../Common/Container";
 
 const PowerBank = () => {
+
+  const { t } = useTranslation();
+
   return (
     <PowerBankWrapper>
       <Container>
@@ -15,24 +19,23 @@ const PowerBank = () => {
               Power Bank <span>Yoou Share</span>
             </h3>
             <p className="descr">
-              Подходит для всех современных мобильных устройств. Ёмкости
-              аккумулятора хватает на полную зарядку двух телефонов.
+              {t("powerBank.paragr")}
             </p>
             <div className="list">
-              <h6>Кабели в комплекте</h6>
+              <h6>{t("powerBank.list-title")}</h6>
               <ul>
-                <li>Micro USB</li>
-                <li>Type-C</li>
-                <li>Lightning на iPhone</li>
+                <li>{t("powerBank.li1")}</li>
+                <li>{t("powerBank.li2")}</li>
+                <li>{t("powerBank.li3")}</li>
               </ul>
             </div>
             <div className="yomkost">
-              <h6>5 000 mAh емкость </h6>
-              <p>Достаточно для зарядки iPhone 14 pro х 1,5 раза</p>
+              <h6>{t("powerBank.yomkost-h6")}</h6>
+              <p>{t("powerBank.yomkost-p")}</p>
             </div>
             <div className="zaryad">
-              <h6>2 А зарядки:</h6>
-              <p>Около 1% в минуту в зарядке.</p>
+              <h6>{t("powerBank.zaryad-h6")}</h6>
+              <p>{t("powerBank.zaryad-p")}</p>
             </div>
           </div>
         </div>

@@ -3,7 +3,6 @@ import styled from "styled-components";
 const MapWrapper = styled.div`
   padding: 100px;
   width: 100%;
-  border-radius: 50px;
   background: #fff;
   
   h3.title {

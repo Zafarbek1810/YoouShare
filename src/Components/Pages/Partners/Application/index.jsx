@@ -1,10 +1,14 @@
 import React from "react";
 import ApplicationStyle from "./Application.style";
 import Container from "../../../Common/Container";
+import { useTranslation } from "react-i18next";
 import { Select } from "antd";
 import { Controller, useForm } from "react-hook-form";
 
 const Application = () => {
+
+  const { t } = useTranslation();
+
   const {
     register,
     reset,
@@ -15,8 +19,8 @@ const Application = () => {
   } = useForm();
 
   const options = [
-    { label: " Выберите город...", value: null },
-    { label: `Ташкент`, value: `tash` },
+    { label: t("aplication.select-ph"), value: null },
+    { label: t(`aplication.toshkent`), value: `tash` },
   ];
 
   return (
@@ -24,7 +28,7 @@ const Application = () => {
       <Container>
         <div className="wrap">
           <div className="left" data-aos={"fade-right"}>
-            <h2>Оставь заявку и мы позвоним</h2>
+            <h2>{t("aplication.title")}</h2>
             <form action="">
               <Controller
                 control={control}
@@ -35,7 +39,7 @@ const Application = () => {
                   formState,
                 }) => (
                   <Select
-                    placeholder={"Выберите город..."}
+                    placeholder={t("aplication.select-ph")}
                     value={value}
                     defaultValue={options[0].value}
                     options={options}
@@ -53,7 +57,7 @@ const Application = () => {
                 <input
                   className="name"
                   type="text"
-                  placeholder="Имя"
+                  placeholder={t("aplication.name")}
                   style={{
                       width: "100%",
                     }}
@@ -61,7 +65,7 @@ const Application = () => {
                 />
                 {errors.name && (
                   <span className="err-text">
-                    Должен быть заполнен
+                    {t("aplication.error")}
                   </span>
                 )}
               </label>
@@ -69,7 +73,7 @@ const Application = () => {
                 <input
                   className="phone"
                   // type="number"
-                  placeholder="Ваш номер телефона"
+                  placeholder={t("aplication.phNumber")}
                   style={{
                       width: "100%",
                     }}
@@ -77,7 +81,7 @@ const Application = () => {
                 />
                 {errors.phone && (
                   <span className="err-text">
-                    Должен быть заполнен
+                    {t("aplication.error")}
                   </span>
                 )}
               </label>
@@ -87,12 +91,12 @@ const Application = () => {
                 style={{
                     width: "100%",
                   }}
-                placeholder="Запрос (необязательно)"
+                placeholder={t("aplication.message")}
                 className="messageInput"
                 {...register("message", { required: false })}
               />
             </label>
-              <button type="submit">Отправить запрос</button>
+              <button type="submit">{t("aplication.btn")}</button>
             </form>
           </div>
           <div className="right" data-aos={"fade-left"}>

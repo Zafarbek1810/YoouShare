@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { OtzivWrapper } from "./Otziv.style";
+import { useTranslation } from "react-i18next";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import "swiper/css";
@@ -10,45 +11,49 @@ import LeftSvg from "../../../Common/Svgs/LeftSvg";
 import RightSvg from "../../../Common/Svgs/RightSvg";
 import OtzivSvg from "../../../Common/Svgs/OtzivSvg";
 
-const cardData=[
-  {
-    img:<OtzivSvg/>,
-    text:"Nikita Ageev",
-    title:"Отлично, что у нас появилась такая система с арендой повербанков. Теперь не нужно всегда таскать зарядку с собой!",
-  },
-  {
-    img:<OtzivSvg/>,
-    text:"Mike Ross",
-    title:"Работает хорошо без проблем лично я доволен. Хорошая идея.",
-  },
-  {
-    img:<OtzivSvg/>,
-    text:"Erkin Norov",
-    title:"Отлично всё работает, я доволен сервисом.",
-  },
-  {
-    img:<OtzivSvg/>,
-    text:"Shahyora Erkinova",
-    title:"Judayam zor zatyadka, prilojeniya orqali qata borligini bilsila boladi. Eng zor tavsiya qilaman",
-  },
-  {
-    img:<OtzivSvg/>,
-    text:"Miraziz Kozimov",
-    title:"Zor iwlavoti molodest yoou uzb. da nomer1",
-  },
-  {
-    img:<OtzivSvg/>,
-    text:"Xikmat Xojixonov",
-    title:"YOOU N.1",
-  },
-  {
-    img:<OtzivSvg/>,
-    text:"Собитонов АбдулБосит",
-    title:"Narmalni narsekan",
-  },
-]
 
 const Otziv = () => {
+
+  const { t } = useTranslation();
+
+  const cardData=[
+    {
+      img:<OtzivSvg/>,
+      text:"otziv.user1",
+      title:"otziv.userSay1",
+    },
+    {
+      img:<OtzivSvg/>,
+      text:"otziv.user2",
+      title:"otziv.userSay2",
+    },
+    {
+      img:<OtzivSvg/>,
+      text:"otziv.user3",
+      title:"otziv.userSay3",
+    },
+    {
+      img:<OtzivSvg/>,
+      text:"otziv.user4",
+      title:"otziv.userSay4",
+    },
+    {
+      img:<OtzivSvg/>,
+      text:"otziv.user5",
+      title:"otziv.userSay5",
+    },
+    {
+      img:<OtzivSvg/>,
+      text:"otziv.user6",
+      title:"otziv.userSay6",
+    },
+    {
+      img:<OtzivSvg/>,
+      text:"otziv.user7",
+      title:"otziv.userSay7",
+    },
+  ]
+
   const swiperRef = useRef(null);
   console.log(swiperRef);
 
@@ -67,7 +72,7 @@ const Otziv = () => {
   return (
     <OtzivWrapper>
       <Container>
-        <h3 className="title">Отзывы</h3>
+        <h3 className="title">{t("otziv.title")}</h3>
         <Swiper
           ref={swiperRef}
           slidesPerView={2}
@@ -115,10 +120,10 @@ const Otziv = () => {
                   <img src="/images/Union.png" alt="" />
                 </span>
                 <p className="card__text">
-                  {item.title}
+                  {t(item.title)}
                 </p>
                 <h4 className="card__title">
-                  {item.text} <span>{item.text}</span>
+                  {t(item.text)} <span>{t(item.text)}</span>
                 </h4>
               </div>
             </div>

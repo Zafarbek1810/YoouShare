@@ -67,6 +67,7 @@ const OtzivWrapper = styled.div`
       &__title {
         display: flex;
         flex-direction: column;
+        color:#000;
 
         span {
           font-weight: 400;

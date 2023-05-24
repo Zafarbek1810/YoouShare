@@ -1,0 +1,170 @@
+{
+  "navbar": {
+    "main": "Asosiy",
+    "earnWith": "Birga pul ishlang",
+    "howMuch": "Narxi qancha?",
+    "whoWe": "Biz kimmiz?",
+    "contact": "Aloqa"
+  },
+  
+  "banner": {
+    "title": "Soatlik ijara",
+    "title-span": "Power Bank",
+    "how-to-work": "U qanday ishlaydi",
+    "ul1": "Ilovani oʻrnating",
+    "ul2": "Stansiya toping",
+    "ul3": "Ijaraga olishni boshlash uchun QR kodini skanerlang",
+    "ul4": "Powerbankni o'zingiz bilan olib boring",
+    "ul5": "Istalgan stantsiyaga qayting"
+
+  },
+  "yoouShare": {
+    "title": "Yoou Share",
+    "title2": "Kuniga 24 soat aloqada!",
+    "box1": "Depozit yo'q, oldindan to'lov yo'q",
+    "box2": "Maksimal ijara muddati",
+    "box3": "Toshkentdagi stansiyalar",
+    "box4": "Foydalanuvchini qo'llab-quvvatlash",
+    "days": "kunlik"
+  },
+
+  "tarif": {
+    "title": "Tariflar",
+    "box1": "Soatlik ijara narxi",
+    "box2": "Bir kunlik ijara narxi",
+    "box3": "Uch kunlik ijara narxi",
+    "box4": "Buning evaziga quvvat banki"
+  },
+  
+  "powerBank": {
+    "title": "Biz bilan bog'laning",
+    "paragr": "Barcha zamonaviy mobil qurilmalar uchun javob beradi. Batareya quvvati ikkita telefonni to'liq zaryad qilish uchun etarli.",
+    "list-title": "Kabellar kiritilgan",
+    "li1": "Micro USB",
+    "li2": "Type-C",
+    "li3": "iPhone uchun lighting",
+    "yomkost-h6": "5 000 mAh quvvat",
+    "yomkost-p": "iPhone 14 pro x 1,5 marta quvvatlantirish uchun yetarli",
+    "zaryad-h6": "2 А zaryadlash:",
+    "zaryad-p": "Taxminan 1% daqiqada zaryad."
+  },
+
+  "otziv": {
+    "title": "Fikrlar",
+    "user1": "Nikita Ageev",
+    "userSay1": "Отлично, что у нас появилась такая система с арендой повербанков. Теперь не нужно всегда таскать зарядку с собой!",
+    "user2": "Mike Ross",
+    "userSay2": "Работает хорошо без проблем лично я доволен. Хорошая идея.",
+    "user3": "Erkin Norov",
+    "userSay3": "Отлично всё работает, я доволен сервисом.",
+    "user4": "Shahyora Erkinova",
+    "userSay4": "Judayam zor zatyadka, prilojeniya orqali qata borligini bilsila boladi. Eng zor tavsiya qilaman",
+    "user5": "Miraziz Kozimov",
+    "userSay5": "Zor iwlavoti molodest yoou uzb. da nomer1",
+    "user6": "Xikmat Xojixonov",
+    "userSay6": "YOOU N.1",
+    "user7": "Собитонов АбдулБосит",
+    "userSay7": "Narmalni narsekan"
+  },
+  "map": {
+    "title": "Yaqin. Zaryadlandi. Tayyor"    
+  },
+  "brands": {
+    "title": "Bizni qayerda uchratish mumkin",
+    "open": "+ Hmassani ko'rish",
+    "closed": "- Yashirish"
+  },
+  "partners": {
+    "title": "Biz bilan pul ishlang!",
+    "left-title": "Tashkilotning foydasi",
+    "leftP1": "Reklama muassasalari",
+    "leftP2": "Keling, qulaylik yarataylik",
+    "leftP3": "Ko'proq mijoz ko'proq haq to'laydi",
+    "leftP4": "Qo'shimcha mijozlar oqimi",
+    "right-title": "Shartlar",
+    "rightP1": "Stansiyani bepul yetkazib beramiz, foydalanish uchun mijoz o‘zi to‘laydi.",
+    "rightP2": "Siz stantsiya ijarasini to'laysiz, mijoz bepul to'lov oladi.",
+    "btn": "Arizangizni yuboring"
+  },
+  "franshiza": {
+    "title": "Franchayzing va investitsiyalar",
+    "box1": "Standart franchayzing",
+    "box1p": "1500 AQSh dollari miqdorida depozit \n70% foyda oling",
+    "box2": "Eksklyuziv franchayzing",
+    "box2p": "25000 AQSh dollari miqdorida depozit \n70% foyda oling",
+    "box3": "Investitsiyalar shartlari",
+    "box3p": "1500 AQSh dollari miqdorida depozit \n50% foyda oling",
+    "btn": "Arizangizni yuboring"
+  },
+  "invite": {
+    "title": "Do'stingizni taklif qiling va balansga pul oling",
+    "text": "Siz do'stingizga havola yuborasiz va u havola orqali ro'yxatdan o'tadi va tamom",
+    "btn": "Arizangizni yuboring"
+  },
+  "information": {
+    "title": "Stansiya haqida ma'lumot",
+    "station1": "“Big” Stansiya",
+    "station2": "“Middle” Stansiya",
+    "station3": "“Mini” Stansiya",
+    "info1": "O'lchamlari:",
+    "info2": "Stansiyaning og'irligi:",
+    "info3": "Slotlar soni:",
+    "info4": "Tarmoq talablari:",
+    "info5": "Quvvat iste'moli:",
+    "info6": "(mm)",
+    "info7": "kg",
+    "info8": "dona",
+    "info9": "V",
+    "info10": "kVt/soat"
+  },
+  "aplication": {
+    "title": "So'rov qoldiring va biz qo'ng'iroq qilamiz",
+    "select-ph": "Shaharni tanlang...",
+    "toshkent": "Tashkent",
+    "name": "Name",
+    "phNumber": "Your phone number",
+    "message": "Request (optional)",
+    "error": "Must be filled",
+    "btn": "Submit an inquiry"
+  },
+  "whoWe": {
+    "company": "About company",
+    "company-p": "We are a young company that has become the first hourly rental service for power banks (Power Bank) in Uzbekistan. The company was founded in 2020, and the first launch of the Service was held in 2021. In two years, we have gone through a thorny path of trial and error, which has now resulted in a constant stream of new users. We hope that we will continue to delight you with our service.",
+    "founders": "About founders",
+    "founder1": "Dilshod Bobomuradov - Co-founder, CEO, graduated from the <strong>Tashkent Financial Institute</strong>, 12 years in the manufacturing sector.",
+    "founder2": "Gordy Wu, WU ZHIXIANG - Co-founder, angel investor, graduated from <strong>Peking University, China.</strong> 10 years in the manufacturing industry. 5 years in the investment field.",
+    "box1": "Total users",
+    "box2": "B2C partners",
+    "box3": "B2B partners"
+  },
+  "contact": {
+    "title": "Connect with us",
+    "address": "Istiklal St., 1206, Tashkent"
+  },
+  "collapse": {
+    "question1": "How much does it cost?",
+    "answer1": "3,000 soums per hour, after 3 hours 10,000 per day. Round up to the hour. The first 1 minute is free to check the bank.",
+    "question2": "How to use?",
+    "answer2": "Scan the QR code at the station or go to the AppStore or GooglePlay. Just search for “Yoou” and download the app \n• Register with your number and link the card. No pledges! \n• Отсscan the QR code at the station and take the power bank. \n• Bring back the bank. Rent is paid only after the return! \n• You can return the power bank to the station closest to you - you will find it on the map in the application. See how many slots there are for the return.",
+    "question3": "How to return the power bank?",
+    "answer3": "Find a station with a free slot in the app - we'll show you the closest one on the map. \n• Insert the power bank into the slot of the working station, press it a little and wait a couple of seconds. The light will turn on, check your rental in the app. \n• If the time has not run out, call us at +998991970404, we will try to quickly resolve your issue and return the overcharged funds.",
+    "question4": "How to find out if there are power banks or free space?",
+    "answer4": "Click on a point on the map in the application. In the lower left corner it is written how many power banks are ready for rent, and how much space to return.",
+    "question5": "What cables are included?",
+    "answer5": "Type-C, micro-USB, Lightning for iPhone. Connect any cable of your choice - they are built into the power bank.",
+    "question6": "How secure is a power bank??",
+    "answer6": "Completely safe - just like a regular charger. Our power banks are produced in compliance with all international standards and with full certification.",
+    "question7": "All the slots in the machine are full, and I can't turn over the bank. What to do?",
+    "answer7": "• Most importantly, don't leave your power bank to other people - even if it's a waiter. The power bank must be returned by the same person who rented it. \n• Look at the map of charging stations in the application - there you will find the nearest place where you can eat free space. Or call us at +998991970404.",
+    "question8": "Have questions?",
+    "answer8": "Call us at the call center at +998991970404 and we will try to help you promptly."
+  },
+  "footer": {
+    "title": "YOOU Share presents the service “Yoou Share” - hourly rental of Power Bank in Uzbekistan",
+    "download": "mobile app",
+    "contact": "Connect with us",
+    "made": "Developed",
+    "politika": "Privacy Policy",
+    "public": "Public offer"
+  }
+}

@@ -1,13 +1,21 @@
 import React, { useEffect } from "react";
 import { RightNavWrapper } from "./RightNav.style";
 import { useRouter } from "next/router";
+import { useTranslation } from "react-i18next";
 import MyLink from "../../../Common/MyLink";
 import { Select } from "antd";
 import { Option } from "antd/lib/mentions";
 import DownIcon from "../../../Common/Svgs/DownIcon";
 
 const RightNav = ({ open }) => {
+  const { t, i18n } = useTranslation();
+  const defaultLang = i18n.language;
   const router = useRouter();
+
+  const handleChange = (e) => {
+    localStorage.setItem("siteLang", e);
+    i18n.changeLanguage(e);
+  };
 
   // useEffect(() => {
   //   AOS.init({
@@ -17,20 +25,20 @@ const RightNav = ({ open }) => {
   //   AOS.refresh();
   // }, []);
 
-  const handleChange = (value) => {
-    // localStorage.setItem("siteLang", value);
-    // i18n.changeLanguage(value);
-    // console.log(value);
+  // const handleChange = (value) => {
+  //   // localStorage.setItem("siteLang", value);
+  //   // i18n.changeLanguage(value);
+  //   // console.log(value);
 
-    console.log("chnge lang");
-  };
+  //   console.log("chnge lang");
+  // };
 
   return (
     <RightNavWrapper open={open}>
       <ul className="header">
         <li>
           <MyLink to="/" className={router.pathname == "/" ? "active" : "link"}>
-            Главная
+            {t("navbar.main")}
           </MyLink>
         </li>
         <li>
@@ -38,7 +46,7 @@ const RightNav = ({ open }) => {
             to="/partners"
             className={router.pathname == "/partners" ? "active" : "link"}
           >
-            Зарабатывай вместе
+            {t("navbar.earnWith")}
           </MyLink>
         </li>
         <li>
@@ -46,7 +54,7 @@ const RightNav = ({ open }) => {
             to="/#tarif"
             className={router.pathname == "/#tarif" ? "active" : "link"}
           >
-            Сколько стоит?
+            {t("navbar.howMuch")}
           </MyLink>
         </li>
         <li>
@@ -54,7 +62,7 @@ const RightNav = ({ open }) => {
             to="/who_we_are"
             className={router.pathname == "/who_we_are" ? "active" : "link"}
           >
-            Кто мы?
+            {t("navbar.whoWe")}
           </MyLink>
         </li>
         <li>
@@ -62,14 +70,13 @@ const RightNav = ({ open }) => {
             to="/contacts"
             className={router.pathname == "/contacts" ? "active" : "link"}
           >
-            Контакты
+            {t("navbar.contact")}
           </MyLink>
         </li>
         <li>
           <div className="lang">
             <Select
-              // value={defaultLang}
-              defaultValue="en"
+              value={defaultLang}
               bordered={false}
               style={{
                 width: 120,

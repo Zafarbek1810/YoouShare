@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { BrandsWrapper } from "./Brands.style";
 import Container from "../../../Common/Container";
 
@@ -362,11 +363,13 @@ const Brands = () => {
     setOpen(false);
   };
 
+  const { t } = useTranslation();
+
   return (
     <BrandsWrapper>
       <Container>
         <h3 className="title" data-aos={"fade-up"}>
-          Где нас можно встретить
+          {t("brands.title")}
         </h3>
         <div className="brands" data-aos={"fade-up"}>
           {dataImg.map((item, index) => (
@@ -386,11 +389,11 @@ const Brands = () => {
         <div className="btn">
           {open ? (
             <button className="btn__item" onClick={closed}>
-              - Скрыть
+              {t("brands.closed")}
             </button>
           ) : (
             <button className="btn__item" onClick={opened}>
-              + Увидеть все
+             {t("brands.open")}
             </button>
           )}
         </div>

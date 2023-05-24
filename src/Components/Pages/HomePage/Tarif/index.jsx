@@ -1,43 +1,46 @@
 import React from "react";
 import TarifWRapper from "./Tarif.style";
+import { useTranslation } from "react-i18next";
 import Container from "../../../Common/Container";
 
-const data=[
-    {
-        title:"Стоимость часа аренды",
-        price:"3 000",
-        currency:"UZS"
-    },
-    {
-        title:"Стоимость день аренды",
-        price:"10 000",
-        currency:"UZS"
-    },
-    {
-        title:"Стоимость аренды за три дня",
-        price:"30 000",
-        currency:"UZS"
-    },
-    {
-        title:"За не возврат повербанка",
-        price:"150 000",
-        currency:"UZS"
-    },
-
-]
-
 const Tarif = () => {
+
+    const { t } = useTranslation();
+
+    const data=[
+        {
+            title:"tarif.box1",
+            price:"3 000",
+            currency:"UZS"
+        },
+        {
+            title:"tarif.box2",
+            price:"10 000",
+            currency:"UZS"
+        },
+        {
+            title:"tarif.box3",
+            price:"30 000",
+            currency:"UZS"
+        },
+        {
+            title:"tarif.box4",
+            price:"150 000",
+            currency:"UZS"
+        },
+    
+    ]
   return (
     <TarifWRapper id="tarif">
       <Container>
-        <h3 className="title" data-aos={"fade-up"}>Тарифы</h3>
+        <h3 className="title" data-aos={"fade-up"}>{t("tarif.title")}</h3>
         <div className="cards">
             {data.map((item,index)=>(
                 <div className="card" key={index} data-aos={"fade-up"}> 
-                    <h4 className="card__title">{item.title}</h4>
+                    <h4 className="card__title">{t(item.title)}</h4>
                     <div className="card__price">
-                        <span className="card__price__number">{item.price}</span>
-                        <span className="card__price__currency">{item.currency}</span>
+                        <span className="card__price__number">{t(item.price)}</span>
+                        <span className="card__price__currency">{t(item.currency)}</span>
                     </div>
                 </div>
             ))}

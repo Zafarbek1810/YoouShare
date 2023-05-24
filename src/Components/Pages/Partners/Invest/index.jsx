@@ -1,37 +1,41 @@
 import React from "react";
 import InvestWrapper from "./Invest.style";
+import { useTranslation } from "react-i18next";
 import Container from "../../../Common/Container";
 
-const data = [
-  {
-    title: "Стандартная франшиза",
-    text: "Вклад от 1 500 USD \nПолучи 70% прибыли",
-  },
-  {
-    title: "Эксклюзивная франшиза",
-    text: "Вклад от 25 000 USD \nПолучи 70% прибыли",
-  },
-  {
-    title: "Условия инвестиции",
-    text: "Вклад от 1 500 USD \nПолучи 50% прибыли",
-  },
-];
-
 const Invest = () => {
+
+  const { t } = useTranslation();
+
+  const data = [
+    {
+      title: "franshiza.box1",
+      text: "franshiza.box1p",
+    },
+    {
+      title: "franshiza.box2",
+      text: "franshiza.box2p",
+    },
+    {
+      title: "franshiza.box3",
+      text: "franshiza.box3p",
+    },
+  ];
+
   return (
     <InvestWrapper>
       <Container>
-        <h3 className="title" data-aos={"fade-up"}>Франшиза и инвестиции</h3>
+        <h3 className="title" data-aos={"fade-up"}>{t("franshiza.title")}</h3>
         <div className="cards">
           {data.map((item, index) => (
             <div className="card" key={index} data-aos={"fade-up"}>
-              <div className="card__title">{item.title}</div>
-              <div className="card__text">{item.text}</div>
+              <div className="card__title">{t(item.title)}</div>
+              <div className="card__text">{t(item.text)}</div>
             </div>
           ))}
         </div>
         <div className="btn" data-aos={"zoom-in"}>
-            <button>Оставить заявку</button>
+            <button>franshiza.btn</button>
         </div>
       </Container>
     </InvestWrapper>

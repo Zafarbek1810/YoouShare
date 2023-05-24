@@ -1,0 +1,170 @@
+{
+  "navbar": {
+    "main": "Main",
+    "earnWith": "Earn together",
+    "howMuch": "How much?",
+    "whoWe": "Who are we?",
+    "contact": "Contact"
+  },
+  
+  "banner": {
+    "title": "Hourly rental",
+    "title-span": "Power Bank",
+    "how-to-work": "How it works",
+    "ul1": "Install an app",
+    "ul2": "Find a station",
+    "ul3": "Scan the QR code to start renting",
+    "ul4": "Take your powerbank with you",
+    "ul5": "Return to any station"
+
+  },
+  "yoouShare": {
+    "title": "Yoou Share",
+    "title2": "Stay connected 24 hours a day!",
+    "box1": "No deposit, No prepayment",
+    "box2": "Maximum rental period",
+    "box3": "Stations in Tashkent",
+    "box4": "User support",
+    "days": "days"
+  },
+
+  "tarif": {
+    "title": "Plans",
+    "box1": "Hourly rental price",
+    "box2": "The cost of a day rent",
+    "box3": "Rental price for three days",
+    "box4": "In return, a powerbank"
+  },
+  
+  "powerBank": {
+    "title": "Connect with us",
+    "paragr": "Suitable for all modern mobile devices. The battery capacity is enough to fully charge two phones.",
+    "list-title": "Cables included",
+    "li1": "Micro USB",
+    "li2": "Type-C",
+    "li3": "Lightning на iPhone",
+    "yomkost-h6": "5 000 mAh capacity",
+    "yomkost-p": "Enough to charge iPhone 14 pro x 1.5 times",
+    "zaryad-h6": "2 А charging:",
+    "zaryad-p": "About 1% per minute in charge."
+  },
+
+  "otziv": {
+    "title": "Reviews",
+    "user1": "Nikita Ageev",
+    "userSay1": "Отлично, что у нас появилась такая система с арендой повербанков. Теперь не нужно всегда таскать зарядку с собой!",
+    "user2": "Mike Ross",
+    "userSay2": "Работает хорошо без проблем лично я доволен. Хорошая идея.",
+    "user3": "Erkin Norov",
+    "userSay3": "Отлично всё работает, я доволен сервисом.",
+    "user4": "Shahyora Erkinova",
+    "userSay4": "Judayam zor zatyadka, prilojeniya orqali qata borligini bilsila boladi. Eng zor tavsiya qilaman",
+    "user5": "Miraziz Kozimov",
+    "userSay5": "Zor iwlavoti molodest yoou uzb. da nomer1",
+    "user6": "Xikmat Xojixonov",
+    "userSay6": "YOOU N.1",
+    "user7": "Собитонов АбдулБосит",
+    "userSay7": "Narmalni narsekan"
+  },
+  "map": {
+    "title": "Near. Charged. Ready"    
+  },
+  "brands": {
+    "title": "Where can you meet us",
+    "open": "+ See all",
+    "closed": "- Hide"
+  },
+  "partners": {
+    "title": "Earn with us!",
+    "left-title": "Benefit of the establishment",
+    "leftP1": "Advertising establishments",
+    "leftP2": "Let's create comfort",
+    "leftP3": "More charge more customer",
+    "leftP4": "Additional flow of clients",
+    "right-title": "Conditions",
+    "rightP1": "We will deliver the station free of charge, the client pays for the use himself.",
+    "rightP2": "You pay the rent of the station, the client will receive a free charge.",
+    "btn": "Submit your application"
+  },
+  "franshiza": {
+    "title": "Franchise and investments",
+    "box1": "Standard Franchise",
+    "box1p": "Deposit of 1 500 USD \nGet 70% profit",
+    "box2": "Exclusive Franchise",
+    "box2p": "Deposit of 25 000 USD \nGet 70% profit",
+    "box3": "Conditions investments",
+    "box3p": "Deposit of 1 500 USD \nGet 50% profit",
+    "btn": "Submit your application"
+  },
+  "invite": {
+    "title": "Invite a friend and get money in the balance",
+    "text": "You send a link to a friend and he registers using the link and that's it",
+    "btn": "Submit your application"
+  },
+  "information": {
+    "title": "Information about the station",
+    "station1": "“Big” Station",
+    "station2": "“Middle” Station",
+    "station3": "“Mini” Stationv",
+    "info1": "Dimensions:",
+    "info2": "Station weight:",
+    "info3": "Number of slots:",
+    "info4": "Network requirements:",
+    "info5": "Power consumption:",
+    "info6": "(mm)",
+    "info7": "kg",
+    "info8": "pc",
+    "info9": "V",
+    "info10": "kW/h"
+  },
+  "aplication": {
+    "title": "Leave a request and we will call",
+    "select-ph": "Select city...",
+    "toshkent": "Tashkent",
+    "name": "Name",
+    "phNumber": "Your phone number",
+    "message": "Request (optional)",
+    "error": "Must be filled",
+    "btn": "Submit an inquiry"
+  },
+  "whoWe": {
+    "company": "About company",
+    "company-p": "We are a young company that has become the first hourly rental service for power banks (Power Bank) in Uzbekistan. The company was founded in 2020, and the first launch of the Service was held in 2021. In two years, we have gone through a thorny path of trial and error, which has now resulted in a constant stream of new users. We hope that we will continue to delight you with our service.",
+    "founders": "About founders",
+    "founder1": "Dilshod Bobomuradov - Co-founder, CEO, graduated from the <strong>Tashkent Financial Institute</strong>, 12 years in the manufacturing sector.",
+    "founder2": "Gordy Wu, WU ZHIXIANG - Co-founder, angel investor, graduated from <strong>Peking University, China.</strong> 10 years in the manufacturing industry. 5 years in the investment field.",
+    "box1": "Total users",
+    "box2": "B2C partners",
+    "box3": "B2B partners"
+  },
+  "contact": {
+    "title": "Connect with us",
+    "address": "Istiklal St., 1206, Tashkent"
+  },
+  "collapse": {
+    "question1": "How much does it cost?",
+    "answer1": "3,000 soums per hour, after 3 hours 10,000 per day. Round up to the hour. The first 1 minute is free to check the bank.",
+    "question2": "How to use?",
+    "answer2": "Scan the QR code at the station or go to the AppStore or GooglePlay. Just search for “Yoou” and download the app \n• Register with your number and link the card. No pledges! \n• Отсscan the QR code at the station and take the power bank. \n• Bring back the bank. Rent is paid only after the return! \n• You can return the power bank to the station closest to you - you will find it on the map in the application. See how many slots there are for the return.",
+    "question3": "How to return the power bank?",
+    "answer3": "Find a station with a free slot in the app - we'll show you the closest one on the map. \n• Insert the power bank into the slot of the working station, press it a little and wait a couple of seconds. The light will turn on, check your rental in the app. \n• If the time has not run out, call us at +998991970404, we will try to quickly resolve your issue and return the overcharged funds.",
+    "question4": "How to find out if there are power banks or free space?",
+    "answer4": "Click on a point on the map in the application. In the lower left corner it is written how many power banks are ready for rent, and how much space to return.",
+    "question5": "What cables are included?",
+    "answer5": "Type-C, micro-USB, Lightning for iPhone. Connect any cable of your choice - they are built into the power bank.",
+    "question6": "How secure is a power bank??",
+    "answer6": "Completely safe - just like a regular charger. Our power banks are produced in compliance with all international standards and with full certification.",
+    "question7": "All the slots in the machine are full, and I can't turn over the bank. What to do?",
+    "answer7": "• Most importantly, don't leave your power bank to other people - even if it's a waiter. The power bank must be returned by the same person who rented it. \n• Look at the map of charging stations in the application - there you will find the nearest place where you can eat free space. Or call us at +998991970404.",
+    "question8": "Have questions?",
+    "answer8": "Call us at the call center at +998991970404 and we will try to help you promptly."
+  },
+  "footer": {
+    "title": "YOOU Share presents the service “Yoou Share” - hourly rental of Power Bank in Uzbekistan",
+    "download": "mobile app",
+    "contact": "Connect with us",
+    "made": "Developed",
+    "politika": "Privacy Policy",
+    "public": "Public offer"
+  }
+}

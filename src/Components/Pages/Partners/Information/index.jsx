@@ -1,80 +1,86 @@
 import React from "react";
 import InformationWrapper from "./Information.style";
+import { useTranslation } from "react-i18next";
 import Container from "../../../Common/Container";
 
-const dataBig = [
-  {
-    title: "Габариты:",
-    value: "400 х 190 х 190 (мм)",
-  },
-  {
-    title: "Вес станции:",
-    value: "100 кг",
-  },
-  {
-    title: "Кол-во слотов:",
-    value: "36 шт",
-  },
-  {
-    title: "Требования к сети:",
-    value: "200-220В",
-  },
-  {
-    title: "Потребляемая мощность:",
-    value: "1,5 кВт/ч",
-  },
-];
 
-const dataMiddle = [
-    {
-        title: "Габариты:",
-        value: "400 х 190 х 190 (мм)",
-      },
-      {
-        title: "Вес станции:",
-        value: "5 кг",
-      },
-      {
-        title: "Кол-во слотов:",
-        value: "12 шт",
-      },
-      {
-        title: "Требования к сети:",
-        value: "200-220В",
-      },
-      {
-        title: "Потребляемая мощность:",
-        value: "0,8 кВт/ч",
-      },
-];
-
-const dataMini = [
-    {
-        title: "Габариты:",
-        value: "400 х 190 х 190 (мм)",
-      },
-      {
-        title: "Вес станции:",
-        value: "5 кг",
-      },
-      {
-        title: "Кол-во слотов:",
-        value: "6 шт",
-      },
-      {
-        title: "Требования к сети:",
-        value: "200-220В",
-      },
-      {
-        title: "Потребляемая мощность:",
-        value: "0,6 кВт/ч",
-      },
-];
 const Information = () => {
+
+  const { t } = useTranslation();
+
+  const dataBig = [
+    {
+      title: "information.info1",
+      value: "400 х 190 х 190 information.info6",
+    },
+    {
+      title: "information.info2",
+      value: "100 information.info7",
+    },
+    {
+      title: "information.info3",
+      value: "36 information.info8",
+    },
+    {
+      title: "information.info4",
+      value: "200-220 information.info9",
+    },
+    {
+      title: "information.info5",
+      value: "1,5 information.info10",
+    },
+  ];
+  
+  const dataMiddle = [
+        {
+          title: "information.info1",
+          value: "400 х 190 х 190 information.info6",
+        },
+        {
+          title: "information.info2",
+          value: "5 information.info7",
+        },
+        {
+          title: "information.info3",
+          value: "12 information.info8",
+        },
+        {
+          title: "information.info4",
+          value: "200-220 information.info9",
+        },
+        {
+          title: "information.info5",
+          value: "0,8 information.info10",
+        },
+  ];
+  
+  const dataMini = [
+      {
+          title: "information.info1",
+          value: "400 х 190 х 190 information.info6",
+        },
+        {
+          title: "information.info2",
+          value: "5 information.info7",
+        },
+        {
+          title: "information.info3",
+          value: "6 information.info8",
+        },
+        {
+          title: "information.info4",
+          value: "200-220 information.info9",
+        },
+        {
+          title: "information.info5",
+          value: "0,6 information.info10",
+        },
+  ];
+
   return (
     <InformationWrapper>
       <Container>
-        <h3 className="title">Информация о станция</h3>
+        <h3 className="title">{t("information.title")}</h3>
         <div className="wrap">
           <div className="box">
             <div className="left" data-aos={"fade-right"}>
@@ -83,13 +89,13 @@ const Information = () => {
                 </div>
             </div>
             <div className="right" data-aos={"fade-left"}>
-              <h4>Станция “Big”</h4>
+              <h4>{t("information.station1")}</h4>
               <table>
                 <tbody>
                   {dataBig.map((item, index) => (
                     <tr key={index}>
-                      <td>{item.title}</td>
-                      <td>{item.value}</td>
+                      <td>{t(item.title)}</td>
+                      <td>{t(item.value)}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -98,7 +104,7 @@ const Information = () => {
           </div>
           <div className="box box2">
             <div className="left" data-aos={"fade-right"}>
-              <h4>Станция “Middle”</h4>
+              <h4>information.station2</h4>
               <table>
                 <tbody>
                   {dataMiddle.map((item, index) => (
@@ -123,7 +129,7 @@ const Information = () => {
                 </div>
             </div>
             <div className="right" data-aos={"fade-left"}>
-              <h4>Станция “Mini”</h4>
+              <h4>information.station3</h4>
               <table>
                 <tbody>
                   {dataMini.map((item, index) => (

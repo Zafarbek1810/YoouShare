@@ -1,32 +1,36 @@
 import React from "react";
 import SecondStyle from "./Second.style";
+import { useTranslation } from "react-i18next";
 import Container from "../../../Common/Container";
 
-const data = [
-  {
-    title: "Всего пользователей",
-    price: "10 000",
-  },
-  {
-    title: "B2C партнеры",
-    price: "90",
-  },
-  {
-    title: "B2B партнеры",
-    price: "30",
-  },
-];
-
 const Second = () => {
+
+  const { t } = useTranslation();
+
+  const data = [
+    {
+      title: "whoWe.box1",
+      price: "10 000",
+    },
+    {
+      title: "whoWe.box2",
+      price: "90",
+    },
+    {
+      title: "whoWe.box3",
+      price: "30",
+    },
+  ];
+
   return (
     <SecondStyle>
       <Container>
         <div className="cards">
           {data.map((item, index) => (
             <div className="card" key={index} data-aos={"fade-up"}>
-              <h4 className="card__title">{item.title}</h4>
+              <h4 className="card__title">{t(item.title)}</h4>
               <div className="card__price">
-                <span className="card__price__number">{item.price}</span>
+                <span className="card__price__number">{t(item.price)}</span>
               </div>
             </div>
           ))}

@@ -1,8 +1,12 @@
 import React from "react";
 import BannerWrapper from "./Banner.style";
+import { useTranslation } from "react-i18next";
 import Container from "../../../Common/Container";
 
 const Banner = () => {
+
+  const { t } = useTranslation();
+
   return (
     <BannerWrapper>
       <Container>
@@ -13,28 +17,19 @@ const Banner = () => {
             </div>
           </div>
           <div className="right" data-aos={"fade-left"}>
-            <h3 className="title">О компании</h3>
+            <h3 className="title">{t("whoWe.company")}</h3>
             <p className="descr">
-              Мы – молодая компания, ставшая первым сервисом почасовой аренды
-              повербанков (Power Bank) в Узбекистане. Компания основана в 2020
-              году, а первый запуск Сервиса был проведен в 2021. За два года мы
-              прошли тернистый путь проб и ошибок, который вылился сейчас в
-              постоянный поток новых пользователей. Надеемся что и дальше будем
-              радовать Вас нашим сервисом
+              {t("whoWe.company-p")}
             </p>
           </div>
         </div>
         <div className="wrap wrap2">
           <div className="left" data-aos={"fade-right"}>
-            <h3 className="title">О основатели</h3>
-            <p className="descr">
-              Dilshod Bobomuradov - Соучредитель, генеральный директор, закончил
-              <span> Ташкентский Финансовый Институт </span>, 12 лет в производственной сфере.
-              <br /> <br />
-              Gordy Wu, WU ZHIXIANG - Соучредитель, ангел-инвестор, закончил
-              <span> Пекинский Университет, Китай </span>. 10 лет в производственной сфере. 5
-              лет в инвестиционной сфере.
-            </p>
+            <h3 className="title">{t("whoWe.founders")}</h3>
+            <p className="descr" dangerouslySetInnerHTML={{__html: t("whoWe.founder1")}}></p>
+            <br />
+            <p className="descr" dangerouslySetInnerHTML={{__html: t("whoWe.founder2")}}></p>
+
           </div>
           <div className="right" data-aos={"fade-left"}>
             <div className="img">
