@@ -71,7 +71,7 @@
   },
   "brands": {
     "title": "Bizni qayerda uchratish mumkin",
-    "open": "+ Hmassani ko'rish",
+    "open": "+ Hamassani ko'rish",
     "closed": "- Yashirish"
   },
   "partners": {
@@ -121,50 +121,50 @@
     "title": "So'rov qoldiring va biz qo'ng'iroq qilamiz",
     "select-ph": "Shaharni tanlang...",
     "toshkent": "Tashkent",
-    "name": "Name",
-    "phNumber": "Your phone number",
-    "message": "Request (optional)",
-    "error": "Must be filled",
-    "btn": "Submit an inquiry"
+    "name": "Ism",
+    "phNumber": "Sizning telefon raqamingiz",
+    "message": "So'rov (ixtiyoriy)",
+    "error": "To'ldirilishi kerak",
+    "btn": "So'rov yuboring"
   },
   "whoWe": {
-    "company": "About company",
-    "company-p": "We are a young company that has become the first hourly rental service for power banks (Power Bank) in Uzbekistan. The company was founded in 2020, and the first launch of the Service was held in 2021. In two years, we have gone through a thorny path of trial and error, which has now resulted in a constant stream of new users. We hope that we will continue to delight you with our service.",
-    "founders": "About founders",
-    "founder1": "Dilshod Bobomuradov - Co-founder, CEO, graduated from the <strong>Tashkent Financial Institute</strong>, 12 years in the manufacturing sector.",
-    "founder2": "Gordy Wu, WU ZHIXIANG - Co-founder, angel investor, graduated from <strong>Peking University, China.</strong> 10 years in the manufacturing industry. 5 years in the investment field.",
-    "box1": "Total users",
-    "box2": "B2C partners",
-    "box3": "B2B partners"
+    "company": "Kompaniya haqida",
+    "company-p": "Biz O'zbekistonda elektr banklari (Power Bank) uchun soatlik ijara xizmatiga aylangan yosh kompaniyamiz. Kompaniya 2020-yilda tashkil etilgan va Xizmatning birinchi ishga tushirilishi 2021-yilda boʻlib oʻtgan. Ikki yil ichida biz sinov va xatolikning qiyin yoʻlini bosib oʻtdik, bu esa hozirda doimiy ravishda yangi foydalanuvchilar oqimiga olib keldi. Umid qilamizki, biz sizni xizmatimiz bilan xursand qilishda davom etamiz.",
+    "founders": "Ta'sischilar haqida",
+    "founder1": "Dilshod Bobomurodov - hammuassis, bosh direktor, <strong>Toshkent moliya instituti</strong>ni tamomlagan, 12 yil ishlab chiqarish sohasida.",
+    "founder2": "Gordi Vu, WU ZHIXIANG - Hammuassis, farishta investor, bitirgan<strong>Peking universiteti, Xitoy.</strong>10 yil ishlab chiqarish sanoatida. Investitsiya sohasida 5 yil.",
+    "box1": "Jami foydalanuvchilar",
+    "box2": "B2C hamkorlar",
+    "box3": "B2B hamkorlar"
   },
   "contact": {
-    "title": "Connect with us",
-    "address": "Istiklal St., 1206, Tashkent"
+    "title": "Biz bilan bog'laning",
+    "address": "Istiklol ko'chasi., 1206, Tashkent"
   },
   "collapse": {
-    "question1": "How much does it cost?",
-    "answer1": "3,000 soums per hour, after 3 hours 10,000 per day. Round up to the hour. The first 1 minute is free to check the bank.",
-    "question2": "How to use?",
-    "answer2": "Scan the QR code at the station or go to the AppStore or GooglePlay. Just search for “Yoou” and download the app \n• Register with your number and link the card. No pledges! \n• Отсscan the QR code at the station and take the power bank. \n• Bring back the bank. Rent is paid only after the return! \n• You can return the power bank to the station closest to you - you will find it on the map in the application. See how many slots there are for the return.",
-    "question3": "How to return the power bank?",
-    "answer3": "Find a station with a free slot in the app - we'll show you the closest one on the map. \n• Insert the power bank into the slot of the working station, press it a little and wait a couple of seconds. The light will turn on, check your rental in the app. \n• If the time has not run out, call us at +998991970404, we will try to quickly resolve your issue and return the overcharged funds.",
-    "question4": "How to find out if there are power banks or free space?",
-    "answer4": "Click on a point on the map in the application. In the lower left corner it is written how many power banks are ready for rent, and how much space to return.",
-    "question5": "What cables are included?",
-    "answer5": "Type-C, micro-USB, Lightning for iPhone. Connect any cable of your choice - they are built into the power bank.",
-    "question6": "How secure is a power bank??",
-    "answer6": "Completely safe - just like a regular charger. Our power banks are produced in compliance with all international standards and with full certification.",
-    "question7": "All the slots in the machine are full, and I can't turn over the bank. What to do?",
-    "answer7": "• Most importantly, don't leave your power bank to other people - even if it's a waiter. The power bank must be returned by the same person who rented it. \n• Look at the map of charging stations in the application - there you will find the nearest place where you can eat free space. Or call us at +998991970404.",
-    "question8": "Have questions?",
-    "answer8": "Call us at the call center at +998991970404 and we will try to help you promptly."
+    "question1": "Buning narxi qancha?",
+    "answer1": "Soatiga 3000 so'm, 3 soatdan keyin kuniga 10 000 so'm. Soatgacha yaxlitlash. Bankni tekshirish uchun birinchi 1 daqiqa bepul.",
+    "question2": "Qanday ishlatish?",
+    "answer2": "Stansiyada QR kodini skanerlang yoki AppStore yoki GooglePlay-ga o'ting. Shunchaki “Siz” deb qidiring va ilovani yuklab oling \n• Raqamingiz bilan roʻyxatdan oʻting va kartani bogʻlang. Va'dalar yo'q! \n• Stansiyada QR kodni skanerlang va Power bank oling. \n• Power bank qaytarib olib keling. Ijara faqat qaytib kelgandan keyin to'lanadi! \n• Power bank sizga eng yaqin stansiyaga qaytarishingiz mumkin - uni ilovadagi xaritada topasiz. Qaytish uchun qancha uyalar borligini ko'ring.",
+    "question3": "Power bank qanday qaytarish kerak?",
+    "answer3": "Ilovada bepul slotga ega stantsiyani toping - biz sizga xaritada eng yaqinini ko'rsatamiz. \n• Power bankni ishchi stantsiya uyasiga soling, uni bir oz bosing va bir necha soniya kuting. Chiroq yonadi, ijarangizni ilovada tekshiring. \n• Vaqt tugamagan bo'lsa, +998991970404 raqamiga qo'ng'iroq qiling, muammoingizni tezda hal qilishga va ortiqcha to'langan pulni qaytarishga harakat qilamiz.",
+    "question4": "Power banklari yoki bo'sh joy mavjudligini qanday aniqlash mumkin?",
+    "answer4": "Ilovadagi xaritadagi nuqtani bosing. Pastki chap burchakda qancha quvvat banki ijaraga tayyorligi va qancha joyni qaytarish kerakligi yozilgan.",
+    "question5": "Qanday kabellar kiritilgan?",
+    "answer5": "Type-C, micro-USB, iPhone uchun Lightning. Siz tanlagan har qanday kabelni ulang - ular power bankiga o'rnatilgan.",
+    "question6": "Power banki qanchalik xavfsiz?",
+    "answer6": "To'liq xavfsiz - oddiy zaryadlovchi kabi. Power banklarimiz barcha xalqaro standartlarga muvofiq va to'liq sertifikatlangan holda ishlab chiqariladi.",
+    "question7": "Mashinaning barcha uyalari to'lgan va men power bankni aylantira olmayman. Nima qilsa bo'ladi?",
+    "answer7": "• Eng muhimi, power bankingizni boshqa odamlarga qoldirmang - garchi u ofitsiant bo'lsa ham. Power banki uni ijaraga olgan shaxs tomonidan qaytarilishi kerak. \n• Ilovada zaryadlash stansiyalari xaritasiga qarang - u yerda siz boʻsh joy yeyishingiz mumkin boʻlgan eng yaqin joyni topasiz. Yoki +998991970404 raqamiga qo'ng'iroq qiling.",
+    "question8": "Savollaringiz bormi?",
+    "answer8": "+998991970404 raqamiga qo'ng'iroq qiling va biz sizga tezda yordam berishga harakat qilamiz."
   },
   "footer": {
-    "title": "YOOU Share presents the service “Yoou Share” - hourly rental of Power Bank in Uzbekistan",
-    "download": "mobile app",
-    "contact": "Connect with us",
-    "made": "Developed",
-    "politika": "Privacy Policy",
-    "public": "Public offer"
+    "title": "YOOU Share “You Share” xizmatini taqdim etadi – O‘zbekistonda Power Bankning soatlik ijarasi",
+    "download": "mobil ilova",
+    "contact": "Biz bilan bog'laning",
+    "made": "Ishlab chiqilgan",
+    "politika": "Maxfiylik siyosati",
+    "public": "Ommaviy taklif"
   }
 }
