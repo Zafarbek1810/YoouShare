@@ -155,9 +155,9 @@
     "question1": "Buning narxi qancha?",
     "answer1": "Soatiga 3000 so'm, 3 soatdan keyin kuniga 10 000 so'm. Soatgacha yaxlitlash. Bankni tekshirish uchun birinchi 1 daqiqa bepul.",
     "question2": "Qanday ishlatish?",
-    "answer2": "Stansiyada QR kodini skanerlang yoki AppStore yoki GooglePlay-ga o'ting. Shunchaki “Siz” deb qidiring va ilovani yuklab oling \n• Raqamingiz bilan roʻyxatdan oʻting va kartani bogʻlang. Va'dalar yo'q! \n• Stansiyada QR kodni skanerlang va Power bank oling. \n• Power bank qaytarib olib keling. Ijara faqat qaytib kelgandan keyin to'lanadi! \n• Power bank sizga eng yaqin stansiyaga qaytarishingiz mumkin - uni ilovadagi xaritada topasiz. Qaytish uchun qancha uyalar borligini ko'ring.",
+    "answer2": "Stansiyada QR kodini skanerlang yoki AppStore yoki GooglePlay-ga o'ting. Shunchaki “Yoou” deb qidiring va ilovani yuklab oling \n• Raqamingiz bilan roʻyxatdan oʻting va kartani bogʻlang. Va'dalar yo'q! \n• Stansiyada QR kodni skanerlang va Power bank oling. \n• Power bank qaytarib olib keling. Ijara faqat qaytib kelgandan keyin to'lanadi! \n• Power bank sizga eng yaqin stansiyaga qaytarishingiz mumkin - uni ilovadagi xaritada topasiz. Qaytish uchun qancha uyalar borligini ko'ring.",
     "question3": "Power bank qanday qaytarish kerak?",
-    "answer3": "Ilovada bepul slotga ega stantsiyani toping - biz sizga xaritada eng yaqinini ko'rsatamiz. \n• Power bankni ishchi stantsiya uyasiga soling, uni bir oz bosing va bir necha soniya kuting. Chiroq yonadi, ijarangizni ilovada tekshiring. \n• Vaqt tugamagan bo'lsa, +998991970404 raqamiga qo'ng'iroq qiling, muammoingizni tezda hal qilishga va ortiqcha to'langan pulni qaytarishga harakat qilamiz.",
+    "answer3": "• Ilovada bepul slotga ega stantsiyani toping - biz sizga xaritada eng yaqinini ko'rsatamiz. \n• Power bankni ishchi stantsiya uyasiga soling, uni bir oz bosing va bir necha soniya kuting. Chiroq yonadi, ijarangizni ilovada tekshiring. \n• Vaqt tugamagan bo'lsa, +998991970404 raqamiga qo'ng'iroq qiling, muammoingizni tezda hal qilishga va ortiqcha to'langan pulni qaytarishga harakat qilamiz.",
     "question4": "Power banklari yoki bo'sh joy mavjudligini qanday aniqlash mumkin?",
     "answer4": "Ilovadagi xaritadagi nuqtani bosing. Pastki chap burchakda qancha quvvat banki ijaraga tayyorligi va qancha joyni qaytarish kerakligi yozilgan.",
     "question5": "Qanday kabellar kiritilgan?",
@@ -170,7 +170,7 @@
     "answer8": "+998991970404 raqamiga qo'ng'iroq qiling va biz sizga tezda yordam berishga harakat qilamiz."
   },
   "footer": {
-    "title": "YOOU Share “You Share” xizmatini taqdim etadi – O‘zbekistonda Power Bankning soatlik ijarasi",
+    "title": "YOOU Share “YOOU Share” xizmatini taqdim etadi – O‘zbekistonda Power Bankning soatlik ijarasi",
     "download": "mobil ilova",
     "contact": "Biz bilan bog'laning",
     "made": "Ishlab chiqilgan",
