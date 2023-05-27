@@ -63,7 +63,7 @@ const Footer = () => {
             <p>© OOO THE MIND, 2020 - 2023</p>
           </div>
           <div className="center">
-            <p><MyLink target="_blank" to="https://everbestlab.com/">EverbestLab</MyLink>{t("footer.made")}</p>
+            <p><MyLink target="_blank" to="https://everbestlab.com/">EverbestLab</MyLink> {t("footer.made")}</p>
           </div>
           <div className="right" >
             <a href="#">{t("footer.politika")}</a> | {" "}

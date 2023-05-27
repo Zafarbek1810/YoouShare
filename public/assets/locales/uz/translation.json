@@ -169,6 +169,10 @@
     "question8": "Savollaringiz bormi?",
     "answer8": "+998991970404 raqamiga qo'ng'iroq qiling va biz sizga tezda yordam berishga harakat qilamiz."
   },
+  "couponPage": {
+    "title": "Raqamingizni kiriting va bir kunlik birinchi bepul ijara uchun kupon oling!",
+    "btn": "Ro'yxatdan o'tish"
+  },
   "footer": {
     "title": "YOOU Share “YOOU Share” xizmatini taqdim etadi – O‘zbekistonda Power Bankning soatlik ijarasi",
     "download": "mobil ilova",
