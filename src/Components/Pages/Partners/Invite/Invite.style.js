@@ -32,7 +32,7 @@ background: #FAFAFA!important;
         color: #001002;
         margin-bottom: 20px;
       }
-      button {
+      a {
         margin: auto;
         border: none;
         font-family: "Inter";

@@ -6,18 +6,14 @@ import { useTranslation } from "react-i18next";
 const Coupon = () => {
   const [phone, setPhone] = useState("");
 
-
   const { t } = useTranslation();
-
 
   return (
     <CouponStyle>
       <div className="wrapper">
-        <h2>
-          {t("couponPage.title")}
-        </h2>
+        <h2>{t("couponPage.title")}</h2>
         <div className="submit">
-          <Patte rnFormat
+          <PatternFormat
             type="tel"
             format="+998 ## ### ## ##"
             mask="_"
@@ -27,7 +23,7 @@ const Coupon = () => {
             className="inputNumber"
           />
           <a href="" className="btn">
-          {t("couponPage.btn")}
+            {t("couponPage.btn")}
           </a>
         </div>
         <div className="qr">

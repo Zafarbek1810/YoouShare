@@ -2,6 +2,7 @@ import React from "react";
 import InviteWrapper from "./Invite.style";
 import { useTranslation } from "react-i18next";
 import Container from "../../../Common/Container";
+import MyLink from "../../../Common/MyLink";
 
 const Invite = () => {
 
@@ -16,7 +17,7 @@ const Invite = () => {
             <div className="text">
              {t("invite.text")}
             </div>
-            <button>{t("invite.btn")}</button>
+            <MyLink to='/coupon'>{t("invite.btn")}</MyLink>
           </div>
 
           <div className="right" data-aos={"fade-left"}>

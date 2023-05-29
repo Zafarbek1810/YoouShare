@@ -59,5 +59,40 @@ const CouponStyle = styled.div`
       width: 200px;
     }
   }
+
+  @media (max-width: 768px) {
+    .wrapper {
+      width: 800px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      h2 {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        color: #ffffff;
+        padding: 1px 15px;
+      }
+    }
+    .submit {
+      flex-direction: column;
+      width: 100%;
+      gap: 25px;
+      padding: 16px 0;
+    }
+    .btn {
+      padding: 14px 40px;
+    }
+    .inputNumber {
+      width: 75%;
+    }
+    .qr {
+      padding-top: 30px;
+      img {
+        width: 180px;
+      }
+    }
+  }
 `;
 export default CouponStyle;
