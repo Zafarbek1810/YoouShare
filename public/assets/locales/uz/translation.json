@@ -97,9 +97,9 @@
     "btn": "Arizangizni yuboring"
   },
   "invite": {
-    "title": "Do'stingizni taklif qiling va balansga pul oling",
-    "text": "Siz do'stingizga havola yuborasiz va u havola orqali ro'yxatdan o'tadi va tamom",
-    "btn": "Arizangizni yuboring"
+    "title": "Do'stlaringizni taklif qiling va pul ishlang",
+    "text": "Ilovani o'rnating va 'Biz bilan ishlang!' bandini oching. asosiy menyuda. Havolani do'stingizga yuboring. Do'stingiz ro'yxatdan o'tib, birinchi ijarasini amalga oshirsa, siz ijaraga sarflashingiz mumkin bo'lgan ilova balansi bonusini olasiz.Do'stlaringiz ham ro'yxatdan o'tgandan so'ng yoqimli bonuslarga ega bo'lishadi.",
+    "btn": "Ilovani yuklab oling"
   },
   "information": {
     "title": "Stansiya haqida ma'lumot",
@@ -170,7 +170,7 @@
     "answer8": "+998991970404 raqamiga qo'ng'iroq qiling va biz sizga tezda yordam berishga harakat qilamiz."
   },
   "couponPage": {
-    "title": "Raqamingizni kiriting va bir kunlik birinchi bepul ijara uchun kupon oling!",
+    "title": "Raqamingizni ro'yxatdan o'tkazing, ilovani yuklab oling va birinchi ijarangizni qiling.Do'stingiz ariza balansiga pul oladi, siz esa bir kunlik bepul ijara haqi bilan kupon olasiz! Uni olish uchun ilova menyusidagi kupon bo'limiga o'ting va YANGIREF kodini kiriting.Kupondan foydalanish uchun tugmani bosing.Diqqat! Kupon mukammal ijara vaqtidan qat'i nazar, bir marta ishlaydi!",
     "btn": "Ro'yxatdan o'tish"
   },
   "footer": {

@@ -12,6 +12,13 @@ background: #FAFAFA!important;
     .left {
       width: 50%;
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        img{
+          width: 100px;
+          margin: auto;
+          margin-top:30px;
+        }
       .title {
         font-family: "Inter";
         font-style: normal;
@@ -30,7 +37,7 @@ background: #FAFAFA!important;
         line-height: 24px;
         text-align: center;
         color: #001002;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
       }
       a {
         margin: auto;
