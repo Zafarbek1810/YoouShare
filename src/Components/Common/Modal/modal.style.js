@@ -2,10 +2,7 @@ import styled from "styled-components";
 
 const ModalStyle = styled.div`
   display: flex;
-  align-items: center;
-  justify-content: center;
   width: 100%;
-  height: 100vh;
 
   .box {
     width: 270px;
@@ -21,8 +18,8 @@ const ModalStyle = styled.div`
         position: absolute;
         top: 3px;
         right: 12px;
-    }
 
+    }
   }
   .circle {
     display: flex;
@@ -35,10 +32,11 @@ const ModalStyle = styled.div`
   }
   .bottom {
     background-color: #fff;
-    height: 270px;
+    height: 290px;
     color: #000;
     text-align: center;
     border-radius: 0 0 20px 20px;
+    padding: 0 20px 20px;
     .title {
       padding-top: 66px;
     }

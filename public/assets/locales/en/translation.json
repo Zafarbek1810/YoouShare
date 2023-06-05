@@ -97,9 +97,9 @@
     "btn": "Submit your application"
   },
   "invite": {
-    "title": "Invite a friend and get money in the balance",
-    "text": "You send a link to a friend and he registers using the link and that's it",
-    "btn": "Submit your application"
+    "title": "Invite friends and earn money",
+    "text": "Install the application and open the item 'Earn with us!' in the main menu. Send the link to a friend. When a friend signs up and makes their first rental, you'll receive an app balance bonus that you can spend on your rentals.Your friends will also receive nice bonuses after registration.",
+    "btn": "Download app"
   },
   "information": {
     "title": "Information about the station",
@@ -170,7 +170,7 @@
     "answer8": "Call us at the call center at +998991970404 and we will try to help you promptly."
   },
   "couponPage": {
-    "title": "Enter your number and get a coupon for the first free rent for a day!",
+    "title": "Register your number, download the application and make your first rental. Your friend will receive money on the application balance, and you will receive a coupon with a free rent for a day! To get it, go to the coupon section in the app menu and enter the code NEWREF.Click on the button to use the coupon.Attention! The coupon works once, regardless of the time of the perfect rental!",
     "btn": "Registration"
   },
   "footer": {
