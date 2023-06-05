@@ -21,7 +21,6 @@ const ModalStyle = styled.div`
         position: absolute;
         top: 3px;
         right: 12px;
-
     }
 
   }
