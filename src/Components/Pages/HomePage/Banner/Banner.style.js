@@ -4,7 +4,6 @@ const BannerWrapper = styled.div`
   padding-top: 100px;
   height: 100vh;
   background: #fff;
-  position: relative;
 
   .wrap {
     display: flex;
@@ -76,11 +75,7 @@ const BannerWrapper = styled.div`
     }
   }
 
-  .qr{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-  }
+
 
 
   @media (max-width: 768px) {

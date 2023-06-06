@@ -50,6 +50,7 @@ const YoouShareWrapper = styled.div`
         text-align: center;
         color: #001002;
         margin-bottom: 20px;
+        white-space: pre-wrap;
       }
 
       img {

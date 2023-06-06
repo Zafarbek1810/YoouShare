@@ -95,7 +95,7 @@ const BannerWrapper = styled.div`
       }
       .btn {
         text-align: center;
-        button {
+        .mylink {
           width: 40%;
           margin-top: 15px;
           text-align: center;
@@ -161,7 +161,7 @@ const BannerWrapper = styled.div`
           }
 
           .btn {
-            button {
+            .mylink {
               width: 100%;
             }
           }
@@ -213,7 +213,7 @@ const BannerWrapper = styled.div`
       }
       .btn {
         width: 100% !important;
-        button {
+        .mylink {
           width: 100% !important;
         }
       }

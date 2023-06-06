@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { PatternFormat } from "react-number-format";
 import CouponStyle from "./coupon.style";
 import { useTranslation } from "react-i18next";
 import axios from "axios";
@@ -115,7 +114,7 @@ const Coupon = () => {
               {t("couponPage.btn")}
             </button>
           </form>
-          <h2>{t("couponPage.title")}</h2>
+          <p>{t("couponPage.text")}</p>
         </div>
       </CouponStyle>
     </>

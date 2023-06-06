@@ -2,6 +2,7 @@ import React from "react";
 import InvestWrapper from "./Invest.style";
 import { useTranslation } from "react-i18next";
 import Container from "../../../Common/Container";
+import MyLink from "../../../Common/MyLink";
 
 const Invest = () => {
 
@@ -35,7 +36,7 @@ const Invest = () => {
           ))}
         </div>
         <div className="btn" data-aos={"zoom-in"}>
-            <button>{t("franshiza.btn")}</button>
+            <MyLink to="https://t.me/yoousharebot" className="mylink">{t("franshiza.btn")}</MyLink>
         </div>
       </Container>
     </InvestWrapper>

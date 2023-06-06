@@ -23,7 +23,7 @@ const YoouShare = () => {
     {
       title: "yoouShare.box3",
       img: "/images/card3.png",
-      num: "400+",
+      num: "300+",
       currency: "",
     },
     {
