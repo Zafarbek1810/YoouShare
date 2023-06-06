@@ -7,6 +7,7 @@ import BannerIcon2 from '../../../Common/Svgs/BannerIcon2';
 import BannerIcon3 from '../../../Common/Svgs/BannerIcon3';
 import BannerIcon4 from '../../../Common/Svgs/BannerIcon4';
 import BannerIcon5 from '../../../Common/Svgs/BannerIcon5';
+import LocationSvgBanner from '../../../Common/Svgs/LocationSvgBanner';
 const Banner = () => {
   const { t } = useTranslation();
 
@@ -22,7 +23,7 @@ const Banner = () => {
                         <li><BannerIcon2/>{t("banner.ul2")}</li>
                         <li><BannerIcon3/>{t("banner.ul3")}</li>
                         <li><BannerIcon4/>{t("banner.ul4")}</li>
-                        <li><BannerIcon5/>{t("banner.ul5")}</li>
+                        <li className="loq"><LocationSvgBanner/>{t("banner.ul5")}</li>
                     </ul>
                 </div>
                 <div className="right" >

@@ -3,7 +3,16 @@ import styled from "styled-components";
 const MapWrapper = styled.div`
   padding: 100px;
   width: 100%;
-  background: #fff;
+  background: #fff !important;
+  height: 700px;
+  /* overflow: hidden; */
+  margin-bottom: 100px;
+
+  .map{
+    border-radius: 50px !important;
+    overflow: hidden;
+  }
+  
   
   h3.title {
     font-family: Inter;

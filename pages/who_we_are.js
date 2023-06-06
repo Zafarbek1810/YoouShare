@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import WhoWeAre from '../src/Components/Pages/WhoWeAre'
+import dynamic from 'next/dynamic';
+const SEO = dynamic(() => import('./seo'));
 
 export default function Home() {
   return (
@@ -10,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <WhoWeAre />
-      
+      <SEO/>
     </div>
   )
 }

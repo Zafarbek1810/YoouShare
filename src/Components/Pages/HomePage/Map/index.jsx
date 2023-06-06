@@ -1,6 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { MapWrapper } from "./Map.style";
+import Maps from "../Maps";
 
 const Map = () => {
   const { t } = useTranslation();
@@ -18,6 +19,7 @@ const Map = () => {
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
+        {/* <Maps/> */}
       </div>
     </MapWrapper>
   );
