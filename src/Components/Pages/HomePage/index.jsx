@@ -6,11 +6,12 @@ import Tarif from './Tarif';
 import PowerBank from './PowerBank';
 import VideoComp from './VideoComp';
 import Otziv from './Otziv';
-import Map from './Map';
+// import Map from './Map';
 import Brands from './Brands';
 import QrCodeSvg from '../../../../src/Components/Common/Svgs/QrCodeSvg';
 import Footer from '../Footer/Footer';
 import HomeWrapper from './home.style';
+import Maps from './Maps';
 
 const HomePage = () => {
     return (
@@ -22,7 +23,8 @@ const HomePage = () => {
             <PowerBank/>
             <VideoComp/>
             <Otziv/>
-            <Map/>
+            {/* <Map/> */}
+            <Maps/>
             <Brands/>
             <Footer/>
             <div className="qr">
