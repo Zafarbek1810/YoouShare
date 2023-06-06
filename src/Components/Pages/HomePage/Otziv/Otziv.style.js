@@ -24,10 +24,11 @@ const OtzivWrapper = styled.div`
     }
     .card {
       display: flex;
+      align-items: center;
+      justify-content: center;
       gap: 30px;
       width: 100%;
       height: auto;
-      align-items: center;
       background: #f3fcf6;
       border-radius: 40px;
       padding-right: 30px;
@@ -58,6 +59,7 @@ const OtzivWrapper = styled.div`
       &__text {
         font-family: "Inter";
         font-style: normal;
+        text-align: center;
         font-weight: 500;
         font-size: 16px;
         line-height: 20px;
@@ -68,6 +70,7 @@ const OtzivWrapper = styled.div`
         display: flex;
         flex-direction: column;
         color:#000;
+        text-align: center;
 
         span {
           font-weight: 400;

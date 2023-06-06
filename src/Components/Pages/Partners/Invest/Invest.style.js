@@ -53,8 +53,8 @@ const InvestWrapper = styled.div`
   }
 
   .btn {
-      text-align: center;
-    button {
+    text-align: center;
+    .mylink {
       font-family: "Inter";
       font-style: normal;
       font-weight: 600;
@@ -66,9 +66,9 @@ const InvestWrapper = styled.div`
       box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12),
         0px 2px 4px rgba(0, 0, 0, 0.12);
       border-radius: 8px;
-        padding: 15px 30px;
-        border: none;
-        cursor: pointer;
+      padding: 15px 30px;
+      border: none;
+      cursor: pointer;
     }
   }
 
@@ -80,7 +80,6 @@ const InvestWrapper = styled.div`
       font-size: 32px;
       line-height: 42px;
     }
-
 
     .cards {
       flex-direction: column;
@@ -105,22 +104,17 @@ const InvestWrapper = styled.div`
           font-size: 16px;
           line-height: 20px;
         }
-
       }
     }
 
     .btn {
-      width: 100% ;
-      button {
+      width: 100%;
+      .mylink {
         width: 100%;
         padding: 10px 20px;
       }
     }
   }
-
-
-  
-
 `;
 
 export default InvestWrapper;

@@ -14,7 +14,7 @@ const data = [
   },
   {
     img: "/images/contact-icon3.png",
-    title: "@Yoou_uz_bot",
+    title: "@yoousharebot",
   },
   {
     img: "/images/contact-icon4.png",

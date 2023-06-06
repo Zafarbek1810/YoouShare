@@ -3,6 +3,7 @@ import BannerWrapper from "./Banner.style";
 import { useTranslation } from "react-i18next";
 import QrCodeSvg from "../../../Common/Svgs/QrCodeSvg";
 import Container from "../../../Common/Container";
+import MyLink from "../../../Common/MyLink";
 
 const Banner = () => {
 
@@ -39,7 +40,7 @@ const Banner = () => {
               </div>
             </div>
             <div className="btn" data-aos={"zoom-in"}>
-                <button>{t("partners.btn")}</button>
+                <MyLink to="https://t.me/yoousharebot" className="mylink">{t("partners.btn")}</MyLink>
             </div>
           </Container>
         </div>

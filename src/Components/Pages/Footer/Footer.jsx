@@ -29,10 +29,10 @@ const Footer = () => {
           <div className="col-2" data-aos={"fade-up"}>
             <h5 className="title">{t("footer.download")}</h5>
             <div className="app">
-              <a href="#">
+              <a href="https://onelink.to/yooushare">
                 <AppleSvg />
               </a>
-              <a href="#">
+              <a href="https://onelink.to/yooushare">
                 <PlayMarketLogo />
               </a>
             </div>
@@ -49,7 +49,7 @@ const Footer = () => {
               </a>
               <br />
               <a href="https://t.me/yoousharebot" target="blank">
-                <TelegramSvg /> @Yoou_uz_bot
+                <TelegramSvg /> @yoousharebot
               </a>
               <br />
             </div>
@@ -60,14 +60,14 @@ const Footer = () => {
       <Container>
         <div className="copy">
           <div className="left">
-            <p>© OOO THE MIND, 2020 - 2023</p>
+            <p>© OOO “POWER DISTRIBUTIONS”, 2022</p>
           </div>
           <div className="center">
-            <p><MyLink target="_blank" to="https://everbestlab.com/">EverbestLab</MyLink> {t("footer.made")}</p>
+            <p><MyLink target="_blank" to="https://everbestlab.com/">EverbestLab LLC</MyLink> {t("footer.made")}</p>
           </div>
           <div className="right" >
-            <a href="#">{t("footer.politika")}</a> | {" "}
-            <a href="#">{t("footer.public")}</a>
+            <MyLink to="/politika">{t("footer.politika")}</MyLink> | {" "}
+            <MyLink to="/privacy">{t("footer.public")}</MyLink>
           </div>
         </div>
       </Container>

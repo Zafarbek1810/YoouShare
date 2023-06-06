@@ -8,12 +8,13 @@ import VideoComp from './VideoComp';
 import Otziv from './Otziv';
 import Map from './Map';
 import Brands from './Brands';
+import QrCodeSvg from '../../../../src/Components/Common/Svgs/QrCodeSvg';
 import Footer from '../Footer/Footer';
-import Maps from './Maps';
+import HomeWrapper from './home.style';
 
 const HomePage = () => {
     return (
-        <div >
+        <HomeWrapper >
             <Header/>
             <Banner/>
             <YoouShare/>
@@ -22,10 +23,12 @@ const HomePage = () => {
             <VideoComp/>
             <Otziv/>
             <Map/>
-            {/* <Maps/> */}
             <Brands/>
             <Footer/>
-        </div>
+            <div className="qr">
+             <QrCodeSvg/>
+            </div>
+        </HomeWrapper>
     );
 };
 

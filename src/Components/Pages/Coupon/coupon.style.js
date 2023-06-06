@@ -10,11 +10,11 @@ const CouponStyle = styled.div`
   justify-content: center;
   position: relative;
   .wrapper {
-    width: 800px;
+    width: 890px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    h2 {
+    p {
       font-family: "Inter";
       font-style: normal;
       font-weight: 400;
@@ -22,6 +22,7 @@ const CouponStyle = styled.div`
       color: #ffffff;
       margin-top: 40px;
       text-align: center;
+      white-space: pre-wrap;
     }
   }
   .submit {
@@ -40,20 +41,20 @@ const CouponStyle = styled.div`
     color: #000;
     font-size: 20px;
   }
-  .PhoneInputInput{
+  .PhoneInputInput {
     width: 45%;
     border: none !important;
     background-color: #fff;
-  border: none;
-  border-radius: 10px;
-  padding: 12px 12px;
-  color: #000;
-  font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 12px;
+    color: #000;
+    font-size: 20px;
   }
-  .PhoneInputCountrySelectArrow{
+  .PhoneInputCountrySelectArrow {
     border-color: #fff;
   }
-  .PhoneInputInput--focus{
+  .PhoneInputInput--focus {
     border: none !important;
   }
   .btn {
@@ -80,8 +81,8 @@ const CouponStyle = styled.div`
       width: 200px;
     }
   }
-  
-  .modal{
+
+  .modal {
     animation: animate 0.5s ease-in-out;
     position: absolute;
     top: 10%;
@@ -99,16 +100,18 @@ const CouponStyle = styled.div`
   }
 
   @media (max-width: 768px) {
+    height: auto;
     .wrapper {
-      width: 800px;
+      width: 100%;
+      height: 100vh;
       display: flex;
       align-items: center;
+      justify-content: center;
       flex-direction: column;
-      h2 {
+      p {
         font-family: "Inter";
         font-style: normal;
-        font-weight: 700;
-        font-size: 26px;
+        font-size: 15px;
         color: #ffffff;
         padding: 1px 15px;
       }

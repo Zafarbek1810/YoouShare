@@ -111,10 +111,7 @@ const Otziv = () => {
             cardData.map((item,index)=>(
               <SwiperSlide key={index}>
               <div className="card">
-              <div className="card__img">
-                {/* <img src={item.img} alt="" /> */}
-                {item.img}
-              </div>
+             
               <div className="card__content">
                 <span className="icon">
                   <img src="/images/Union.png" alt="" />
@@ -123,7 +120,7 @@ const Otziv = () => {
                   {t(item.title)}
                 </p>
                 <h4 className="card__title">
-                  {t(item.text)} <span>{t(item.text)}</span>
+                  {t(item.text)}
                 </h4>
               </div>
             </div>

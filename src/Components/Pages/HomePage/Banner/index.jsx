@@ -2,7 +2,6 @@ import React from 'react';
 import BannerWrapper from './Banner.style';
 import { useTranslation } from "react-i18next";
 import Container from '../../../Common/Container';
-import QrCodeSvg from '../../../Common/Svgs/QrCodeSvg';
 import BannerIcon from '../../../Common/Svgs/BannerIcon';
 import BannerIcon2 from '../../../Common/Svgs/BannerIcon2';
 import BannerIcon3 from '../../../Common/Svgs/BannerIcon3';
@@ -32,9 +31,7 @@ const Banner = () => {
                 </div>
             </div>
             </Container>
-            <div className="qr">
-            <QrCodeSvg/>
-            </div>
+            
         </BannerWrapper>
     );
 };
