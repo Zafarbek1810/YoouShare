@@ -54,13 +54,23 @@ const BannerWrapper = styled.div`
           align-items: center;
           margin-bottom: 10px;
 
+          
           svg{
             margin-right : 10px;
-
+            
           }
-
+          
           img{
             width: 40px;
+          }
+        }
+        .loq{
+          svg{
+            padding: 10px;
+            width: 40px;
+            fill: #fff;
+            border-radius: 10px;
+            background-color: #0CB47F !important;
           }
         }
       }

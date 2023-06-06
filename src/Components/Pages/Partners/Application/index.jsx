@@ -21,6 +21,17 @@ const Application = () => {
   const options = [
     { label: t("aplication.select-ph"), value: null },
     { label: t(`aplication.toshkent`), value: `tash` },
+    { label: t(`aplication.andijon`), value: `and` },
+    { label: t(`aplication.buxoro`), value: `bux` },
+    { label: t(`aplication.fargona`), value: `far` },
+    { label: t(`aplication.jizzax`), value: `jiz` },
+    { label: t(`aplication.navoiy`), value: `nav` },
+    { label: t(`aplication.namangan`), value: `nam` },
+    { label: t(`aplication.nukus`), value: `nuk` },
+    { label: t(`aplication.samarqand`), value: `sam` },
+    { label: t(`aplication.xorezm`), value: `xor` },
+    { label: t(`aplication.surhondaryo`), value: `sur` },
+    { label: t(`aplication.qashqadaryo`), value: `qash` },
   ];
 
   return (
