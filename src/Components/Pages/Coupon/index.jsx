@@ -54,7 +54,7 @@ const Coupon = () => {
           "https://yoou.stwpower.com/power_bank/api/user/saveReferralRecord",
           {
             referralCode: referralsCode,
-            phone: phone,
+            phone: phone.slice(1),
           }
         )
         .then(function (response) {
