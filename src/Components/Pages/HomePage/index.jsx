@@ -9,6 +9,7 @@ import Otziv from './Otziv';
 import Map from './Map';
 import Brands from './Brands';
 import Footer from '../Footer/Footer';
+import Maps from './Maps';
 
 const HomePage = () => {
     return (
@@ -21,6 +22,7 @@ const HomePage = () => {
             <VideoComp/>
             <Otziv/>
             <Map/>
+            {/* <Maps/> */}
             <Brands/>
             <Footer/>
         </div>
