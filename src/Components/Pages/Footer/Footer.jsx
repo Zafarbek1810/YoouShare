@@ -66,8 +66,8 @@ const Footer = () => {
             <p><MyLink target="_blank" to="https://everbestlab.com/">EverbestLab LLC</MyLink> {t("footer.made")}</p>
           </div>
           <div className="right" >
-            <a href="/politika">{t("footer.politika")}</a> | {" "}
-            <a href="/privacy">{t("footer.public")}</a>
+            <MyLink to="/politika">{t("footer.politika")}</MyLink> | {" "}
+            <MyLink to="/privacy">{t("footer.public")}</MyLink>
           </div>
         </div>
       </Container>
