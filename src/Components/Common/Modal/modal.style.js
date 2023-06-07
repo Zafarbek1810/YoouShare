@@ -13,11 +13,14 @@ const ModalStyle = styled.div`
     height: 75px;
     border-radius: 20px 20px 0 0;
     position: relative;
-    a{
+    button{
         font-size: 20px;
         position: absolute;
-        top: 3px;
+        top: 5px;
         right: 12px;
+        background: none;
+        border: none;
+        cursor: pointer;
 
     }
   }
