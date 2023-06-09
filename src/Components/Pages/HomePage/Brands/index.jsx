@@ -17,7 +17,7 @@ const dataImg = [
     alt: "3",
   },
   {
-    img: "/brands/4.png",
+    img: "/brands/4.jpg",
     alt: "4",
   },
   {
@@ -33,7 +33,7 @@ const dataImg = [
     alt: "7",
   },
   {
-    img: "/brands/8.png",
+    img: "/brands/8.jpg",
 
     alt: "8",
   },
@@ -69,11 +69,11 @@ const dataImg2 = [
     alt: "15",
   },
   {
-    img: "/brands/16.svg",
+    img: "/brands/16.jpg",
     alt: "16",
   },
   {
-    img: "/brands/17.jpg",
+    img: "/brands/17.png",
 
     alt: "17",
   },
@@ -82,11 +82,11 @@ const dataImg2 = [
     alt: "18",
   },
   {
-    img: "/brands/19.jpg",
+    img: "/brands/19.png",
     alt: "19",
   },
   {
-    img: "/brands/20.jpg",
+    img: "/brands/20.png",
     alt: "20",
   },
   {
@@ -94,7 +94,7 @@ const dataImg2 = [
     alt: "21",
   },
   {
-    img: "/brands/22.jpg",
+    img: "/brands/22.png",
     alt: "22",
   },
   {
@@ -106,11 +106,11 @@ const dataImg2 = [
     alt: "24",
   },
   {
-    img: "/brands/25.jpg",
+    img: "/brands/25.png",
     alt: "25",
   },
   {
-    img: "/brands/26.png",
+    img: "/brands/26.svg",
     alt: "26",
   },
   {
@@ -147,7 +147,7 @@ const dataImg2 = [
     alt: "34",
   },
   {
-    img: "/brands/35.jpg",
+    img: "/brands/35.png",
     alt: "35",
   },
   {
@@ -171,7 +171,7 @@ const dataImg2 = [
     alt: "40",
   },
   {
-    img: "/brands/41.png",
+    img: "/brands/41.jpg",
     alt: "41",
   },
   {
@@ -179,7 +179,7 @@ const dataImg2 = [
     alt: "42",
   },
   {
-    img: "/brands/43.png",
+    img: "/brands/43.jpg",
     alt: "43",
   },
   {
@@ -191,7 +191,7 @@ const dataImg2 = [
     alt: "45",
   },
   {
-    img: "/brands/46.png",
+    img: "/brands/46.jpg",
     alt: "46",
   },
   {
@@ -207,7 +207,7 @@ const dataImg2 = [
     alt: "49",
   },
   {
-    img: "/brands/50.jpg",
+    img: "/brands/50.png",
     alt: "50",
   },
   {
@@ -248,7 +248,7 @@ const dataImg2 = [
     alt: "59",
   },
   {
-    img: "/brands/60.png",
+    img: "/brands/60.jpg",
     alt: "60",
   },
   {
@@ -273,7 +273,7 @@ const dataImg2 = [
     alt: "65",
   },
   {
-    img: "/brands/66.png",
+    img: "/brands/66.jpg",
     alt: "66",
   },
   {
@@ -281,7 +281,7 @@ const dataImg2 = [
     alt: "67",
   },
   {
-    img: "/brands/68.png",
+    img: "/brands/68.jpg",
     alt: "68",
   },
   {
@@ -293,7 +293,7 @@ const dataImg2 = [
     alt: "70",
   },
   {
-    img: "/brands/71.jpg",
+    img: "/brands/71.png",
     alt: "71",
   },
   {
@@ -309,7 +309,7 @@ const dataImg2 = [
     alt: "74",
   },
   {
-    img: "/brands/75.jpg",
+    img: "/brands/75.png",
     alt: "75",
   },
   {
@@ -318,11 +318,10 @@ const dataImg2 = [
   },
   {
     img: "/brands/77.jpg",
-
     alt: "77",
   },
   {
-    img: "/brands/78.jpg",
+    img: "/brands/78.png",
     alt: "78",
   },
   {
@@ -346,8 +345,84 @@ const dataImg2 = [
     alt: "83",
   },
   {
-    img: "/brands/84.png",
+    img: "/brands/84.jpg",
     alt: "84",
+  },
+  {
+    img: "/brands/85.jpg",
+    alt: "85",
+  },
+  {
+    img: "/brands/86.jpg",
+    alt: "86",
+  },
+  {
+    img: "/brands/87.jpg",
+    alt: "87",
+  },
+  {
+    img: "/brands/88.jpg",
+    alt: "88",
+  },
+  {
+    img: "/brands/89.jpg",
+    alt: "89",
+  },
+  {
+    img: "/brands/90.jpg",
+    alt: "90",
+  },
+  {
+    img: "/brands/91.jpg",
+    alt: "91",
+  },
+  {
+    img: "/brands/92.jpg",
+    alt: "92",
+  },
+  {
+    img: "/brands/93.jpg",
+    alt: "93",
+  },
+  {
+    img: "/brands/94.png",
+    alt: "94",
+  },
+  {
+    img: "/brands/95.jpg",
+    alt: "95",
+  },
+  {
+    img: "/brands/96.png",
+    alt: "96",
+  },
+  {
+    img: "/brands/97.jpg",
+    alt: "97",
+  },
+  {
+    img: "/brands/98.jpg",
+    alt: "98",
+  },
+  {
+    img: "/brands/99.jpg",
+    alt: "99",
+  },
+  {
+    img: "/brands/100.jpg",
+    alt: "100",
+  },
+  {
+    img: "/brands/101.jpg",
+    alt: "101",
+  },
+  {
+    img: "/brands/102.jpg",
+    alt: "102",
+  },
+  {
+    img: "/brands/103.jpg",
+    alt: "103",
   },
 ];
 
