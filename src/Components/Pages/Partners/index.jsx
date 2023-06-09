@@ -7,6 +7,7 @@ import Invite from './Invite';
 import Information from './Information';
 import Brands from '../HomePage/Brands';
 import Application from './Application';
+// import MyForm from './MyForm';
 
 const Partners = () => {
     return (
@@ -17,6 +18,7 @@ const Partners = () => {
             <Invite/>
             <Information/>
             <Brands/>
+            {/* <MyForm/> */}
             <Application/>
             <Footer/>
         </div>

@@ -143,6 +143,7 @@
     "surhondaryo":"Surkhondarya",
     "qashqadaryo":"Qashqadarya",
     "name": "Name",
+    "email": "Email",
     "phNumber": "Your phone number",
     "message": "Request (optional)",
     "error": "Must be filled",
