@@ -65,6 +65,11 @@ function MyApp({ Component, pageProps }) {
     AOS.refresh();
   }, [router.pathname]);
 
+  useEffect(() =>{
+    const formTitle = document.getElementsByClassName('amoforms__field__name-header')
+    console.log("title",formTitle);
+  }, [])
+
 
   return (
     <HeaderProvider>
