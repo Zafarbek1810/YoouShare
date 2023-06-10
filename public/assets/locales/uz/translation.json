@@ -143,6 +143,7 @@
     "surhondaryo":"Surhondaryo",
     "qashqadaryo":"Qashqadaryo",
     "name": "Ism",
+    "email": "Email",
     "phNumber": "Sizning telefon raqamingiz",
     "message": "So'rov (ixtiyoriy)",
     "error": "To'ldirilishi kerak",

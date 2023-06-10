@@ -3,6 +3,7 @@ import styled from "styled-components";
 const ApplicationStyle = styled.div`
   padding: 100px 0;
   background-color: #fff;
+  position: relative !important;
   h2 {
     font-family: "Inter";
     font-style: normal;
@@ -118,7 +119,11 @@ const ApplicationStyle = styled.div`
       }
     }
   }
-
+.amoforms-sended-message{
+  position: absolute !important;
+  left: 0;
+  top: 0;
+}
   @media (max-width: 768px) {
     padding: 50px 0;
 
