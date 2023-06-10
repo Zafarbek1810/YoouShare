@@ -6,423 +6,423 @@ import Container from "../../../Common/Container";
 const dataImg = [
   {
     img: "/brands/1.png",
-    alt: "1",
+    alt: "1. Logo brands of our partners",
   },
   {
     img: "/brands/2.png",
-    alt: "2",
+    alt: "2. Logo brands of our partners",
   },
   {
     img: "/brands/3.png",
-    alt: "3",
+    alt: "3. Logo brands of our partners",
   },
   {
     img: "/brands/4.jpg",
-    alt: "4",
+    alt: "4. Logo brands of our partners",
   },
   {
     img: "/brands/5.png",
-    alt: "5",
+    alt: "5. Logo brands of our partners",
   },
   {
     img: "/brands/6.png",
-    alt: "6",
+    alt: "6. Logo brands of our partners",
   },
   {
     img: "/brands/7.png",
-    alt: "7",
+    alt: "7. Logo brands of our partners",
   },
   {
     img: "/brands/8.jpg",
 
-    alt: "8",
+    alt: "8. Logo brands of our partners",
   },
   {
     img: "/brands/9.png",
-    alt: "9",
+    alt: "9. Logo brands of our partners",
   },
   {
     img: "/brands/10.png",
-    alt: "10",
+    alt: "10. Logo brands of our partners",
   },
   {
     img: "/brands/11.png",
-    alt: "11",
+    alt: "11. Logo brands of our partners",
   },
   {
     img: "/brands/12.png",
-    alt: "12",
+    alt: "12. Logo brands of our partners",
   },
 ];
 
 const dataImg2 = [
   {
     img: "/brands/13.jpg",
-    alt: "13",
+    alt: "13. Logo brands of our partners",
   },
   {
     img: "/brands/14.png",
-    alt: "14",
+    alt: "14. Logo brands of our partners",
   },
   {
     img: "/brands/15.png",
-    alt: "15",
+    alt: "15. Logo brands of our partners",
   },
   {
     img: "/brands/16.jpg",
-    alt: "16",
+    alt: "16. Logo brands of our partners",
   },
   {
     img: "/brands/17.png",
 
-    alt: "17",
+    alt: "17. Logo brands of our partners",
   },
   {
     img: "/brands/18.jpg",
-    alt: "18",
+    alt: "18. Logo brands of our partners",
   },
   {
     img: "/brands/19.png",
-    alt: "19",
+    alt: "19. Logo brands of our partners",
   },
   {
     img: "/brands/20.png",
-    alt: "20",
+    alt: "20. Logo brands of our partners",
   },
   {
     img: "/brands/21.png",
-    alt: "21",
+    alt: "21. Logo brands of our partners",
   },
   {
     img: "/brands/22.png",
-    alt: "22",
+    alt: "22. Logo brands of our partners",
   },
   {
     img: "/brands/23.jpg",
-    alt: "23",
+    alt: "23. Logo brands of our partners",
   },
   {
     img: "/brands/24.jpg",
-    alt: "24",
+    alt: "24. Logo brands of our partners",
   },
   {
     img: "/brands/25.png",
-    alt: "25",
+    alt: "25. Logo brands of our partners",
   },
   {
     img: "/brands/26.svg",
-    alt: "26",
+    alt: "26. Logo brands of our partners",
   },
   {
     img: "/brands/27.jpg",
-    alt: "27",
+    alt: "27. Logo brands of our partners",
   },
   {
     img: "/brands/28.jpg",
-    alt: "28",
+    alt: "28. Logo brands of our partners",
   },
   {
     img: "/brands/29.jpg",
-    alt: "29",
+    alt: "29. Logo brands of our partners",
   },
   {
     img: "/brands/30.jpg",
-    alt: "30",
+    alt: "30. Logo brands of our partners",
   },
   {
     img: "/brands/31.jpg",
-    alt: "31",
+    alt: "31. Logo brands of our partners",
   },
 
   {
     img: "/brands/32.jpg",
-    alt: "32",
+    alt: "32. Logo brands of our partners",
   },
   {
     img: "/brands/33.jpg",
-    alt: "33",
+    alt: "33. Logo brands of our partners",
   },
   {
     img: "/brands/34.jpg",
-    alt: "34",
+    alt: "34. Logo brands of our partners",
   },
   {
     img: "/brands/35.png",
-    alt: "35",
+    alt: "35. Logo brands of our partners",
   },
   {
     img: "/brands/36.png",
-    alt: "36",
+    alt: "36. Logo brands of our partners",
   },
   {
     img: "/brands/37.jpg",
-    alt: "37",
+    alt: "37. Logo brands of our partners",
   },
   {
     img: "/brands/38.jpg",
-    alt: "38",
+    alt: "38. Logo brands of our partners",
   },
   {
     img: "/brands/39.png",
-    alt: "39",
+    alt: "39. Logo brands of our partners",
   },
   {
     img: "/brands/40.jpg",
-    alt: "40",
+    alt: "40. Logo brands of our partners",
   },
   {
     img: "/brands/41.jpg",
-    alt: "41",
+    alt: "41. Logo brands of our partners",
   },
   {
     img: "/brands/42.jpg",
-    alt: "42",
+    alt: "42. Logo brands of our partners",
   },
   {
     img: "/brands/43.jpg",
-    alt: "43",
+    alt: "43. Logo brands of our partners",
   },
   {
     img: "/brands/44.jpg",
-    alt: "44",
+    alt: "44. Logo brands of our partners",
   },
   {
     img: "/brands/45.jpg",
-    alt: "45",
+    alt: "45. Logo brands of our partners",
   },
   {
     img: "/brands/46.jpg",
-    alt: "46",
+    alt: "46. Logo brands of our partners",
   },
   {
     img: "/brands/47.jpg",
-    alt: "47",
+    alt: "47. Logo brands of our partners",
   },
   {
     img: "/brands/48.jpg",
-    alt: "48",
+    alt: "48. Logo brands of our partners",
   },
   {
     img: "/brands/49.jpg",
-    alt: "49",
+    alt: "49. Logo brands of our partners",
   },
   {
     img: "/brands/50.png",
-    alt: "50",
+    alt: "50. Logo brands of our partners",
   },
   {
     img: "/brands/51.jpg",
-    alt: "51",
+    alt: "51. Logo brands of our partners",
   },
   {
     img: "/brands/52.jpg",
-    alt: "52",
+    alt: "52. Logo brands of our partners",
   },
   {
     img: "/brands/53.jpg",
-    alt: "53",
+    alt: "53. Logo brands of our partners",
   },
   {
     img: "/brands/54.jpg",
-    alt: "54",
+    alt: "54. Logo brands of our partners",
   },
   {
     img: "/brands/55.jpg",
-    alt: "55",
+    alt: "55. Logo brands of our partners",
   },
   {
     img: "/brands/56.jpg",
-    alt: "56",
+    alt: "56. Logo brands of our partners",
   },
   {
     img: "/brands/57.jpg",
 
-    alt: "57",
+    alt: "57. Logo brands of our partners",
   },
   {
     img: "/brands/58.jpg",
-    alt: "58",
+    alt: "58. Logo brands of our partners",
   },
   {
     img: "/brands/59.jpg",
-    alt: "59",
+    alt: "59. Logo brands of our partners",
   },
   {
     img: "/brands/60.jpg",
-    alt: "60",
+    alt: "60. Logo brands of our partners",
   },
   {
     img: "/brands/61.jpg",
-    alt: "61",
+    alt: "61. Logo brands of our partners",
   },
 
   {
     img: "/brands/62.jpg",
-    alt: "62",
+    alt: "62. Logo brands of our partners",
   },
   {
     img: "/brands/63.jpg",
-    alt: "63",
+    alt: "63. Logo brands of our partners",
   },
   {
     img: "/brands/64.jpg",
-    alt: "64",
+    alt: "64. Logo brands of our partners",
   },
   {
     img: "/brands/65.jpg",
-    alt: "65",
+    alt: "65. Logo brands of our partners",
   },
   {
     img: "/brands/66.jpg",
-    alt: "66",
+    alt: "66. Logo brands of our partners",
   },
   {
     img: "/brands/67.jpg",
-    alt: "67",
+    alt: "67. Logo brands of our partners",
   },
   {
     img: "/brands/68.jpg",
-    alt: "68",
+    alt: "68. Logo brands of our partners",
   },
   {
     img: "/brands/69.jpg",
-    alt: "69",
+    alt: "69. Logo brands of our partners",
   },
   {
     img: "/brands/70.jpg",
-    alt: "70",
+    alt: "70. Logo brands of our partners",
   },
   {
     img: "/brands/71.png",
-    alt: "71",
+    alt: "71. Logo brands of our partners",
   },
   {
     img: "/brands/72.png",
-    alt: "72",
+    alt: "72. Logo brands of our partners",
   },
   {
     img: "/brands/73.jpg",
-    alt: "73",
+    alt: "73. Logo brands of our partners",
   },
   {
     img: "/brands/74.jpg",
-    alt: "74",
+    alt: "74. Logo brands of our partners",
   },
   {
     img: "/brands/75.png",
-    alt: "75",
+    alt: "75. Logo brands of our partners",
   },
   {
     img: "/brands/76.jpg",
-    alt: "76",
+    alt: "76. Logo brands of our partners",
   },
   {
     img: "/brands/77.jpg",
-    alt: "77",
+    alt: "77. Logo brands of our partners",
   },
   {
     img: "/brands/78.png",
-    alt: "78",
+    alt: "78. Logo brands of our partners",
   },
   {
     img: "/brands/79.jpg",
-    alt: "79",
+    alt: "79. Logo brands of our partners",
   },
   {
     img: "/brands/80.jpg",
-    alt: "80",
+    alt: "80. Logo brands of our partners",
   },
   {
     img: "/brands/81.jpg",
-    alt: "81",
+    alt: "81. Logo brands of our partners",
   },
   {
     img: "/brands/82.jpg",
-    alt: "82",
+    alt: "82. Logo brands of our partners",
   },
   {
     img: "/brands/83.jpg",
-    alt: "83",
+    alt: "83. Logo brands of our partners",
   },
   {
     img: "/brands/84.jpg",
-    alt: "84",
+    alt: "84. Logo brands of our partners",
   },
   {
     img: "/brands/85.jpg",
-    alt: "85",
+    alt: "85. Logo brands of our partners",
   },
   {
     img: "/brands/86.jpg",
-    alt: "86",
+    alt: "86. Logo brands of our partners",
   },
   {
     img: "/brands/87.jpg",
-    alt: "87",
+    alt: "87. Logo brands of our partners",
   },
   {
     img: "/brands/88.jpg",
-    alt: "88",
+    alt: "88. Logo brands of our partners",
   },
   {
     img: "/brands/89.jpg",
-    alt: "89",
+    alt: "89. Logo brands of our partners",
   },
   {
     img: "/brands/90.jpg",
-    alt: "90",
+    alt: "90. Logo brands of our partners",
   },
   {
     img: "/brands/91.jpg",
-    alt: "91",
+    alt: "91. Logo brands of our partners",
   },
   {
     img: "/brands/92.jpg",
-    alt: "92",
+    alt: "92. Logo brands of our partners",
   },
   {
     img: "/brands/93.jpg",
-    alt: "93",
+    alt: "93. Logo brands of our partners",
   },
   {
     img: "/brands/94.png",
-    alt: "94",
+    alt: "94. Logo brands of our partners",
   },
   {
     img: "/brands/95.jpg",
-    alt: "95",
+    alt: "95. Logo brands of our partners",
   },
   {
     img: "/brands/96.png",
-    alt: "96",
+    alt: "96. Logo brands of our partners",
   },
   {
     img: "/brands/97.jpg",
-    alt: "97",
+    alt: "97. Logo brands of our partners",
   },
   {
     img: "/brands/98.jpg",
-    alt: "98",
+    alt: "98. Logo brands of our partners",
   },
   {
     img: "/brands/99.jpg",
-    alt: "99",
+    alt: "99. Logo brands of our partners",
   },
   {
     img: "/brands/100.jpg",
-    alt: "100",
+    alt: "100. Logo brands of our partners",
   },
   {
     img: "/brands/101.jpg",
-    alt: "101",
+    alt: "101. Logo brands of our partners",
   },
   {
     img: "/brands/102.jpg",
-    alt: "102",
+    alt: "102. Logo brands of our partners",
   },
   {
     img: "/brands/103.jpg",
-    alt: "103",
+    alt: "103. Logo brands of our partners",
   },
 ];
 

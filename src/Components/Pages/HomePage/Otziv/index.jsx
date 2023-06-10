@@ -114,7 +114,7 @@ const Otziv = () => {
              
               <div className="card__content">
                 <span className="icon">
-                  <img src="/images/Union.png" alt="" />
+                  <img src="/images/Union.png" alt="Reviews union image" />
                 </span>
                 <p className="card__text">
                   {t(item.title)}

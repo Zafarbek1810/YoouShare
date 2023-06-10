@@ -11,10 +11,10 @@ const Modal = ({ setIsSuccess }) => {
               setIsSuccess(false);
             }}
           >
-            <img src="/images/x-icon.svg" alt="" />
+            <img src="/images/x-icon.svg" alt="Exit button image" />
           </button>
           <div className="circle">
-            <img src="/images/confirm-icon.svg" alt="Confirm Image" />
+            <img src="/images/confirm-icon.svg" alt="Confirm image for coupon" />
           </div>
         </div>
         <div className="bottom">

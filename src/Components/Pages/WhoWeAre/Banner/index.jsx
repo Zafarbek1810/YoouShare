@@ -13,7 +13,7 @@ const Banner = () => {
         <div className="wrap">
           <div className="left" data-aos={"fade-right"}>
             <div className="img">
-              <img src="/images/ktomi.jpg" alt="cat" />
+              <img src="/images/ktomi.jpg" alt="Power bank station in cafe" />
             </div>
           </div>
           <div className="right" data-aos={"fade-left"}>
@@ -33,7 +33,7 @@ const Banner = () => {
           </div>
           <div className="right" data-aos={"fade-left"}>
             <div className="img">
-              <img src="/images/Screenshot2.png" alt="cat" />
+              <img src="/images/Screenshot2.png" alt="Yoou0 Share Director's images" />
             </div>
           </div>
         </div>

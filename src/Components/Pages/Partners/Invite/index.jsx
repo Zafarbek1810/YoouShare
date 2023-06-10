@@ -18,12 +18,12 @@ const Invite = () => {
              {t("invite.text")}
             </div>
             <MyLink to="https://onelink.to/yooushare">{t("invite.btn")}</MyLink>
-            <img src="/images/YoouShareQR.png" alt="" />
+            <img src="/images/YoouShareQR.png" alt="Yoou Share QR" />
           </div>
 
           <div className="right" data-aos={"fade-left"}>
             <div className="img">
-              <img src="/images/announcement.png" alt="" />
+              <img src="/images/announcement.png" alt="announcement image" />
             </div>
           </div>
         </div>

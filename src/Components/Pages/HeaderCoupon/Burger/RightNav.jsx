@@ -87,13 +87,13 @@ const RightNav = ({ open }) => {
               onChange={handleChange}
             >
               <Option value="ru" className="options">
-                <img src="/images/ru.png" alt="" /> Рус
+                <img src="/images/ru.png" alt="Russian flag" /> Рус
               </Option>
               <Option value="en" className="options">
-              <img src="/images/us.png" alt="" /> Eng
+              <img src="/images/us.png" alt="American flag" /> Eng
               </Option>
               <Option value="uz" className="options">
-              <img src="/images/uz.png" alt="" /> Uzb
+              <img src="/images/uz.png" alt="Uzbekistan flag" /> Uzb
               </Option>
             </Select>
           </div>

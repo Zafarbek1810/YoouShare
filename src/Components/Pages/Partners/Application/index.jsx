@@ -112,7 +112,7 @@ const Application = () => {
           </div>
           <div className="right" data-aos={"fade-left"}>
             <div className="img">
-              <img src="/images/application.png" alt="" />
+              <img src="/images/application.png" alt="Partners application image" />
             </div>
           </div>
         </div>

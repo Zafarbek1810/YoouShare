@@ -27,7 +27,7 @@ const Banner = () => {
                     </ul>
                 </div>
                 <div className="right" >
-                    <img data-aos={"fade-left"} src="/images/banner-right.png" alt="" />
+                    <img data-aos={"fade-left"} src="/images/banner-right.png" alt="Yooy Share power banks station image" />
                 </div>
             </div>
             </Container>

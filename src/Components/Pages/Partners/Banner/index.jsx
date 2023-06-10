@@ -14,7 +14,7 @@ const Banner = () => {
       <div className="wrap">
         <div className="top" >
           <h3 className="title" data-aos={"fade-up"}>{t("partners.title")}</h3>
-          <img src="/images/charge.jpg" alt="" data-aos={"fade-up"} />
+          <img src="/images/charge.jpg" alt="Power bank station in restaurant" data-aos={"fade-up"} />
           <div className="qr" data-aos={"fade-right"}>
             <QrCodeSvg />
           </div>
@@ -25,10 +25,10 @@ const Banner = () => {
               <div className="left" data-aos={"fade-right"}>
                 <h3 className="title">{t("partners.left-title")}</h3>
                 <ul>
-                  <li><img src="/images/partner1.png" alt="" />{t("partners.leftP1")}</li>
-                  <li><img src="/images/partner2.png" alt="" />{t("partners.leftP2")}</li>
-                  <li><img src="/images/partner3.png" alt="" />{t("partners.leftP3")}</li>
-                  <li><img src="/images/partner4.png" alt="" />{t("partners.leftP4")}</li>
+                  <li><img src="/images/partner1.png" alt="Advertising establishments icon" />{t("partners.leftP1")}</li>
+                  <li><img src="/images/partner2.png" alt="Let's create comfort icon" />{t("partners.leftP2")}</li>
+                  <li><img src="/images/partner3.png" alt="More charge more customer icon" />{t("partners.leftP3")}</li>
+                  <li><img src="/images/partner4.png" alt="Additional flow of clients icon" />{t("partners.leftP4")}</li>
                 </ul>
               </div>
               <div className="right" data-aos={"fade-left"}>
@@ -36,7 +36,7 @@ const Banner = () => {
                 <ul>
                   <li><span>B2C</span>{t("partners.rightP1")}</li>
                   <li><span>B2B</span>{t("partners.rightP2")}</li>
-                </ul>
+                </ul>/./...
               </div>
             </div>
             <div className="btn" data-aos={"zoom-in"}>
