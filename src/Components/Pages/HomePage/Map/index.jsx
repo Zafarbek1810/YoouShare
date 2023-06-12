@@ -1,32 +1,9 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { MapWrapper } from "./Map.style";
-import { ObjectManager, YMaps } from "react-yandex-maps";
 
 const Map = () => {
   const { t } = useTranslation();
-
-  const features = [
-  {
-    id: 1,
-    name: "Location A",
-    coordinates: [55.751574, 37.573856],
-    // other properties specific to Location A
-  },
-  {
-    id: 2,
-    name: "Location B",
-    coordinates: [55.754422, 37.582327],
-    // other properties specific to Location B
-  },
-  {
-    id: 3,
-    name: "Location C",
-    coordinates: [55.759865, 37.584874],
-    // other properties specific to Location C
-  },
-  // more feature objects...
-];
 
   return (
     <MapWrapper>
