@@ -8,19 +8,33 @@ import Header from "../../Pages/HeaderCoupon/Header";
 import PhoneInput from "react-phone-number-input";
 import "react-phone-number-input/style.css";
 import { Alert } from "antd";
+import { getCountries } from "react-phone-number-input";
+import { getCountryCallingCode } from 'react-phone-number-input/input';
+import { parsePhoneNumberFromString } from 'react-phone-number-input';
+import { formatPhoneNumber } from "react-phone-number-input";
+import { toast } from "react-toastify";
 
 const Coupon = () => {
   const { t } = useTranslation();
-  const [phone, setPhone] = useState("");
   const router = useRouter();
   const [url, setUrl] = useState("https://yoou.uz");
   const [referralsCode, setReferralsCode] = useState("");
   const [isSuccess, setIsSuccess] = useState(false);
+  const [phone, setPhone] = useState("");
+  const [code, setCode] = useState("");
+  
+
+  const handlePhoneNumberChange = (value) => {
+    setPhone(value);
+    setCode(getCountryCallingCode("UZ"));
+
+  };
 
   useEffect(() => {
     var query = window.location.search.substring(1);
     var vars = query.split("&");
     let referralsCode;
+   
     for (var i = 0; i < vars.length; i++) {
       var pair = vars[i].split("=");
       if (pair[0] == "referralsCode") {
@@ -45,7 +59,6 @@ const Coupon = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(phone, "submit");
-    console.log(phone);
 
     if (phone) {
       axios
@@ -53,17 +66,20 @@ const Coupon = () => {
           "https://yoou.stwpower.com/power_bank/api/user/saveReferralRecord",
           {
             referralCode: referralsCode,
-            phone: phone.slice(1),
+            code: +code,
+            phone: +phone.slice(4),
           }
         )
         .then(function (response) {
+          console.log(response);
           if (response.data.code === 200) {
             setIsSuccess(true);
             setTimeout(() => {
               router.push(url);
             }, 5000);
           } else {
-            <Alert message={response.data.message} type="error" />
+            // <Alert message="isss" type="error" />
+            toast.error(response.data.message)
           }
         })
         .catch(function (error) {
@@ -72,7 +88,7 @@ const Coupon = () => {
     }
   };
 
-  console.log(phone)
+  console.log(phone.slice(1))
 
   return (
     <>
@@ -85,31 +101,12 @@ const Coupon = () => {
         ) : null}
         <div className="wrapper">
           <form className="submit" onSubmit={handleSubmit}>
-            {/* <select>
-              {code.map((item) => (
-                <option
-                  key={item}
-                  value={item.dial_code}
-                  defaultValue={item.code === "UZ"}
-                >
-                  {item.code}
-                </option>
-              ))}
-            </select> */}
             <PhoneInput
               international
               defaultCountry="UZ"
-              onChange={(value) => setPhone(value)}
+              value={phone}
+              onChange={handlePhoneNumberChange}
             />
-            {/* <PatternFormat
-              type="tel"
-              format="998#########"
-              mask="_"
-              onValueChange={(value) => setPhone(value.formattedValue)}
-              placeholder="+998 "
-              required
-              className="inputNumber"
-            /> */}
             <button type="submit" className="btn">
               {t("couponPage.btn")}
             </button>
