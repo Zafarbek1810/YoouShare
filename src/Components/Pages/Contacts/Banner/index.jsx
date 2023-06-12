@@ -32,7 +32,7 @@ const Banner = () => {
         <div className="wrap">
           {data.map((v, i) => (
             <div className="item" key={i} data-aos={"fade-up"}>
-              <img src={v.img} alt="" />
+              <img src={v.img} alt="Contact icons" />
               <p data-aos={"fade-up"}>{t(v.title)}</p>
             </div>
           ))}

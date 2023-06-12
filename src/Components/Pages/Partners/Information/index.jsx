@@ -11,7 +11,7 @@ const Information = () => {
   const dataBig = [
     {
       title: "information.info1",
-      value: "400 х 190 х 190 information.info6",
+      value: "information.info6.1",
     },
     {
       title: "information.info2",
@@ -85,7 +85,7 @@ const Information = () => {
           <div className="box">
             <div className="left" data-aos={"fade-right"}>
                 <div className="img">
-                    <img src="/images/information.png" alt="" />
+                    <img src="/images/information.png" alt="Yoou Share big station image" />
                 </div>
             </div>
             <div className="right" data-aos={"fade-left"}>
@@ -118,14 +118,14 @@ const Information = () => {
             </div>
             <div className="right" data-aos={"fade-left"}>
             <div className="img">
-                    <img src="/images/information2.png" alt="" />
+                    <img src="/images/information2.png" alt="Yoou Share middle station image" />
                 </div>
             </div>
           </div>
           <div className="box">
             <div className="left" data-aos={"fade-right"}>
             <div className="img">
-                    <img src="/images/information3.png" alt="" />
+                    <img src="/images/information3.png" alt="Yoou Share mini station image" />
                 </div>
             </div>
             <div className="right" data-aos={"fade-left"}>

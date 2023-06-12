@@ -12,7 +12,7 @@ const PowerBank = () => {
       <Container>
         <div className="wrap">
           <div className="left" data-aos={"fade-right"}>
-            <img src="/images/powerbank.png" alt="" />
+            <img src="/images/powerbank.png" alt="Yoou Share's powerbank image" />
           </div>
           <div className="right" data-aos={"fade-left"}>
             <h3 className="title">
