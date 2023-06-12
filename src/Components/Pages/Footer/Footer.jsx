@@ -29,10 +29,10 @@ const Footer = () => {
           <div className="col-2" data-aos={"fade-up"}>
             <h5 className="title">{t("footer.download")}</h5>
             <div className="app">
-              <a href="https://onelink.to/yooushare">
+              <a href="https://apps.apple.com/uz/app/yoou-share/id1537781052">
                 <AppleSvg />
               </a>
-              <a href="https://onelink.to/yooushare">
+              <a href="https://play.google.com/store/apps/details?id=com.yoousharefcm">
                 <PlayMarketLogo />
               </a>
             </div>

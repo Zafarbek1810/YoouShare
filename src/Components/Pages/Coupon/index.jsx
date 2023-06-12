@@ -78,7 +78,6 @@ const Coupon = () => {
               router.push(url);
             }, 5000);
           } else {
-            // <Alert message="isss" type="error" />
             toast.error(response.data.message)
           }
         })
@@ -111,7 +110,9 @@ const Coupon = () => {
               {t("couponPage.btn")}
             </button>
           </form>
-          <p>{t("couponPage.text")}</p>
+          <p>
+          <div dangerouslySetInnerHTML={{ __html: t("couponPage.text") }} />
+          </p>
         </div>
       </CouponStyle>
     </>

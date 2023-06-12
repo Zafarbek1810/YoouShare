@@ -25,7 +25,7 @@ const Tarif = () => {
         },
         {
             title:"tarif.box4",
-            price:"150 000",
+            price:"180 000",
             currency:"UZS"
         },
     

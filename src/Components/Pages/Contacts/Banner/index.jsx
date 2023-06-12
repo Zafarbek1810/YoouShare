@@ -10,7 +10,7 @@ const data = [
   },
   {
     img: "/images/contact-icon2.png",
-    title: "info@themind.uz",
+    title: "info@yoou.uz",
   },
   {
     img: "/images/contact-icon3.png",

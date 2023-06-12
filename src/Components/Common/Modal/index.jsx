@@ -1,7 +1,28 @@
 import React from "react";
 import ModalStyle from "./modal.style";
+import { useEffect } from "react";
+import { useState } from "react";
 
 const Modal = ({ setIsSuccess }) => {
+  const [countdown, setCountdown] = useState(5);
+  
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCountdown((prevCountdown) => {
+        if (prevCountdown > 0) {
+          return prevCountdown - 1;
+        } else {
+          console.log('Modal closed');
+          clearInterval(timer);
+          return prevCountdown;
+        }
+      });
+    }, 1000);
+    return () => {
+      clearInterval(timer);
+    };
+  }, []);
+
   return (
     <ModalStyle>
       <div className="box" >
@@ -24,7 +45,7 @@ const Modal = ({ setIsSuccess }) => {
             воспользоваться им, отправляем вас в маркет для скачивания
             приложения
           </p>
-          <p className="number">10</p>
+          <p className="number">{countdown}</p>
         </div>
       </div>
     </ModalStyle>

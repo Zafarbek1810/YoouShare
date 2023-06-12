@@ -14,8 +14,8 @@
     "ul1": "Install an app",
     "ul2": "Find a station",
     "ul3": "Scan the QR code to start renting",
-    "ul4": "Take your powerbank with you",
-    "ul5": "Return to any station"
+    "ul4": "Take your power bank with you",
+    "ul5": "Return to any free station"
 
   },
   "yoouShare": {
@@ -33,7 +33,7 @@
     "box1": "Hourly rental price",
     "box2": "The cost of a day rent",
     "box3": "Rental price for three days",
-    "box4": "In return, a powerbank"
+    "box4": "For non-return of the power bank"
   },
   
   "powerBank": {
@@ -165,24 +165,24 @@
   },
   "collapse": {
     "question1": "How much does it cost?",
-    "answer1": "3,000 soums per hour, after 3 hours 10,000 per day. Round up to the next hour. The first 3 minutes are free to check the bank.",
+    "answer1": "3,000 soums per hour, after 3 hours 10,000 per day. Round up to the next hour. The first 3 minutes are free to check the power bank.",
     "question2": "How to use?",
-    "answer2": "Scan the QR code at the station or go to the AppStore or GooglePlay. Just search for “Yoou” and download the app \n• Register with your number and link the card. No pledges! \n• Отсscan the QR code at the station and take the power bank. \n• Bring back the bank. Rent is paid only after the return! \n• You can return the power bank to the station closest to you - you will find it on the map in the application. See how many slots there are for the return.",
+    "answer2": "Scan the QR code at the station or go to the AppStore or Google Play. Just search for “Yoou” and download the app \n• Register with your number and link the card. No pledges! \n• Scan the QR code at the station and take the power bank. \n• Bring back the power bank. Rent is paid only after the return! \n• You can return the power bank to the station closest to you - you will find it on the map in the application. See how many slots there are for the return.",
     "question3": "How to return the power bank?",
-    "answer3": "• Find a station with a free slot in the app - we'll show you the closest one on the map. \n• Insert the power bank into the slot of the working station, press it a little and wait a couple of seconds. The light will turn on, check your rental in the app. \n• If the time has not run out, call us at +998991970404, we will try to quickly resolve your issue and return the overcharged funds.",
+    "answer3": "• Find a station with a free slot in the app - we'll show you the closest one on the map. \n• Insert the power bank into the slot of the working station, press it a little and wait a couple of seconds. The light will turn on, check your rental in the app. \n• If the time has not run out, call us at +998 99 197 04 04, we will try to quickly resolve your issue and return the overcharged funds.",
     "question4": "How to find out if there are power banks or free space?",
-    "answer4": "Click on a point on the map in the application. In the lower left corner it is written how many power banks are ready for rent, and how much space to return.",
+    "answer4": "Click on a point on the map in the application. In the lower left corner, it is written how many power banks are ready for rent, and how much space to return.",
     "question5": "What cables are included?",
     "answer5": "Type-C, micro-USB, Lightning for iPhone. Connect any cable of your choice - they are built into the power bank.",
     "question6": "How secure is a power bank??",
     "answer6": "Completely safe - just like a regular charger. Our power banks are produced in compliance with all international standards and with full certification.",
-    "question7": "All the slots in the machine are full, and I can't turn over the bank. What to do?",
-    "answer7": "• Most importantly, don't leave your power bank to other people - even if it's a waiter. The power bank must be returned by the same person who rented it. \n• Look at the map of charging stations in the application - there you will find the nearest place where you can eat free space. Or call us at +998991970404.",
+    "question7": "All the slots in the machine are full, and I can't turn over the power bank. What to do?",
+    "answer7": "• Most importantly, don't leave your power bank to other people - even if it's a waiter. The power bank must be returned by the same person who rented it. \n• Look at the map of charging stations in the application - there you will find the nearest place where there is a free place.",
     "question8": "Have questions?",
-    "answer8": "Call us at the call center at +998991970404 and we will try to help you promptly."
+    "answer8": "Call us at the call center at +998 99 197 04 04, or make a request using the form on the website."
   },
   "couponPage": {
-    "text": "Register your number, download the application and make your first rental. Your friend will receive money on the application balance, and you will receive a coupon with a free rent for a day! To get it, go to the coupon section in the app menu and enter the code NEWREF.Click on the button to use the coupon.Attention! The coupon works once, regardless of the time of the perfect rental!",
+    "text": "Register your number, download the application and make your first rental. Your friend will receive money on the application balance, and you will receive a coupon with a free rent for a day! To get it, go to the coupon section in the app menu and enter the code <b>NEWREF</b>. Click on the button to use the coupon. \nAttention! \nThe coupon works once, regardless of the time of the perfect rental!",
     "btn": "Registration"
   },
   "politika": {

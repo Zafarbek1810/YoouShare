@@ -10,11 +10,11 @@ const Second = () => {
   const data = [
     {
       title: "whoWe.box1",
-      price: "10 000",
+      price: "11 000+",
     },
     {
       title: "whoWe.box2",
-      price: "90",
+      price: "170",
     },
     {
       title: "whoWe.box3",
