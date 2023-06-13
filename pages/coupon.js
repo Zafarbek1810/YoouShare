@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Coupon from '../src/Components/Pages/Coupon'
+const SEO = dynamic(() => import('./seo'));
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <meta name="twitter:image" content="https://i.ibb.co/cQC6Xj4/seo.jpg" />
       </Head>
       <Coupon />
+      <SEO/>
 
     </div>
   )
