@@ -11,7 +11,8 @@ import i18n from "i18next";
 import { useTranslation, initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 import HttpApi from "i18next-http-backend";
-
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify';
 
 if (typeof window === undefined) {
   var window = {};
@@ -75,6 +76,17 @@ function MyApp({ Component, pageProps }) {
     <HeaderProvider>
       <Component {...pageProps} />
       {loading && <Loader loading2={loading2} />}
+      <ToastContainer
+          position="top-right"
+          autoClose={3000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+        />
       <Scrolltotop />
     </HeaderProvider>
   )

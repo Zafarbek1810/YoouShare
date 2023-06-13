@@ -24,6 +24,9 @@ const HeaderWrapper = styled.div`
       img{
         max-width: 100%;
       }
+      svg{
+        width: 100%;
+      }
     }
     @media (max-width: 470px) {
       .logo{

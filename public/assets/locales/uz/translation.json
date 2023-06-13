@@ -4,7 +4,9 @@
     "earnWith": "Birga pul ishlang",
     "howMuch": "Narxi qancha?",
     "whoWe": "Biz kimmiz?",
-    "contact": "Aloqa"
+    "contact": "Aloqa",
+    "karta":"Xarita",
+    "faq":"Savollar"
   },
   
   "banner": {
@@ -167,22 +169,22 @@
     "question1": "Buning narxi qancha?",
     "answer1": "Soatiga 3000 so'm, 3 soatdan keyin kuniga 10 000 so'm. Keyingi soatga yaxlitlang. Bankni tekshirish uchun dastlabki 3 daqiqa bepul.",
     "question2": "Qanday ishlatish?",
-    "answer2": "Stansiyada QR kodini skanerlang yoki AppStore yoki GooglePlay-ga o'ting. Shunchaki “Yoou” deb qidiring va ilovani yuklab oling \n• Raqamingiz bilan roʻyxatdan oʻting va kartani bogʻlang. Va'dalar yo'q! \n• Stansiyada QR kodni skanerlang va Power bank oling. \n• Power bank qaytarib olib keling. Ijara faqat qaytib kelgandan keyin to'lanadi! \n• Power bank sizga eng yaqin stansiyaga qaytarishingiz mumkin - uni ilovadagi xaritada topasiz. Qaytish uchun qancha stansiyalarborligini ko'ring.",
+    "answer2": "Stansiyada QR kodini yuklab oling yoki AppStore yoki Google Play-ga o'ting. Shunchaki “Yoou” deb qidiring va ilovani yuklab oling \n• Raqamingiz bilan roʻyxatdan oʻting va kartani bogʻlang. Va'dalar yo'q! \n• Stansiyada QR kodni yuklab oling va Power bank oling. \n• Power bank qaytarib olib keling. Ijara faqat qaytib kelgandan keyin to'lanadi! \n• Power bank sizga eng yaqin stansiyaga qaytarishingiz mumkin - uni ilovadagi xaritada topasiz. Qaytish uchun qancha stansiyalarborligini ko'ring.",
     "question3": "Power bank qanday qaytarish kerak?",
-    "answer3": "• Ilovada bepul slotga ega stantsiyani toping - biz sizga xaritada eng yaqinini ko'rsatamiz. \n• Power bankni ishchi stantsiya uyasiga soling, uni bir oz bosing va bir necha soniya kuting. Chiroq yonadi, ijarangizni ilovada tekshiring. \n• Vaqt tugamagan bo'lsa, +998991970404 raqamiga qo'ng'iroq qiling, muammoingizni tezda hal qilishga va ortiqcha to'langan pulni qaytarishga harakat qilamiz.",
+    "answer3": "• Ilovada bepul slotga ega stantsiyani toping - biz sizga xaritada eng yaqinini ko'rsatamiz. \n• Power bankni ishchi stantsiya uyasiga soling, uni bir oz bosing va bir necha soniya kuting. Chiroq yonadi, ijarangizni ilovada tekshiring. \n• Vaqt tugamagan bo'lsa, +998 99 197 04 04 raqamiga qo'ng'iroq qiling, muammoingizni tezda hal qilishga va ortiqcha to'langan pulni qaytarishga harakat qilamiz.",
     "question4": "Power banklari yoki bo'sh joy mavjudligini qanday aniqlash mumkin?",
-    "answer4": "Ilovadagi xaritadagi nuqtani bosing. Pastki chap burchakda qancha quvvat banki ijaraga tayyorligi va qancha joyni qaytarish kerakligi yozilgan.",
+    "answer4": "Ilovadagi xaritadagi nuqtani bosing. Pastki chap burchakda qancha quvvat power banki ijaraga tayyorligi va qancha joyni qaytarish kerakligi yozilgan.",
     "question5": "Qanday kabellar kiritilgan?",
     "answer5": "Type-C, micro-USB, iPhone uchun Lightning. Siz tanlagan har qanday kabelni ulang - ular power bankiga o'rnatilgan.",
     "question6": "Power banki qanchalik xavfsiz?",
     "answer6": "To'liq xavfsiz - oddiy zaryadlovchi kabi. Power banklarimiz barcha xalqaro standartlarga muvofiq va to'liq sertifikatlangan holda ishlab chiqariladi.",
     "question7": "Mashinaning barcha stansiyalari to'lgan va men power bankni aylantira olmayman. Nima qilsa bo'ladi?",
-    "answer7": "• Eng muhimi, power bankingizni boshqa odamlarga qoldirmang - garchi u ofitsiant bo'lsa ham. Power banki uni ijaraga olgan shaxs tomonidan qaytarilishi kerak. \n• Ilovada zaryadlash stansiyalari xaritasiga qarang - u yerda siz boʻsh joy yeyishingiz mumkin boʻlgan eng yaqin joyni topasiz. Yoki +998991970404 raqamiga qo'ng'iroq qiling.",
+    "answer7": "• Eng muhimi, power bankingizni boshqa odamlarga qoldirmang - garchi u ofitsiant bo'lsa ham. Power banki uni ijaraga olgan shaxs tomonidan qaytarilishi kerak. \n• • Ilovada zaryadlash stansiyalari xaritasiga qarang - u yerda siz boʻsh joy yeyishingiz mumkin boʻlgan eng yaqin joyni topasiz. ",
     "question8": "Savollaringiz bormi?",
-    "answer8": "+998991970404 raqamiga qo'ng'iroq qiling va biz sizga tezda yordam berishga harakat qilamiz."
+    "answer8": "Bizga +998 99 197 04 04 telefon raqami orqali qo'ng'iroq qiling yoki veb-saytdagi shakl orqali so'rov qoldiring."
   },
   "couponPage": {
-    "text": "Raqamingizni ro'yxatdan o'tkazing, ilovani yuklab oling va birinchi ijarangizni qiling.Do'stingiz ariza balansiga pul oladi, siz esa bir kunlik bepul ijara haqi bilan kupon olasiz! Uni olish uchun ilova menyusidagi kupon bo'limiga o'ting va YANGIREF kodini kiriting.Kupondan foydalanish uchun tugmani bosing. Diqqat! Kupon mukammal ijara vaqtidan qat'i nazar, bir marta ishlaydi!",
+    "text": "Raqamingizni ro'yxatdan o'tkazing, ilovani yuklab oling va birinchi ijarangizni qiling.Do'stingiz ariza balansiga pul oladi, siz esa bir kunlik bepul ijara haqi bilan kupon olasiz! Uni olish uchun ilova menyusidagi kupon bo'limiga o'ting va <b>NEWREF</b> kodini kiriting.Kupondan foydalanish uchun tugmani bosing. \nDiqqat! \nKupon mukammal ijara vaqtidan qat'i nazar, bir marta ishlaydi!",
     "btn": "Ro'yxatdan o'tish"
   },
   "politika": {

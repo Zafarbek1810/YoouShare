@@ -10,6 +10,19 @@ export default function Home() {
         <title>Yoou Share</title>
         <meta name="description" content="Возможность оставаться на связи 24 часа в сутки!" />
         <link rel="icon" href="/favicon.ico" />
+
+        <meta name="og:type" content="website" />
+        <meta name="og:url" content="https://metatags.io/" />
+        <meta name="og:title" content="Yoou Share" />
+        <meta name="og:description" content="Почасовая аренда Power Bank" />
+        <meta name="og:image" content="https://i.ibb.co/cQC6Xj4/seo.jpg" />
+
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://metatags.io/" />
+        <meta name="twitter:title" content="Yoou Share" />
+        <meta name="twitter:description" content="Почасовая аренда Power Bank" />
+        <meta name="twitter:image" content="https://i.ibb.co/cQC6Xj4/seo.jpg" />
       </Head>
       <Partners />
       <SEO/>

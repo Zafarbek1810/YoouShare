@@ -6,7 +6,6 @@ import Tarif from './Tarif';
 import PowerBank from './PowerBank';
 import VideoComp from './VideoComp';
 import Otziv from './Otziv';
-// import Map from './Map';
 import Brands from './Brands';
 import QrCodeSvg from '../../../../src/Components/Common/Svgs/QrCodeSvg';
 import Footer from '../Footer/Footer';
@@ -23,7 +22,6 @@ const HomePage = () => {
             <PowerBank/>
             <VideoComp/>
             <Otziv/>
-            {/* <Map/> */}
             <Maps/>
             <Brands/>
             <Footer/>
