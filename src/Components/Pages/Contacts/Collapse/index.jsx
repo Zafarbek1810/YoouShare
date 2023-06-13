@@ -55,7 +55,7 @@ const Collapses = () => {
   ];
 
   return (
-    <CollapseStyle>
+    <CollapseStyle  id="vopros">
       <Container>
         <Collapse accordion bordered={false} defaultActiveKey={1} style={{width:"60%", margin:"auto"}} data-aos={"fade-up"}>
           {data.map((item) => (

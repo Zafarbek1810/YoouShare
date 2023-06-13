@@ -2236,7 +2236,7 @@ const Maps = () => {
   }, []);
   
   return (
-    <Wrapper>
+    <Wrapper id="karta">
       <h3 className="title" data-aos={"fade-up"}>
         {t("map.title")}
       </h3>
