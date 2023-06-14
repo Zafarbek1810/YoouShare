@@ -31,6 +31,7 @@
     "styled-components": "^5.3.10",
     "swiper": "^9.2.4",
     "use-context-selector": "^1.4.1",
+    "yarn": "^1.22.19",
     "ymaps": "^0.2.1"
   },
   "devDependencies": {
