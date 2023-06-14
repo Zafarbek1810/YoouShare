@@ -14,26 +14,27 @@ const RightNavWrapper = styled.div`
     align-items: center;
     li {
       .link {
-        padding: 10px 20px;
+        padding: 10px 10px;
         font-family: "Inter";
         font-style: normal;
         font-weight: 600;
-        font-size: 16px;
-        line-height: 22px;
-        letter-spacing: 0.02em;
+        font-size: 14px;
+        line-height: 20px;
         color: #0cb47f;
         flex: none;
         order: 0;
         flex-grow: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
 
         &:hover {
-          padding: 10px 20px;
           font-family: "Inter";
           font-style: normal;
           font-weight: 600;
-          font-size: 16px;
+          font-size: 14px;
           line-height: 20px;
-          letter-spacing: 0.02em;
           color: #0cb47f;
           flex: none;
           order: 0;
@@ -42,13 +43,11 @@ const RightNavWrapper = styled.div`
           flex-direction: row;
           justify-content: center;
           align-items: center;
-          padding: 10px 20px;
+          padding: 10px 10px;
           gap: 10px;
           background: rgba(12, 180, 127, 0.06);
           border-radius: 8px;
           flex: none;
-          order: 0;
-          flex-grow: 0;
         }
       }
 
@@ -67,7 +66,7 @@ const RightNavWrapper = styled.div`
         font-family: "Inter";
         font-style: normal;
         font-weight: 600;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 20px;
         letter-spacing: 0.02em;
         color: #0cb47f;

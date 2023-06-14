@@ -1464,10 +1464,8 @@ const Maps = () => {
     fn();
   }, []);
 
-  console.log(points);
-
   return (
-    <Wrapper>
+    <Wrapper id="karta">
       <YMaps style={{ width: "100%", height: "100%" }}>
         <Map
           style={{
