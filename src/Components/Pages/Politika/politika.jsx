@@ -9,7 +9,6 @@ const Politika = () => {
   return (
     <PolitikaWrapper>
       <Container>
-        <p>{t("politika.text")}</p>
         <p>{t("politika.text2")}</p>
       </Container>
     </PolitikaWrapper>
