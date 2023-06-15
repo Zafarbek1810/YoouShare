@@ -13,7 +13,7 @@ const dataImg = [
     alt: "2. Logo brands of our partners",
   },
   {
-    img: "/brands/3.png",
+    img: "/brands/3.jpg",
     alt: "3. Logo brands of our partners",
   },
   {
@@ -29,16 +29,16 @@ const dataImg = [
     alt: "6. Logo brands of our partners",
   },
   {
-    img: "/brands/7.png",
+    img: "/brands/7.jpg",
     alt: "7. Logo brands of our partners",
   },
   {
-    img: "/brands/8.jpg",
+    img: "/brands/8.png",
 
     alt: "8. Logo brands of our partners",
   },
   {
-    img: "/brands/9.png",
+    img: "/brands/9.jpg",
     alt: "9. Logo brands of our partners",
   },
   {
@@ -46,7 +46,7 @@ const dataImg = [
     alt: "10. Logo brands of our partners",
   },
   {
-    img: "/brands/11.png",
+    img: "/brands/11.jpg",
     alt: "11. Logo brands of our partners",
   },
   {
@@ -57,15 +57,15 @@ const dataImg = [
 
 const dataImg2 = [
   {
-    img: "/brands/13.jpg",
+    img: "/brands/13.png",
     alt: "13. Logo brands of our partners",
   },
   {
-    img: "/brands/14.png",
+    img: "/brands/14.jpg",
     alt: "14. Logo brands of our partners",
   },
   {
-    img: "/brands/15.png",
+    img: "/brands/15.jpg",
     alt: "15. Logo brands of our partners",
   },
   {
@@ -73,7 +73,7 @@ const dataImg2 = [
     alt: "16. Logo brands of our partners",
   },
   {
-    img: "/brands/17.png",
+    img: "/brands/17.jpg",
 
     alt: "17. Logo brands of our partners",
   },
@@ -82,11 +82,11 @@ const dataImg2 = [
     alt: "18. Logo brands of our partners",
   },
   {
-    img: "/brands/19.png",
+    img: "/brands/19.jpg",
     alt: "19. Logo brands of our partners",
   },
   {
-    img: "/brands/20.png",
+    img: "/brands/20.svg",
     alt: "20. Logo brands of our partners",
   },
   {
@@ -94,7 +94,7 @@ const dataImg2 = [
     alt: "21. Logo brands of our partners",
   },
   {
-    img: "/brands/22.png",
+    img: "/brands/22.jpg",
     alt: "22. Logo brands of our partners",
   },
   {
@@ -102,7 +102,7 @@ const dataImg2 = [
     alt: "23. Logo brands of our partners",
   },
   {
-    img: "/brands/24.jpg",
+    img: "/brands/24.png",
     alt: "24. Logo brands of our partners",
   },
   {
@@ -110,7 +110,7 @@ const dataImg2 = [
     alt: "25. Logo brands of our partners",
   },
   {
-    img: "/brands/26.svg",
+    img: "/brands/26.jpg",
     alt: "26. Logo brands of our partners",
   },
   {
@@ -130,7 +130,7 @@ const dataImg2 = [
     alt: "30. Logo brands of our partners",
   },
   {
-    img: "/brands/31.jpg",
+    img: "/brands/31.png",
     alt: "31. Logo brands of our partners",
   },
 
@@ -147,7 +147,7 @@ const dataImg2 = [
     alt: "34. Logo brands of our partners",
   },
   {
-    img: "/brands/35.png",
+    img: "/brands/35.jpg",
     alt: "35. Logo brands of our partners",
   },
   {
@@ -163,11 +163,11 @@ const dataImg2 = [
     alt: "38. Logo brands of our partners",
   },
   {
-    img: "/brands/39.png",
+    img: "/brands/39.jpg",
     alt: "39. Logo brands of our partners",
   },
   {
-    img: "/brands/40.jpg",
+    img: "/brands/40.png",
     alt: "40. Logo brands of our partners",
   },
   {
@@ -207,7 +207,7 @@ const dataImg2 = [
     alt: "49. Logo brands of our partners",
   },
   {
-    img: "/brands/50.png",
+    img: "/brands/50.jpg",
     alt: "50. Logo brands of our partners",
   },
   {
@@ -297,7 +297,7 @@ const dataImg2 = [
     alt: "71. Logo brands of our partners",
   },
   {
-    img: "/brands/72.png",
+    img: "/brands/72.jpg",
     alt: "72. Logo brands of our partners",
   },
   {
@@ -309,7 +309,7 @@ const dataImg2 = [
     alt: "74. Logo brands of our partners",
   },
   {
-    img: "/brands/75.png",
+    img: "/brands/75.jpg",
     alt: "75. Logo brands of our partners",
   },
   {
@@ -321,7 +321,7 @@ const dataImg2 = [
     alt: "77. Logo brands of our partners",
   },
   {
-    img: "/brands/78.png",
+    img: "/brands/78.jpg",
     alt: "78. Logo brands of our partners",
   },
   {
@@ -371,59 +371,7 @@ const dataImg2 = [
   {
     img: "/brands/90.jpg",
     alt: "90. Logo brands of our partners",
-  },
-  {
-    img: "/brands/91.jpg",
-    alt: "91. Logo brands of our partners",
-  },
-  {
-    img: "/brands/92.jpg",
-    alt: "92. Logo brands of our partners",
-  },
-  {
-    img: "/brands/93.jpg",
-    alt: "93. Logo brands of our partners",
-  },
-  {
-    img: "/brands/94.png",
-    alt: "94. Logo brands of our partners",
-  },
-  {
-    img: "/brands/95.jpg",
-    alt: "95. Logo brands of our partners",
-  },
-  {
-    img: "/brands/96.png",
-    alt: "96. Logo brands of our partners",
-  },
-  {
-    img: "/brands/97.jpg",
-    alt: "97. Logo brands of our partners",
-  },
-  {
-    img: "/brands/98.jpg",
-    alt: "98. Logo brands of our partners",
-  },
-  {
-    img: "/brands/99.jpg",
-    alt: "99. Logo brands of our partners",
-  },
-  {
-    img: "/brands/100.jpg",
-    alt: "100. Logo brands of our partners",
-  },
-  {
-    img: "/brands/101.jpg",
-    alt: "101. Logo brands of our partners",
-  },
-  {
-    img: "/brands/102.jpg",
-    alt: "102. Logo brands of our partners",
-  },
-  {
-    img: "/brands/103.jpg",
-    alt: "103. Logo brands of our partners",
-  },
+  }
 ];
 
 
