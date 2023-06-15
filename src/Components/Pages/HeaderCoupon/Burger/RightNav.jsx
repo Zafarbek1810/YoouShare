@@ -74,6 +74,22 @@ const RightNav = ({ open }) => {
           </MyLink>
         </li>
         <li>
+          <MyLink
+            to="/#karta"
+            className={router.pathname == "/#karta" ? "active" : "link"}
+          >
+            {t("navbar.karta")}
+          </MyLink>
+        </li>
+        <li>
+          <MyLink
+            to="/contacts#vopros"
+            className={router.pathname == "/contacts#vopros" ? "active" : "link"}
+          >
+            {t("navbar.faq")}
+          </MyLink>
+        </li>
+        <li>
           <div className="lang">
             <Select
               value={defaultLang}

@@ -1,16 +1,14 @@
 import styled from "styled-components";
 
 const Wrapper=styled.div`
-padding: 100px;
+  padding: 100px;
   width: 100%;
   background: #fff !important;
   height: 700px;
-  /* overflow: hidden; */
   margin-bottom: 100px;
 
   .map{
     border-radius: 50px !important;
-    overflow: hidden;
   }
   
   
@@ -35,6 +33,34 @@ padding: 100px;
   }
 `
 
+const PlaceStyle = styled.div`
+.place{
+}
+.tooltip{
+  background-color: #fff !important;
+  position: fixed;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+  visibility: hidden;
+
+  img{
+    width: 70px;
+    height: 70px;
+    margin-right: 5px;
+  }
+
+  p{
+    font-family: Inter;
+    font-size: 12px;
+    color: #000;
+  }
+}
+
+`
+
 export{
-    Wrapper
+    Wrapper, PlaceStyle
 }
