@@ -36,7 +36,7 @@ const Banner = () => {
                 <ul>
                   <li><span>B2C</span>{t("partners.rightP1")}</li>
                   <li><span>B2B</span>{t("partners.rightP2")}</li>
-                </ul>/./...
+                </ul>
               </div>
             </div>
             <div className="btn" data-aos={"zoom-in"}>
