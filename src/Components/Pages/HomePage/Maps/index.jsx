@@ -1479,9 +1479,11 @@ const Maps = () => {
             zoom: 15,
           }}
         >
-          {points.map((point) => (
-            <PlaceMarkPoint key={point.ud_id} point={point} refObj={ref} />
-          ))}
+          {points.map((point) =>
+            point.status === 3 ? null : (
+              <PlaceMarkPoint key={point.ud_id} point={point} refObj={ref} />
+            )
+          )}
         </Map>
       </YMaps>
     </Wrapper>
@@ -1506,14 +1508,14 @@ function PlaceMarkPoint({ point, refObj }) {
   const handleMouseEnter = (e) => {
     toolRef.current.style.top = refObj.current.clientY + "px";
     toolRef.current.style.left = refObj.current.clientX + "px";
-    toolRef.current.style.visibility = "visible"
+    toolRef.current.style.visibility = "visible";
   };
 
   const handleMouseLeave = () => {
-    toolRef.current.style.visibility = "hidden"
+    toolRef.current.style.visibility = "hidden";
   };
 
-  console.log({ fullData });
+  console.log(point);
 
   return (
     <PlaceStyle>
