@@ -10,7 +10,7 @@ const Tarif = () => {
     const data=[
         {
             title:"tarif.box1",
-            price:"3 000",
+            price:"5 000",
             currency:"UZS"
         },
         {
@@ -25,7 +25,7 @@ const Tarif = () => {
         },
         {
             title:"tarif.box4",
-            price:"180 000",
+            price:"230 000",
             currency:"UZS"
         },
     
