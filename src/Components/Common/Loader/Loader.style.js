@@ -17,7 +17,7 @@ const LoaderWrapper = styled.div`
     left: 50%;
     transform: translate(-50%, -50%);
     
-    svg{
+    img{
       animation: animate 3s linear infinite;
       path:last-child{
         fill:white;

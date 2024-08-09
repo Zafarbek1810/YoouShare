@@ -27,7 +27,7 @@ const Banner = () => {
                 <ul>
                   <li><img src="/images/partner1.png" alt="Advertising establishments icon" />{t("partners.leftP1")}</li>
                   <li><img src="/images/partner2.png" alt="Let's create comfort icon" />{t("partners.leftP2")}</li>
-                  <li><img src="/images/partner3.png" alt="More charge more customer icon" />{t("partners.leftP3")}</li>
+                  {/*<li><img src="/images/partner3.png" alt="More charge more customer icon" />{t("partners.leftP3")}</li>*/}
                   <li><img src="/images/partner4.png" alt="Additional flow of clients icon" />{t("partners.leftP4")}</li>
                 </ul>
               </div>
