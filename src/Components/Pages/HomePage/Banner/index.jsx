@@ -6,7 +6,6 @@ import BannerIcon from '../../../Common/Svgs/BannerIcon';
 import BannerIcon2 from '../../../Common/Svgs/BannerIcon2';
 import BannerIcon3 from '../../../Common/Svgs/BannerIcon3';
 import BannerIcon4 from '../../../Common/Svgs/BannerIcon4';
-import BannerIcon5 from '../../../Common/Svgs/BannerIcon5';
 import LocationSvgBanner from '../../../Common/Svgs/LocationSvgBanner';
 const Banner = () => {
   const { t } = useTranslation();
@@ -27,7 +26,7 @@ const Banner = () => {
                     </ul>
                 </div>
                 <div className="right" >
-                    <img data-aos={"fade-left"} src="/images/banner-right.png" alt="Yooy Share power banks station image" />
+                    <img data-aos={"fade-left"} src="/images/banner-right.png" alt="Yoou Power power banks station image" />
                 </div>
             </div>
             </Container>
