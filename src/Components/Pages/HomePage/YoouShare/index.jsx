@@ -1,35 +1,37 @@
-import React from "react";
+import React, { useContext } from "react";
 import YoouShareWrapper from "./YoouShare.style";
 import { useTranslation } from "react-i18next";
 import Container from "../../../Common/Container";
+import DataContext from "../../../../Context/DataContext/DataContext";
 
 const YoouShare = () => {
 
+  const backData = useContext(DataContext);
   const { t } = useTranslation();
 
   const data = [
     {
-      title: "yoouShare.box1",
+      title: backData.yoouShare.box1,
       img: "/images/card1.png",
-      num: "0",
-      currency: "UZS",
+      num: backData.yoouShare.noDeposit,
+      currency: backData.yoouShare.depositCurrency,
     },
     {
-      title: "yoouShare.box2",
+      title: backData.yoouShare.box2,
       img: "/images/card2.png",
-      num: "yoouShare.days",
+      num: backData.yoouShare.days,
       currency: "",
     },
     {
-      title: "yoouShare.box3",
+      title: backData.yoouShare.box3,
       img: "/images/card3.png",
-      num: "800+",
+      num: backData.yoouShare.numberOfstations,
       currency: "",
     },
     {
-      title: "yoouShare.box4",
+      title: backData.yoouShare.box4,
       img: "/images/card4.png",
-      num: "24/7",
+      num: backData.yoouShare.technicalSupport,
       currency: "",
     },
   ];
