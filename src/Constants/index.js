@@ -1,79 +1,236 @@
 export const mockData = {
-  yoouShare: {
-    box1: "Нет депозита, \n Нет предоплаты",
-    box2: "Максимальный срок аренды",
-    box3: "Станций по Узбекистану",
-    box4: "Техподдержка пользователей",
-    days: "3 суток",
-    noDeposit: "0",
-    depositCurrency: "UZS",
-    numberOfstations: "800+",
-    technicalSupport: "24/7",
+  ru: {
+    yoouShare: {
+      box1: "Нет депозита, \n Нет предоплаты",
+      box2: "Максимальный срок аренды",
+      box3: "Станций по Узбекистану",
+      box4: "Техподдержка пользователей",
+      days: "3 суток",
+      noDeposit: "0 UZS",
+      depositCurrency: "UZS",
+      numberOfstations: "800+",
+      technicalSupport: "24/7",
+    },
+    tarif: [
+      {
+        title: "Стоимость часа аренды",
+        price: "5 000",
+        currency: "UZS",
+      },
+      {
+        title: "Стоимость дня аренды",
+        price: "10 000",
+        currency: "UZS",
+      },
+      {
+        title: "Стоимость аренды за три дня",
+        price: "30 000",
+        currency: "UZS",
+      },
+      {
+        title: "За невозврат повербанка",
+        price: "230 000",
+        currency: "UZS",
+      },
+    ],
+    franshiza: [
+      {
+        title: "Стандартная франшиза",
+        text: "Вклад от 1 000 USD \nПолучи 75% прибыли",
+      },
+      {
+        title: "Эксклюзивная франшиза",
+        text: "Вклад от 25 000 USD \nПолучи 75% прибыли",
+      },
+      {
+        title: "Условия инвестиции",
+        text: "Вклад от 1 000 USD \nПолучи 50% прибыли",
+      },
+    ],
+    standartFranshiza: [
+      {
+        title: "До 3-х станций:",
+        text: "300 USD за одну станцию\nПолучай 100% прибыли до\nокупаемости,  после получай\n75% прибыли.",
+      },
+      {
+        title: "От 4-х до 10-ти станций:",
+        text: "250 USD за одну станцию \nПолучай 100% прибыли до\nокупаемости,  после получай\n75% прибыли.",
+      },
+      {
+        title: "Более 10-ти станций:",
+        text: "200 USD за одну станцию \nПолучай 100% прибыли до\nокупаемости,  после получай\n75% прибыли.\n",
+      },
+    ],
+    purchaseByInstallments: [
+      {
+        title: "До 3-х станций:",
+        text: "350 USD за одну станцию \nот 6-ти до 12-ти месяцев\nПолучай 100% прибыли до\nокупаемости,  после получай\n75% прибыли.",
+      },
+      {
+        title: "От 4-х до 10-ти станций:",
+        text: "300 USD за одну станцию \nот 6-ти до 12-ти месяцев\nПолучай 100% прибыли до\nокупаемости,  после получай\n75% прибыли.",
+      },
+      {
+        title: "Более 10-ти станций:",
+        text: "250 USD за одну станцию \nот 6-ти до 12-ти месяцев\nПолучай 100% прибыли до\nокупаемости,  после получай\n75% прибыли.",
+      },
+    ],
   },
-  tarif: [
-    {
-      title: "Стоимость часа аренды",
-      quantity: "5 000",
-      currency: "UZS",
+  en: {
+    yoouShare: {
+      box1: "No deposit, \n No prepayment",
+      box2: "Maximum rental period",
+      box3: "Stations in Uzbekistan",
+      box4: "User support",
+      days: "3 days",
+      noDeposit: "0 UZS",
+      depositCurrency: "UZS",
+      numberOfstations: "800+",
+      technicalSupport: "24/7",
     },
-    {
-      title: "Стоимость дня аренды",
-      quantity: "10 000",
-      currency: "UZS",
+    tarif: [
+      {
+        title: "Hourly rental rate",
+        price: "5 000",
+        currency: "UZS",
+      },
+      {
+        title: "The cost of a day rent",
+        price: "10 000",
+        currency: "UZS",
+      },
+      {
+        title: "Rental price for three days",
+        price: "30 000",
+        currency: "UZS",
+      },
+      {
+        title: "For non-return of the power bank",
+        price: "230 000",
+        currency: "UZS",
+      },
+    ],
+    franshiza: [
+      {
+        title: "Standard Franchise",
+        text: "Deposit of 1 000 USD \nGet 75% profit",
+      },
+      {
+        title: "Exclusive Franchise",
+        text: "Deposit of 25 000 USD \nGet 75% profit",
+      },
+      {
+        title: "Conditions investments",
+        text: "Deposit of 1 000 USD \nGet 50% profit",
+      },
+    ],
+    standartFranshiza: [
+      {
+        title: "Up to 3 stations:",
+        text: "300 USD per station \nGet 100% profit before payback, \nthen receive 75% profit. \n",
+      },
+      {
+        title: "From 4 to 10 stations:",
+        text: "250 USD per station \nGet 100% profit before payback, \nthen receive 75% profit.",
+      },
+      {
+        title: "More than 10 stations:",
+        text: "200 USD per station \nGet 100% profit before payback, \nthen receive 75% profit.",
+      },
+    ],
+    purchaseByInstallments: [
+      {
+        title: "Up to 3 stations:",
+        text: "350 USD per station\nfrom 6 to 12 months\nGet 100% profit before payback, \nthen receive 75% profit.",
+      },
+      {
+        title: "From 4 to 10 stations:",
+        text: "300 USD per station\nfrom 6 to 12 months\nGet 100% profit before payback, \nthen receive 75% profit.",
+      },
+      {
+        title: "More than 10 stations:",
+        text: "250 USD per station\nfrom 6 to 12 months\nGet 100% profit before payback, \nthen receive 75% profit.",
+      },
+    ],
+  },
+  uz: {
+    yoouShare: {
+      box1: "Depozit yo'q, \n Oldindan to'lov yo'q",
+      box2: "Maksimal ijara muddati",
+      box3: "O'zbekiston bo'ylab stansiyalar",
+      box4: "Foydalanuvchini qo'llab-quvvatlash",
+      days: "3 kunlik",
+      noDeposit: "0 UZS",
+      depositCurrency: "UZS",
+      numberOfstations: "800+",
+      technicalSupport: "24/7",
     },
-    {
-      title: "Стоимость аренды за три дня",
-      quantity: "30 000",
-      currency: "UZS",
-    },
-    {
-      title: "За невозврат повербанка",
-      quantity: "230 000",
-      currency: "UZS",
-    },
-  ],
-  franshiza: [
-    {
-      title: "Стандартная франшиза",
-      text: "Вклад от 1 000 USD \nПолучи 75% прибыли",
-    },
-    {
-      title: "Эксклюзивная франшиза",
-      text: "Вклад от 25 000 USD \nПолучи 75% прибыли",
-    },
-    {
-      title: "Условия инвестиции",
-      text: "Вклад от 1 000 USD \nПолучи 50% прибыли",
-    },
-  ],
-  standartFranshiza: [
-    {
-      title: "До 3-х станций:",
-      text: "300 USD за одну станцию\nПолучай 100% прибыли до\nокупаемости,  после получай\n75% прибыли.",
-    },
-    {
-      title: "От 4-х до 10-ти станций:",
-      text: "250 USD за одну станцию \nПолучай 100% прибыли до\nокупаемости,  после получай\n75% прибыли.",
-    },
-    {
-      title: "Более 10-ти станций:",
-      text: "200 USD за одну станцию \nПолучай 100% прибыли до\nокупаемости,  после получай\n75% прибыли.\n",
-    },
-  ],
-  purchaseByInstallments: [
-    {
-      title: "До 3-х станций:",
-      text: "350 USD за одну станцию \nот 6-ти до 12-ти месяцев\nПолучай 100% прибыли до\nокупаемости,  после получай\n75% прибыли.",
-    },
-    {
-      title: "От 4-х до 10-ти станций:",
-      text: "300 USD за одну станцию \nот 6-ти до 12-ти месяцев\nПолучай 100% прибыли до\nокупаемости,  после получай\n75% прибыли.",
-    },
-    {
-      title: "Более 10-ти станций:",
-      text: "250 USD за одну станцию \nот 6-ти до 12-ти месяцев\nПолучай 100% прибыли до\nокупаемости,  после получай\n75% прибыли.",
-    },
-  ],
+    tarif: [
+      {
+        title: "Soatlik ijara narxi",
+        price: "5 000",
+        currency: "UZS",
+      },
+      {
+        title: "Bir kunlik ijara narxi",
+        price: "10 000",
+        currency: "UZS",
+      },
+      {
+        title: "Uch kunlik ijara narxi",
+        price: "30 000",
+        currency: "UZS",
+      },
+      {
+        title: "Buning evaziga quvvat banki",
+        price: "230 000",
+        currency: "UZS",
+      },
+    ],
+    franshiza: [
+      {
+        title: "Standart franchayzing",
+        text: "1 000 AQSh dollari miqdorida depozit \n75% foyda oling",
+      },
+      {
+        title: "Eksklyuziv franchayzing",
+        text: "25 000 AQSh dollari miqdorida depozit \n75% foyda oling",
+      },
+      {
+        title: "Investitsiya shartlari",
+        text: "1 000 AQSh dollari miqdorida depozit \n50% foyda oling",
+      },
+    ],
+    standartFranshiza: [
+      {
+        title: "3 tagacha stansiya:",
+        text: "Bitta stansiya uchun 300 USD,\no'zini oqlash muddatidan \noldin 100% foyda oling, \nkeyin 75% foyda toping.",
+      },
+      {
+        title: "4 dan 10 tagacha stansiya:",
+        text: "Har bir stansiya uchun 250 USD,\no'zini oqlash muddatidan \noldin 100% foyda oling, \nkeyin 75% foyda toping.",
+      },
+      {
+        title: "10 dan ortiq stansiyalar:",
+        text: "Har bir stansiya uchun 200 USD,\no'zini oqlash muddatidan \noldin 100% foyda oling, \nkeyin 75% foyda toping.",
+      },
+    ],
+    purchaseByInstallments: [
+      {
+        title: "3 tagacha stansiya:",
+        text: "6-12 oy gacha har bir stansiya \nuchun 350 USD, o'zini oqlash \nmuddatidan oldin 100% foyda \noling, keyin 75% foyda toping.",
+      },
+      {
+        title: "4 dan 10 tagacha stansiya:",
+        text: "6-12 oy gacha har bir stansiya \nuchun 300 USD, o'zini oqlash \nmuddatidan oldin 100% foyda \noling, keyin 75% foyda toping.\n",
+      },
+      {
+        title: "10 dan ortiq stansiyalar:",
+        text: "6-12 oy gacha har bir stansiya \nuchun 250 USD, o'zini oqlash \nmuddatidan oldin 100% foyda \noling, keyin 75% foyda toping.\n",
+      },
+    ],
+  },
+  
   dataImg: [
     { img: "/brands/1.jpg" },
     { img: "/brands/2.jpg" },

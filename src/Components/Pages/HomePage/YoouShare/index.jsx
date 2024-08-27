@@ -1,13 +1,19 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import YoouShareWrapper from "./YoouShare.style";
 import { useTranslation } from "react-i18next";
 import Container from "../../../Common/Container";
 import DataContext from "../../../../Context/DataContext/DataContext";
+import { Input } from "antd";
+import DashboardBtns from "../../../Common/DashboardBtns";
 
-const YoouShare = () => {
-
-  const backData = useContext(DataContext);
+const YoouShare = ({ isEditBtn = false }) => {
+  const mockData = useContext(DataContext);
+  const [yoouShareForm, setYoouShareForm] = useState([]);
+  const [isDashboard, setIsDashboard] = useState(false);
+  const [language, setLanguage] = useState("ru");
   const { t } = useTranslation();
+
+  const backData = mockData[language];
 
   const data = [
     {
@@ -36,27 +42,111 @@ const YoouShare = () => {
     },
   ];
 
+  const handleChange = (index, field, value) => {
+    setYoouShareForm((prevState) =>
+      prevState.map((item, i) =>
+        i === index ? { ...item, [field]: value } : item
+      )
+    );
+  };
+
+  const onEdit = () => {
+    setIsDashboard(true);
+    setYoouShareForm(data);
+  };
+
+  const onSubmit = () => {
+    console.log({ yoouShareForm, language });
+    setIsDashboard(false);
+  };
+
   return (
-    <YoouShareWrapper>
-      <Container>
-        <h3 data-aos={"fade-up"}>{t("yoouShare.title")}</h3>
-        <p className="sub" data-aos={"fade-up"}>{t("yoouShare.title2")}</p>
-        <div className="cards">
-          {data.map((item, index) => (
-            <div key={index} className="card" data-aos={"fade-up"}>
-              <h6 className="title">{t(item.title)}</h6>
-              <div>
-                <img src={item.img} alt="Yoou Power information icons" />
-                <p className="num">
-                  {t(item.num)}
-                  <span> {item.currency}</span>
-                </p>
+    <div className="yoouShareWrapper">
+      <DashboardBtns
+        isEditBtn={isEditBtn}
+        isDashboard={isDashboard}
+        languag={language}
+        setLanguage={setLanguage}
+        onEdit={onEdit}
+        setIsDashboard={setIsDashboard}
+        onSubmit={onSubmit}
+      />
+      <YoouShareWrapper>
+        <Container>
+          <h3 data-aos="fade-up">{t("yoouShare.title")}</h3>
+          <p className="sub" data-aos="fade-up">
+            {t("yoouShare.title2")}
+          </p>
+          <div className="cards">
+            {(isDashboard ? yoouShareForm : data).map((item, index) => (
+              <div key={index} className="card" data-aos="fade-up">
+                {isDashboard ? (
+                  <Input
+                    style={{
+                      fontWeight: "600",
+                      fontSize: "16px",
+                      textAlign: "center",
+                      fontFamily: "inter",
+                      width: "100%",
+                      resize: "none",
+                      marginBottom: "20px",
+                      backgroundColor: "transparent",
+                      color: "black",
+                    }}
+                    value={item.title}
+                    onChange={(e) =>
+                      handleChange(index, "title", e.target.value)
+                    }
+                  />
+                ) : (
+                  <h6 className="title">{t(item.title)}</h6>
+                )}
+                <div>
+                  <img
+                    src={item.img}
+                    alt="Yoou Power information icons"
+                    style={{ maxWidth: "150px", marginBottom: "20px" }}
+                  />
+                  <p
+                    className="num"
+                    style={{ display: isDashboard ? "flex" : "block" }}
+                  >
+                    {isDashboard ? (
+                      <Input
+                        style={{
+                          fontWeight: "bold",
+                          fontSize: "30px",
+                          textAlign: "center",
+                          fontFamily: "inter",
+                        }}
+                        value={item.num}
+                        onChange={(e) =>
+                          handleChange(index, "num", e.target.value)
+                        }
+                      />
+                    ) : index === 0 ? (
+                      styleWord(t(item.num))
+                    ) : (
+                      item.num
+                    )}
+                  </p>
+                </div>
               </div>
-            </div>
-          ))}
-        </div>
-      </Container>
-    </YoouShareWrapper>
+            ))}
+          </div>
+        </Container>
+      </YoouShareWrapper>
+    </div>
+  );
+};
+
+const styleWord = (text) => {
+  const [firstWord, secondWord] = text.split(" ");
+
+  return (
+    <span style={{ fontWeight: "bold", fontSize: "30px", textAlign: "center" }}>
+      {firstWord} <span>{secondWord}</span>
+    </span>
   );
 };
 

@@ -1,0 +1,13 @@
+.yoouShareWrapper{
+   position: relative;
+}
+
+.btnsWrapper{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.hidden{
+    display: none;
+}

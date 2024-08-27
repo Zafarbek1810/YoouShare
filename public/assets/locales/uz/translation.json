@@ -17,7 +17,7 @@
     "ul2": "Stansiya toping",
     "ul3": "Ijaraga olishni boshlash uchun QR kodini skanerlang",
     "ul4": "Powerbankni o'zingiz bilan olib boring",
-    "ul5": "Istalgan stantsiyaga qayting"
+    "ul5": "Istalgan stansiyaga qayting"
 
   },
   "yoouShare": {
@@ -25,7 +25,7 @@
     "title2": "Kuniga 24 soat aloqada!",
     "box1": "Depozit yo'q, \n Oldindan to'lov yo'q",
     "box2": "Maksimal ijara muddati",
-    "box3": "O'zbekiston bo'yicha stantsiyalar",
+    "box3": "O'zbekiston bo'ylab stansiyalar",
     "box4": "Foydalanuvchini qo'llab-quvvatlash",
     "days": "3 kunlik"
   },
@@ -85,7 +85,7 @@
     "leftP4": "Qo'shimcha mijozlar oqimi",
     "right-title": "Shartlar",
     "rightP1": "Stansiyani bepul yetkazib beramiz, foydalanish uchun mijoz o‘zi to‘laydi.",
-    "rightP2": "Siz stantsiya ijarasini to'laysiz, mijoz bepul to'lov oladi.",
+    "rightP2": "Siz stansiya ijarasini to'laysiz, mijoz bepul to'lov oladi.",
     "btn": "Arizangizni yuboring"
   },
   "franshiza": {
@@ -100,22 +100,22 @@
   },
   "standartFranshiza": {
     "title": "Standart frashizaga nimalar kiradi:",
-    "box1": "3 tagacha stantsiya:",
-    "box1p": "Har bir stantsiya uchun 300 USD,\no'zini oqlash muddatidan \noldin 100% foyda oling, \nkeyin 75% foyda toping.",
-    "box2": "4 dan 10 tagacha stantsiya:",
-    "box2p": "Har bir stantsiya uchun 250 USD,\no'zini oqlash muddatidan \noldin 100% foyda oling, \nkeyin 75% foyda toping.",
-    "box3": "10 dan ortiq stantsiyalar:",
-    "box3p": "Har bir stantsiya uchun 200 USD,\no'zini oqlash muddatidan \noldin 100% foyda oling, \nkeyin 75% foyda toping.",
+    "box1": "3 tagacha stansiya:",
+    "box1p": "Har bir stansiya uchun 300 USD,\no'zini oqlash muddatidan \noldin 100% foyda oling, \nkeyin 75% foyda toping.",
+    "box2": "4 dan 10 tagacha stansiya:",
+    "box2p": "Har bir stansiya uchun 250 USD,\no'zini oqlash muddatidan \noldin 100% foyda oling, \nkeyin 75% foyda toping.",
+    "box3": "10 tadan ortiq stansiyalar:",
+    "box3p": "Har bir stansiya uchun 200 USD,\no'zini oqlash muddatidan \noldin 100% foyda oling, \nkeyin 75% foyda toping.",
     "btn": "Франшиза и\nИнвестиции"
   },
   "purchaseByInstallments": {
     "title": "Muddatli to`lovga sotib olish (uzum nasiya)",
-    "box1": "3 tagacha stantsiya:",
-    "box1p": "6-12 oy gacha har bir stantsiya \nuchun 350 USD, o'zini oqlash \nmuddatidan oldin 100% foyda \noling, keyin 75% foyda toping.",
-    "box2": "4 dan 10 tagacha stantsiya:",
-    "box2p": "6-12 oy gacha har bir stantsiya \nuchun 300 USD, o'zini oqlash \nmuddatidan oldin 100% foyda \noling, keyin 75% foyda toping.\n",
-    "box3": "10 dan ortiq stantsiyalar:",
-    "box3p": "6-12 oy gacha har bir stantsiya \nuchun 250 USD, o'zini oqlash \nmuddatidan oldin 100% foyda \noling, keyin 75% foyda toping.\n",
+    "box1": "3 tagacha stansiya:",
+    "box1p": "6-12 oy gacha har bir stansiya \nuchun 350 USD, o'zini oqlash \nmuddatidan oldin 100% foyda \noling, keyin 75% foyda toping.",
+    "box2": "4 dan 10 tagacha stansiya:",
+    "box2p": "6-12 oy gacha har bir stansiya \nuchun 300 USD, o'zini oqlash \nmuddatidan oldin 100% foyda \noling, keyin 75% foyda toping.\n",
+    "box3": "10 dan ortiq stansiyalar:",
+    "box3p": "6-12 oy gacha har bir stansiya \nuchun 250 USD, o'zini oqlash \nmuddatidan oldin 100% foyda \noling, keyin 75% foyda toping.\n",
     "btn": "Франшиза и\nИнвестиции"
   },
   "invite": {
@@ -191,7 +191,7 @@
     "question2": "Qanday ishlatish?",
     "answer2": "Stansiyada QR kodini yuklab oling yoki AppStore yoki Google Play-ga o'ting. Shunchaki “Yoou” deb qidiring va ilovani yuklab oling \n• Raqamingiz bilan roʻyxatdan oʻting va kartani bogʻlang. Va'dalar yo'q! \n• Stansiyada QR kodni yuklab oling va Power bank oling. \n• Power bank qaytarib olib keling. Ijara faqat qaytib kelgandan keyin to'lanadi! \n• Power bank sizga eng yaqin stansiyaga qaytarishingiz mumkin - uni ilovadagi xaritada topasiz. Qaytish uchun qancha stansiyalarborligini ko'ring.",
     "question3": "Power bank qanday qaytarish kerak?",
-    "answer3": "• Ilovada bepul slotga ega stantsiyani toping - biz sizga xaritada eng yaqinini ko'rsatamiz. \n• Power bankni ishchi stantsiya uyasiga soling, uni bir oz bosing va bir necha soniya kuting. Chiroq yonadi, ijarangizni ilovada tekshiring. \n• Vaqt tugamagan bo'lsa, +998 99 197 04 04 raqamiga qo'ng'iroq qiling, muammoingizni tezda hal qilishga va ortiqcha to'langan pulni qaytarishga harakat qilamiz.",
+    "answer3": "• Ilovada bepul slotga ega stansiyani toping - biz sizga xaritada eng yaqinini ko'rsatamiz. \n• Power bankni ishchi stansiya uyasiga soling, uni bir oz bosing va bir necha soniya kuting. Chiroq yonadi, ijarangizni ilovada tekshiring. \n• Vaqt tugamagan bo'lsa, +998 99 197 04 04 raqamiga qo'ng'iroq qiling, muammoingizni tezda hal qilishga va ortiqcha to'langan pulni qaytarishga harakat qilamiz.",
     "question4": "Power banklari yoki bo'sh joy mavjudligini qanday aniqlash mumkin?",
     "answer4": "Ilovadagi xaritadagi nuqtani bosing. Pastki chap burchakda qancha quvvat power banki ijaraga tayyorligi va qancha joyni qaytarish kerakligi yozilgan.",
     "question5": "Qanday kabellar kiritilgan?",

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@hookform/resolvers": "^3.9.0",
     "antd": "^5.4.6",
     "aos": "^2.3.4",
     "axios": "^1.4.0",
@@ -16,11 +17,11 @@
     "i18next": "^22.5.0",
     "i18next-browser-languagedetector": "^7.0.1",
     "i18next-http-backend": "^2.2.1",
-    "next": "13.4.0",
+    "next": "^14.2.6",
     "next-i18next": "^13.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-hook-form": "^7.43.9",
+    "react-hook-form": "^7.52.2",
     "react-i18next": "^12.3.1",
     "react-icons": "^4.8.0",
     "react-number-format": "^5.2.2",
@@ -32,10 +33,11 @@
     "swiper": "^9.2.4",
     "use-context-selector": "^1.4.1",
     "yarn": "^1.22.19",
-    "ymaps": "^0.2.1"
+    "ymaps": "^0.2.1",
+    "yup": "^1.4.0"
   },
   "devDependencies": {
     "eslint": "8.39.0",
-    "eslint-config-next": "13.4.0"
+    "eslint-config-next": "^0.2.4"
   }
 }
