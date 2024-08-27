@@ -3,9 +3,10 @@
 }
 
 .sidebar {
-  background-color: #2d3748;
+  background-color: #0CB47F;
   color: #ffffff;
   padding-left: 20px;
+  padding-right: 20px;
   opacity: 1;
   transition: transform 0.3s ease-in-out, width 0.3s ease-in-out, padding 0.3s ease-in-out, opacity 0.3s ease-in-out;
   width: 250px;
@@ -17,6 +18,16 @@
   opacity: 0;
   padding-left: 0;
   overflow: hidden;
+}
+
+.logoWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logoWrapper > button{
+  display: none;
 }
 
 .logo {
@@ -60,7 +71,7 @@
 }
 
 .toggleButton {
-  background-color: #2d3748;
+  background-color: #0CB47F;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -70,7 +81,9 @@
 }
 
 .toggleButton:hover {
-  background-color: #4a5568;
+  opacity: 0.9;
+  color: #0CB47F!important;
+  border: #0CB47F solid 1px!important;
 }
 
 .main {
@@ -78,6 +91,7 @@
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
 }
 
 .yoouShareWrapper{
@@ -86,4 +100,16 @@
 
 .btnsWrapper{
    position: absolute;
+}
+
+@media (max-width: 768px){
+  .sidebar {
+    position: absolute;
+    z-index: 5;
+    height: 100%;
+  }
+
+  .logoWrapper > button{
+    display: flex;
+  }
 }

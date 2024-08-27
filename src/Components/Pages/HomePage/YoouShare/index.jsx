@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import YoouShareWrapper from "./YoouShare.style";
 import { useTranslation } from "react-i18next";
 import Container from "../../../Common/Container";
@@ -11,31 +11,44 @@ const YoouShare = ({ isEditBtn = false }) => {
   const [yoouShareForm, setYoouShareForm] = useState([]);
   const [isDashboard, setIsDashboard] = useState(false);
   const [language, setLanguage] = useState("ru");
+  const [subTitle, setSubTitle] = useState("Возможность оставаться на связи 24 часа в сутки!")
   const { t } = useTranslation();
 
   const backData = mockData[language];
 
+  useEffect(() => {
+    if(language === "uz"){
+      setSubTitle("Kuniga 24 soat aloqada!")
+    }
+    if(language === "ru"){
+      setSubTitle("Возможность оставаться на связи 24 часа в сутки!")
+    }
+    if(language === "en"){
+      setSubTitle("Stay connected 24 hours a day!")
+    }
+  } ,[language])
+
   const data = [
     {
-      title: backData.yoouShare.box1,
+      title: isEditBtn ? backData.yoouShare.box1 : t('yoouShare.box1'),
       img: "/images/card1.png",
       num: backData.yoouShare.noDeposit,
       currency: backData.yoouShare.depositCurrency,
     },
     {
-      title: backData.yoouShare.box2,
+      title: isEditBtn ? backData.yoouShare.box2 : t('yoouShare.box2'),
       img: "/images/card2.png",
-      num: backData.yoouShare.days,
+      num: isEditBtn ? backData.yoouShare.days : t('yoouShare.days'),
       currency: "",
     },
     {
-      title: backData.yoouShare.box3,
+      title: isEditBtn ? backData.yoouShare.box3 : t('yoouShare.box3'),
       img: "/images/card3.png",
       num: backData.yoouShare.numberOfstations,
       currency: "",
     },
     {
-      title: backData.yoouShare.box4,
+      title: isEditBtn ? backData.yoouShare.box4 : t('yoouShare.box4'),
       img: "/images/card4.png",
       num: backData.yoouShare.technicalSupport,
       currency: "",
@@ -75,7 +88,7 @@ const YoouShare = ({ isEditBtn = false }) => {
         <Container>
           <h3 data-aos="fade-up">{t("yoouShare.title")}</h3>
           <p className="sub" data-aos="fade-up">
-            {t("yoouShare.title2")}
+            {isEditBtn ? subTitle : t("yoouShare.title2")}
           </p>
           <div className="cards">
             {(isDashboard ? yoouShareForm : data).map((item, index) => (

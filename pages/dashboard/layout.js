@@ -1,8 +1,10 @@
 import { useState } from 'react';
 import styles from './Dashboard.module.css';
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import { Button } from 'antd';
 
 export default function DashboardLayout({ children }) {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   const toggleSidebar = () => {
     setIsOpen(!isOpen);
@@ -12,7 +14,10 @@ export default function DashboardLayout({ children }) {
     <div className={styles.dashboard}>
       {/* Sidebar */}
       <div className={`${styles.sidebar} ${isOpen ? styles.open : styles.closed}`}>
-        <h1 className={styles.logo}>Dashboard</h1>
+        <div className={`${styles.logoWrapper}`}>
+          <h1 className={styles.logo}>Dashboard</h1>
+          <Button onClick={toggleSidebar}>{!isOpen ? <IoIosArrowForward /> : <IoIosArrowBack />}</Button>
+        </div>
         <nav>
           <ul className={styles.navLinks}>
             <li>
@@ -36,9 +41,7 @@ export default function DashboardLayout({ children }) {
 
       {/* Main Content */}
       <div className={`${styles.content} ${isOpen ? styles.contentWithSidebar : styles.contentFullScreen}`}>
-        <button className={styles.toggleButton} onClick={toggleSidebar}>
-          {isOpen ? 'Close Sidebar' : 'Open Sidebar'}
-        </button>
+          <Button className={`${styles.toggleButton}`} onClick={toggleSidebar}>{!isOpen ? <IoIosArrowForward /> : <IoIosArrowBack />}</Button>
         <div>{children}</div>
       </div>
     </div>

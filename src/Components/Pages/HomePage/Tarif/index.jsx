@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import TarifWRapper from "./Tarif.style";
 import { useTranslation } from "react-i18next";
 import Container from "../../../Common/Container";
@@ -11,9 +11,22 @@ const Tarif = ({ isEditBtn = false }) => {
   const [yoouShareForm, setYoouShareForm] = useState(mockData["ru"]);
   const [isDashboard, setIsDashboard] = useState(false);
   const [language, setLanguage] = useState("ru");
+  const [title, setTitle] = useState("Тарифы")
   const { t } = useTranslation();
 
   const backData = mockData[language].tarif;
+
+  useEffect(() => {
+    if(language === "uz"){
+      setTitle("Tariflar")
+    }
+    if(language === "ru"){
+      setTitle("Тарифы")
+    }
+    if(language === "en"){
+      setTitle("Plans")
+    }
+  } ,[language])
 
   const onEdit = () => {
     setIsDashboard(true);
@@ -47,7 +60,7 @@ const Tarif = ({ isEditBtn = false }) => {
       <TarifWRapper id="tarif">
         <Container>
           <h3 className="title" data-aos={"fade-up"}>
-            {t("tarif.title")}
+          {isEditBtn ? title : t("tarif.title")}
           </h3>
           <div className="cards">
             {(isDashboard ? yoouShareForm : backData).map(
@@ -73,7 +86,7 @@ const Tarif = ({ isEditBtn = false }) => {
                       }
                     />
                   ) : (
-                    <h4 className="card__title">{t(item.title)}</h4>
+                    <h4 className="card__title">{isEditBtn ? item.title : t(`tarif.box${index+1}`)}</h4>
                   )}
                   <div className="card__price">
                     <span className="card__price__number">

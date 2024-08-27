@@ -127,3 +127,12 @@ a {
     background: black;
   }
 }
+
+textarea:hover {
+  border-color: #2990ff;
+}
+
+textarea:focus { 
+  outline: none !important;
+  border-color: #007aff;
+}

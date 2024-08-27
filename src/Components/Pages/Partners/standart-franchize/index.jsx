@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import InvestWrapper from "../Invest/Invest.style";
 import { useTranslation } from "react-i18next";
 import Container from "../../../Common/Container";
@@ -11,9 +11,22 @@ const StandartFranchize = ({ isEditBtn = false }) => {
     const [yoouShareForm, setYoouShareForm] = useState(mockData["ru"]);
     const [isDashboard, setIsDashboard] = useState(false);
     const [language, setLanguage] = useState("ru");
+    const [title, setTitle] = useState("Что входит в стандартную франшизу:")
     const { t } = useTranslation();
   
     const backData = mockData[language].standartFranshiza;
+
+    useEffect(() => {
+      if(language === "uz"){
+        setTitle("Standart frashizaga nimalar kiradi:")
+      }
+      if(language === "ru"){
+        setTitle("Что входит в стандартную франшизу:")
+      }
+      if(language === "en"){
+        setTitle("What is included in the standard franchise:")
+      }
+    } ,[language])
   
     const onEdit = () => {
       setIsDashboard(true);
@@ -47,7 +60,7 @@ const StandartFranchize = ({ isEditBtn = false }) => {
       <InvestWrapper id="standart-franchize" style={{ marginTop: "50px" }}>
         <Container>
           <h3 className="title" data-aos={"fade-up"}>
-            {t("standartFranshiza.title")}
+            {isEditBtn ? title : t("standartFranshiza.title")}
           </h3>
           <div className="cards">
             {(isDashboard ? yoouShareForm : backData).map((item, index) => (
@@ -73,7 +86,7 @@ const StandartFranchize = ({ isEditBtn = false }) => {
                     }
                   />
                 ) : (
-                  <h4 className="card__title">{t(item.title)}</h4>
+                  <h4 className="card__title">{isEditBtn ? item.title : t(`standartFranshiza.box${index+1}`)}</h4>
                 )}
                 {isDashboard ? (
                   <textarea
@@ -94,7 +107,7 @@ const StandartFranchize = ({ isEditBtn = false }) => {
                     }
                   />
                 ) : (
-                  <div className="card__text">{t(item.text)}</div>
+                  <div className="card__text">{isEditBtn ? item.text : t(`standartFranshiza.box${index+1}p`)}</div>
                 )}
               </div>
             ))}
