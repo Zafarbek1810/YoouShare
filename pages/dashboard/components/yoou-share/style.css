@@ -11,3 +11,39 @@
 .hidden{
     display: none;
 }
+
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-container img {
+    display: block;
+    transition: filter 0.3s ease; /* Smooth blur transition */
+  }
+  
+  .image-container .delete-icon {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 7px;
+    padding: 5px;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-75%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .image-container:hover img {
+    filter: blur(2px) brightness(0.3);
+  }
+  
+  .image-container:hover .delete-icon {
+    opacity: 1;
+  }
+  

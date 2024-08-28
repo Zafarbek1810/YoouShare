@@ -1,7 +1,7 @@
-import { useState } from 'react';
-import styles from './Dashboard.module.css';
+import { useState } from "react";
+import styles from "./Dashboard.module.css";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-import { Button } from 'antd';
+import { Button } from "antd";
 
 export default function DashboardLayout({ children }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,26 +13,27 @@ export default function DashboardLayout({ children }) {
   return (
     <div className={styles.dashboard}>
       {/* Sidebar */}
-      <div className={`${styles.sidebar} ${isOpen ? styles.open : styles.closed}`}>
+      <div
+        className={`${styles.sidebar} ${isOpen ? styles.open : styles.closed}`}
+      >
         <div className={`${styles.logoWrapper}`}>
-          <h1 className={styles.logo}>Dashboard</h1>
-          <Button onClick={toggleSidebar}>{!isOpen ? <IoIosArrowForward /> : <IoIosArrowBack />}</Button>
+          <h1 className={styles.logo}>
+            <img src="/LogoFooter.svg" width={180} />
+          </h1>
+          <Button onClick={toggleSidebar}>
+            {!isOpen ? <IoIosArrowForward /> : <IoIosArrowBack />}
+          </Button>
         </div>
         <nav>
           <ul className={styles.navLinks}>
             <li>
               <a href="#" className={styles.navItem}>
-                Home
+                Главная
               </a>
             </li>
             <li>
               <a href="#" className={styles.navItem}>
-                Profile
-              </a>
-            </li>
-            <li>
-              <a href="#" className={styles.navItem}>
-                Settings
+                Настройки
               </a>
             </li>
           </ul>
@@ -40,10 +41,16 @@ export default function DashboardLayout({ children }) {
       </div>
 
       {/* Main Content */}
-      <div className={`${styles.content} ${isOpen ? styles.contentWithSidebar : styles.contentFullScreen}`}>
-          <Button className={`${styles.toggleButton}`} onClick={toggleSidebar}>{!isOpen ? <IoIosArrowForward /> : <IoIosArrowBack />}</Button>
+      <div
+        className={`${styles.content} ${
+          isOpen ? styles.contentWithSidebar : styles.contentFullScreen
+        }`}
+      >
+        <Button className={`${styles.toggleButton}`} onClick={toggleSidebar}>
+          {!isOpen ? <IoIosArrowForward /> : <IoIosArrowBack />}
+        </Button>
         <div>{children}</div>
       </div>
     </div>
   );
-};
+}

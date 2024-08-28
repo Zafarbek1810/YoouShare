@@ -31,6 +31,7 @@
 }
 
 .logo {
+  text-align: center;
   font-size: 1.5rem;
   font-weight: bold;
   margin: 20px 0;
@@ -53,7 +54,7 @@
 }
 
 .navItem:hover {
-  background-color: #4a5568;
+  background-color: #188c67;
 }
 
 .content {

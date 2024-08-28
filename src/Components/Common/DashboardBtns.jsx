@@ -23,16 +23,16 @@ const DashboardBtns = ({isEditBtn, isDashboard, language, setLanguage, onEdit, s
               onClick={onEdit}
               style={{ marginRight: "10px" }}
             >
-              Edit
+              Изменить
             </Button>
           </>
         )}
         {isDashboard ? (
           <>
             <Button onClick={() => setIsDashboard(false)} style={{ marginRight: "10px" }}>
-              Cancel
+            Отменить
             </Button>
-            <Button onClick={onSubmit}>Save</Button>
+            <Button onClick={onSubmit}>Сохранить</Button>
           </>
         ) : null}
       </div>

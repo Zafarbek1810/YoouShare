@@ -230,7 +230,6 @@ export const mockData = {
       },
     ],
   },
-  
   dataImg: [
     { img: "/brands/1.jpg" },
     { img: "/brands/2.jpg" },
@@ -244,8 +243,6 @@ export const mockData = {
     { img: "/brands/10.jpg" },
     { img: "/brands/11.jpg" },
     { img: "/brands/12.jpg" },
-  ],
-  dataImg2: [
     {
       img: "/brands/13.jpg",
     },
