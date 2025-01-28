@@ -3,7 +3,6 @@ import { HeaderWrapper } from "./Header.style";
 import Burger from "./Burger/Burger";
 import MyLink from "../../Common/MyLink";
 import Container from "../../Common/Container";
-import LogoSvg from "../../Common/Svgs/LogoSvg";
 
 const Header = () => {
 
@@ -12,7 +11,7 @@ const Header = () => {
         <Container>
           <div className="nav">
             <MyLink className="logo" to="/">
-              <LogoSvg />
+              <img src="/logo.svg" alt="Footer logo" width={132} height={48} />
             </MyLink>
             <Burger />
           </div>

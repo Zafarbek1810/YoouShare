@@ -23,7 +23,7 @@ const YoouShare = () => {
     {
       title: "yoouShare.box3",
       img: "/images/card3.png",
-      num: "300+",
+      num: "800+",
       currency: "",
     },
     {
@@ -44,7 +44,7 @@ const YoouShare = () => {
             <div key={index} className="card" data-aos={"fade-up"}>
               <h6 className="title">{t(item.title)}</h6>
               <div>
-                <img src={item.img} alt="Yoou Share information icons" />
+                <img src={item.img} alt="Yoou Power information icons" />
                 <p className="num">
                   {t(item.num)}
                   <span> {item.currency}</span>

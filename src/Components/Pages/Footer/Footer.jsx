@@ -2,7 +2,6 @@ import React from "react";
 import FooterWrapper from "./Footer.style";
 import { useTranslation } from "react-i18next";
 import Container from "../../Common/Container";
-import FooterLogo from "../../Common/Svgs/FooterLogo";
 import AppleSvg from "../../Common/Svgs/AppleSvg";
 import PlayMarketLogo from "../../Common/Svgs/PlayMarketLogo";
 import MailSvg from "../../Common/Svgs/MailSvg";
@@ -20,7 +19,7 @@ const Footer = () => {
         <div className="wrap">
           <div className="col-1" data-aos={"fade-right"}>
             <div className="logo">
-              <FooterLogo />
+              <img src="/LogoFooter.svg" alt="Footer logo" width={132} height={48} />
             </div>
             <p>
               {t("footer.title")}

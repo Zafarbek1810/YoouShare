@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Yoou Share</title>
+        <title>Yoou Power</title>
         <meta name="description" content="Публичная оферта" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

@@ -18,7 +18,7 @@ const BrandsWrapper = styled.div`
   .brands {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
     flex-wrap: wrap;
     margin-top: 50px;
