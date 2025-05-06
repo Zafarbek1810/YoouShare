@@ -6,10 +6,6 @@ import PolitikaWrapper from "./politika.style";
 const Politika = () => {
   const { t } = useTranslation();
 
-  const text = t("politika.new_text", {
-    link1: `<a href="https://yoou.uz" target="_blank" rel="noopener noreferrer">https://yoou.uz</a>`,
-  });
-
   return (
     <PolitikaWrapper>
       <Container>
@@ -17,6 +13,7 @@ const Politika = () => {
           <Trans
             i18nKey="politika.new_text"
             components={{
+              title: <h3 style={{ fontSize: "18px" }} />,
               1: (
                 <a
                   href="https://yoou.uz"
