@@ -32,7 +32,7 @@ const Politika = () => {
               ),
               3: (
                 <a
-                  href="https://yoou.uz/privacy"
+                  href="https://yoou.uz/politika"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ color: "blue", textDecoration: "underline" }}
