@@ -34,7 +34,8 @@
     "box1": "Hourly rental price",
     "box2": "The cost of a day rent",
     "box3": "Rental price for three days",
-    "box4": "For non-return of the power bank"
+    "box4": "For non-return of the power bank",
+    "new_text": "From 8,000 UZS per hour and 16,000 UZS per day. <br /> All prices are listed in the app. <br /> If the power bank is not returned within 72 hours, a fee of 200,000 UZS will be charged."
   },
 
   "powerBank": {

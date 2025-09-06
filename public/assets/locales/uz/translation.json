@@ -34,7 +34,8 @@
     "box1": "Soatlik ijara narxi",
     "box2": "Bir kunlik ijara narxi",
     "box3": "Uch kunlik ijara narxi",
-    "box4": "Buning evaziga quvvat banki"
+    "box4": "Buning evaziga quvvat banki",
+    "new_text": "Soatiga 8 000 so‘mdan va sutkasiga 16 000 so‘mdan. <br /> Barcha narxlar ilovada ko‘rsatilgan.  <br /> Powerbank 72 soat ichida qaytarilmasa, 200 000 UZS miqdorida to‘lov ushlab qolinadi."
   },
 
   "powerBank": {

@@ -24,7 +24,7 @@ const TarifWRapper = styled.div`
     gap: 20px;
 
     .card {
-      width: 25%;
+      width: 100%;
       background: rgba(255, 255, 255, 0.2);
       box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.4);
       backdrop-filter: blur(12.5px);
@@ -36,7 +36,7 @@ const TarifWRapper = styled.div`
         font-style: normal;
         font-weight: 600;
         font-size: 20px;
-        line-height: 24px;
+        line-height: 28px;
         text-align: center;
         color: #ffffff;
         margin-bottom: 20px;
