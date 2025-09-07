@@ -40,7 +40,7 @@ const TarifWRapper = styled.div`
         text-align: center;
         color: #ffffff;
         margin-bottom: 20px;
-      }
+       }
 
       &__price {
         display: flex;
